@@ -1,0 +1,1026 @@
+{
+  "ai_course": {
+    
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "moduleTitle": "What is Media-Generating AI?",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Introduction to AI in Images, Video, and Music",
+            "content": "Media-generating AI is like having a digital artist, filmmaker, and composer all in one tool. These AI systems can create original images, videos, and music from simple text descriptions. Unlike editing existing media, these tools generate completely new content by learning from millions of examples of images, videos, and songs. They understand patterns of what makes certain visuals appealing, how movement flows in video, and what musical elements work well together, allowing anyone to create professional-looking media without technical skills."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Types of Media AI Tools (DALL·E, Midjourney, Stable Diffusion)",
+            "content": "The media AI landscape includes several powerful tools, each with unique strengths. DALL·E (from OpenAI) creates detailed images and understands complex prompts well. Midjourney specializes in artistic, visually stunning images with a distinctive style. Stable Diffusion is an open-source option that offers more control and customization. For video, tools like Runway ML and Pika Labs generate short clips from text. Music AI tools like Suno and Soundraw create original compositions based on genre, mood, and instrument descriptions."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: How Media AI Creates Content",
+            "content": "Media AI works through a process called diffusion - starting with random noise and gradually shaping it into coherent images, video, or music based on your prompt. The AI has learned patterns from millions of examples: what a 'cat' looks like, how 'water' moves, what 'jazz music' sounds like. When you provide a text description, the AI matches your words to these learned patterns and generates new media that fits your request. It's not copying existing work but creating original content based on understood patterns."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — Media AI Basics",
+            "content": {
+              "quiz": [
+                {
+                  "question": "What is the main function of media-generating AI?",
+                  "choices": [
+                    "A) Editing existing photos",
+                    "B) Creating original media from text descriptions",
+                    "C) organizing digital files",
+                    "D) Converting file formats"
+                  ],
+                  "correctAnswer": "B) Creating original media from text descriptions"
+                },
+                {
+                  "question": "Which AI tool is known for particularly artistic image generation?",
+                  "choices": [
+                    "A) DALL·E",
+                    "B) Midjourney",
+                    "C) Suno",
+                    "D) Stable Diffusion"
+                  ],
+                  "correctAnswer": "B) Midjourney"
+                },
+                {
+                  "question": "How does media AI typically create content?",
+                  "choices": [
+                    "A) By copying existing images online",
+                    "B) Through a diffusion process starting from noise",
+                    "C) By taking photographs with virtual cameras",
+                    "D) By recording real-world sounds"
+                  ],
+                  "correctAnswer": "B) Through a diffusion process starting from noise"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Write a Simple Image Generation Prompt",
+            "content": {
+              "directions": "Create a simple prompt for an AI image generator that describes a specific scene with a subject, setting, and style. Make sure to include enough detail for the AI to understand what you want but keep it concise.",
+              "correctPrompt": "A majestic gray wolf standing on a rocky cliff under a full moon, digital painting style with dramatic lighting and detailed fur, night scene with misty atmosphere"
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 2,
+        "moduleTitle": "Getting Started with AI Image Generators",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: How to Generate AI Images Step-by-Step",
+            "content": "Generating AI images involves a simple process: choose your platform (web-based or app), type a descriptive prompt, adjust any settings like aspect ratio or style, and generate. Most tools create multiple options so you can choose your favorite. If the results aren't quite right, refine your prompt with more specific details about what you want to change. Many platforms also let you upload reference images to guide the AI's style or composition. It's an iterative process - rarely perfect on the first try but improves with prompt refinement."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Popular AI Image Tools and Platforms",
+            "content": "The most popular AI image tools include DALL·E 3 (accessible through ChatGPT), which excels at understanding complex prompts and following instructions precisely. Midjourney operates through Discord and creates highly artistic, visually stunning images. Stable Diffusion offers open-source options with more technical control through platforms like Automatic1111 or ComfyUI. Adobe Firefly integrates with Creative Cloud apps. Leonardo AI focuses on game assets and character design. Each has different strengths, pricing models, and accessibility options."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Basics of Image Prompting",
+            "content": "Effective image prompts include several key elements: subject (what's in the image), setting (where it is), style (artistic approach), details (specific features), and quality terms. Instead of 'a dog,' try 'a golden retriever puppy playing in a sunlit autumn park, photorealistic, detailed fur, shallow depth of field, f/1.8 aperture style.' Include artistic styles ('oil painting,' 'digital art,' 'vector illustration'), lighting conditions ('dramatic lighting,' 'soft morning light'), and composition details ('close-up,' 'wide shot'). Specificity dramatically improves results."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Match Image Generators to Features",
+            "content": {
+              "pairs": [
+                {
+                  "tool": "DALL·E 3",
+                  "feature": "Best at understanding complex prompts and following instructions"
+                },
+                {
+                  "tool": "Midjourney",
+                  "feature": "Creates highly artistic, visually stunning images with distinctive style"
+                },
+                {
+                  "tool": "Stable Diffusion",
+                  "feature": "Open-source with maximum customization and control options"
+                },
+                {
+                  "tool": "Adobe Firefly",
+                  "feature": "Integrates with Photoshop and other Creative Cloud applications"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Create Your First Image Prompt",
+            "content": {
+              "directions": "Create a detailed image prompt that includes: a clear subject, specific setting, artistic style, lighting description, and at least three descriptive details about the scene.",
+              "correctPrompt": "A cozy bookstore cafe with floor-to-ceiling shelves, warm golden hour lighting streaming through windows, steam rising from a coffee cup on a wooden table, soft focus, photorealistic style with visible book titles and atmospheric dust particles in light beams"
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 3,
+        "moduleTitle": "AI Video Generators Explained",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: What is AI Video Generation?",
+            "content": "AI video generation creates moving visual content from text prompts or existing images. Unlike traditional animation that requires frame-by-frame work, AI video tools can generate short clips (typically 2-10 seconds) that show movement, transitions, or transformations based on your description. The technology is advancing rapidly but still has limitations in consistency and length. Current tools can create everything from realistic scenes to abstract animations, style transfers between videos, or extend existing footage with generated content."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: How AI Creates Video from Prompts or Scripts",
+            "content": "AI video generation typically works by either extending from an initial image or generating entirely from text. The AI understands temporal relationships - how objects should move and change over time. When you provide a prompt like 'a butterfly emerging from a cocoon,' it generates sequential frames that show this transformation. Some tools also accept video inputs for style transfer or modification. The technology uses similar diffusion processes as image AI but with added complexity of maintaining consistency across frames and creating believable motion."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Inputs Needed for AI Video Tools",
+            "content": "AI video tools need clear instructions about what you want to see. Effective inputs include: a detailed text description of the scene and action, sometimes an initial image to build from, parameters like length and style, and sometimes camera movement instructions ('slow zoom out,' 'panning left'). Some tools accept video references for style transfer. The best results come from specific, action-oriented prompts that describe not just what's in the scene but how it moves and changes over the video's duration."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — AI Video Generation Fundamentals",
+            "content": {
+              "quiz": [
+                {
+                  "question": "What is AI video generation?",
+                  "choices": [
+                    "A) Editing existing videos with automatic tools",
+                    "B) Creating moving visual content from text or images",
+                    "C) Converting video file formats",
+                    "D) Adding special effects to recorded footage"
+                  ],
+                  "correctAnswer": "B) Creating moving visual content from text or images"
+                },
+                {
+                  "question": "What do AI video tools need to generate content?",
+                  "choices": [
+                    "A) A professional camera setup",
+                    "B) Clear instructions about scene and action",
+                    "C) Existing video footage to copy",
+                    "D) Programming knowledge"
+                  ],
+                  "correctAnswer": "B) Clear instructions about scene and action"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Write a Basic Video Generation Prompt",
+            "content": {
+              "directions": "Create a video prompt that describes both the visual elements and the action/movement that should occur. Include details about the scene, what changes over time, and any camera movement.",
+              "correctPrompt": "A time-lapse of a seed growing into a sunflower, starting with close-up on soil, plant emerging and growing upward, bud forming and opening to reveal yellow petals, slow tilt-up movement as plant grows, golden hour lighting, macro photography style"
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 4,
+        "moduleTitle": "Prompt Writing for AI Art and Media",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Writing Clear Prompts for Images and Videos",
+            "content": "Clear media prompts follow a structure: subject + action + setting + style + details. Be specific about what you want to see rather than abstract concepts. Instead of 'a beautiful landscape,' try 'a misty mountain valley at sunrise with pine trees and a flowing river, Ansel Adams photography style, black and white, dramatic lighting.' For video, include movement: 'leaves falling from oak trees in autumn, swirling in wind, slow motion capture.' Avoid ambiguous terms and use concrete descriptors that the AI can visualize."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Using Style and Detail in Media Prompts",
+            "content": "Style references dramatically affect your results. Include artistic styles ('watercolor,' 'cyberpunk,' 'impressionist'), specific artists ('in the style of Van Gogh'), photographic terms ('shallow depth of field,' 'long exposure'), or media types ('charcoal sketch,' 'vector illustration'). Details like lighting conditions ('dramatic sidelighting,' 'soft overcast light'), camera angles ('low angle shot,' 'aerial view'), and specific elements ('with visible brush strokes,' '4K resolution') help the AI understand exactly what you want. The more specific your style and detail requests, the closer the output will match your vision."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Common Prompt Mistakes for Media AI",
+            "content": "Common prompt mistakes include: vagueness ('something beautiful'), contradictory instructions ('realistic cartoon'), overloading with too many elements, using abstract concepts instead of visual descriptions, and forgetting to specify important details like orientation or aspect ratio. Also problematic are requests for specific copyrighted characters, expecting perfect human hands (a known AI weakness), or assuming the AI understands relative sizes and proportions without specification. Good prompts are specific, visual, and consistent in their requests."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Improve Media Prompts",
+            "content": {
+              "pairs": [
+                {
+                  "weakPrompt": "A nice animal",
+                  "strongPrompt": "A red fox sitting alert in a snowy forest, photorealistic, detailed fur with frost, golden morning light through trees"
+                },
+                {
+                  "weakPrompt": "A person working",
+                  "strongPrompt": "A female scientist examining samples under a microscope in a modern laboratory, dramatic lighting, clean aesthetic, focused expression"
+                },
+                {
+                  "weakPrompt": "A pretty building",
+                  "strongPrompt": "Neoclassical architecture museum with grand columns and stone steps, sunset lighting, symmetrical composition, wide-angle view"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Craft a Detailed Media Prompt",
+            "content": {
+              "directions": "Create a comprehensive media prompt that includes: specific subject, detailed setting, artistic style, lighting description, composition details, and at least five descriptive elements that would help an AI visualize exactly what you want.",
+              "correctPrompt": "An antique library with mahogany bookshelves reaching 20 feet high, a spiral staircase in the center, warm light from brass desk lamps creating pools of illumination, dust particles visible in light beams, leather-bound books with gold lettering, green banker's lamp on a desk with open books, cinematic wide shot with leading lines, style of Gregory Crewdson photography"
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 5,
+        "moduleTitle": "Understanding AI Art Generators",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: How Stable Diffusion Works",
+            "content": "Stable Diffusion is an open-source AI image model that works through a process called latent diffusion. It starts with random noise and gradually refines it into a coherent image based on your text prompt. The 'stable' part refers to its training stability compared to earlier models. What makes it special is that it can run on consumer hardware (unlike some other models that require cloud processing) and its open-source nature allows for extensive customization, plugins, and community-developed tools that expand its capabilities beyond the base model."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: What Makes Midjourney Unique",
+            "content": "Midjourney stands out for its distinctive artistic style that many describe as more 'dreamlike' or 'painterly' than other AI image generators. It excels at creating aesthetically pleasing images with strong composition, color harmony, and artistic flair. Unlike some competitors, Midjourney operates through Discord, creating a community experience where users can see and learn from each other's creations. It's particularly known for beautiful landscapes, fantasy scenes, and artistic interpretations rather than photorealistic outputs, though it continues to improve across all categories."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Strengths and Limits of Different AI Art Tools",
+            "content": "Each AI art tool has distinct strengths: DALL·E 3 understands complex prompts and follows instructions exceptionally well. Midjourney creates the most aesthetically pleasing and artistic images. Stable Diffusion offers the most control and customization options. Adobe Firefly integrates seamlessly with creative workflows. Limitations include: none perfectly render text or human hands consistently, most struggle with specific real people (for ethical reasons), and all can occasionally misinterpret prompts or create unwanted artifacts. Understanding these strengths and limits helps choose the right tool for each project."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — AI Art Generators",
+            "content": {
+              "quiz": [
+                {
+                  "question": "What is a key advantage of Stable Diffusion?",
+                  "choices": [
+                    "A) It only creates photorealistic images",
+                    "B) It can run on consumer hardware and is highly customizable",
+                    "C) It automatically adds copyright protection",
+                    "D) It doesn't require text prompts"
+                  ],
+                  "correctAnswer": "B) It can run on consumer hardware and is highly customizable"
+                },
+                {
+                  "question": "What makes Midjourney unique among AI art tools?",
+                  "choices": [
+                    "A) It operates through email commands",
+                    "B) Its distinctive artistic and dreamlike style",
+                    "C) It only creates black and white images",
+                    "D) It requires programming knowledge to use"
+                  ],
+                  "correctAnswer": "B) Its distinctive artistic and dreamlike style"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Create an AI Art Prompt",
+            "content": {
+              "directions": "Create a prompt specifically designed for an artistic (rather than photorealistic) output. Specify an art style, include emotional or atmospheric elements, and focus on aesthetic qualities rather than literal description.",
+              "correctPrompt": "A lonely lighthouse on a stormy cliffside, expressionist oil painting style with bold brush strokes and dramatic contrast, dark moody color palette with highlights of white foam on waves, sense of isolation and grandeur, in the style of J.M.W. Turner's seascapes"
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 6,
+        "moduleTitle": "Deepfakes and AI Video Manipulation",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: What Are Deepfakes?",
+            "content": "Deepfakes are AI-generated media, typically videos, that realistically replace one person's likeness with another's. The term combines 'deep learning' and 'fake.' These technologies can make it appear that someone said or did something they never actually did by swapping faces, modifying lip movements to match different audio, or altering expressions. While the technology has creative applications in film and entertainment, it's most famously known for potential misuse in misinformation, impersonation, and non-consensual content creation, raising significant ethical concerns."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: How Deepfakes Are Created",
+            "content": "Deepfakes are typically created using generative adversarial networks (GANs) where two AI systems work against each other: one generates fake content while the other tries to detect whether it's real. The generator improves until the detector can't tell the difference. The process requires training on many images of both the source and target faces to learn their features and expressions. Newer methods use fewer images and can create more convincing results. The technology continues to advance rapidly, making deepfakes increasingly difficult to detect with the naked eye."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Ethical Concerns About Deepfakes",
+            "content": "Deepfakes raise serious ethical concerns including: non-consensual pornography using people's likenesses, political misinformation showing leaders saying things they never said, fraud through impersonation, and undermining trust in visual evidence generally. There are also concerns about consent (using someone's likeness without permission), copyright issues, and the psychological impact on victims of malicious deepfakes. Many countries are developing laws specifically addressing deepfake creation and distribution, especially when used for harm, fraud, or without consent."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Learn: Spotting Fake Videos",
+            "content": "Spotting deepfakes involves looking for telltale signs like: unnatural blinking patterns or absence of blinking, mismatched lighting and shadows on the face compared to the scene, blurriness or artifacts around the face/neck area, inconsistent audio lip-syncing, unnatural facial expressions or skin textures, and details that don't align with how the person actually looks or moves. However, as technology improves, detection becomes harder, and specialized AI tools are increasingly needed to identify sophisticated deepfakes that fool human observation."
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Practice: Quiz — Deepfake Awareness",
+            "content": {
+              "quiz": [
+                {
+                  "question": "What are deepfakes?",
+                  "choices": [
+                    "A) Special camera filters for smartphones",
+                    "B) AI-generated media that replaces one person's likeness with another's",
+                    "C) A type of digital painting technique",
+                    "D) Hardware for recording deep field audio"
+                  ],
+                  "correctAnswer": "B) AI-generated media that replaces one person's likeness with another's"
+                },
+                {
+                  "question": "What is a primary ethical concern about deepfakes?",
+                  "choices": [
+                    "A) They use too much electricity",
+                    "B) They can be used for misinformation and non-consensual content",
+                    "C) They make videos load too slowly",
+                    "D) They only work on expensive computers"
+                  ],
+                  "correctAnswer": "B) They can be used for misinformation and non-consensual content"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 7,
+        "moduleTitle": "AI Music Generation Basics",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: What is AI-Generated Music?",
+            "content": "AI-generated music involves creating original musical compositions using artificial intelligence. These systems can produce complete songs with melodies, harmonies, rhythms, and sometimes even AI-generated vocals. The technology works by analyzing patterns in existing music across genres, learning what notes, chords, and structures typically work together. Users can specify genre, mood, instruments, tempo, and other parameters, and the AI generates original music that fits these specifications. It's not simply rearranging existing music but creating new compositions based on learned musical patterns and principles."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Popular AI Music Tools (Suno, Soundraw)",
+            "content": "Suno is a leading AI music generator that can create complete songs with vocals and instrumentation based on text descriptions. Users can describe the style, mood, and subject matter, and Suno generates original music matching these parameters. Soundraw focuses on instrumental music generation, allowing users to customize genre, mood, tempo, and structure, then generate unlimited variations. Other tools include AIVA (specializing in classical and orchestral music), Amper Music (for content creators), and Google's MusicLM (research project demonstrating advanced music generation capabilities)."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: How AI Composes Music",
+            "content": "AI music generation typically uses neural networks trained on large datasets of music across genres. The AI learns patterns of melody, harmony, rhythm, and structure - what notes tend to follow other notes, what chords work well together, and how different musical elements combine in various genres. Some systems use symbolic AI that works with musical notation, while others generate audio directly. The most advanced systems can understand text descriptions of music ('a joyful pop song with piano and strings') and generate corresponding audio, sometimes even creating plausible vocals with lyrics."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Match Music Tools to Features",
+            "content": {
+              "pairs": [
+                {
+                  "tool": "Suno",
+                  "feature": "Creates complete songs with AI-generated vocals and lyrics"
+                },
+                {
+                  "tool": "Soundraw",
+                  "feature": "Focuses on instrumental music with customizable parameters"
+                },
+                {
+                  "tool": "AIVA",
+                  "feature": "Specializes in classical and orchestral music composition"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Create a Music Generation Prompt",
+            "content": {
+              "directions": "Create a detailed music generation prompt that specifies genre, mood, instruments, tempo, and any other relevant musical elements. Describe the feeling or场景 the music should evoke.",
+              "correctPrompt": "An uplifting acoustic folk song with male vocals, guitar, mandolin, and light percussion, medium tempo, hopeful and nostalgic mood, lyrics about returning home after a long journey, suitable for a coming-of-age film soundtrack"
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 8,
+        "moduleTitle": "Voice Cloning and Text-to-Speech AI",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: What is Voice Cloning?",
+            "content": "Voice cloning uses AI to create a digital replica of a person's voice. By analyzing a sample of someone's speech (sometimes as little as a few seconds), the AI can learn the unique characteristics of their voice - tone, pitch, accent, pacing, and emotional cadence. Once trained, it can generate new speech in that person's voice, saying things they never actually recorded. This technology has applications in accessibility (helping people who lose their voice), entertainment, and content creation, but also raises significant ethical concerns about consent and misuse."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: How Text-to-Speech AI Works",
+            "content": "Modern text-to-speech (TTS) AI converts written text into natural-sounding speech using neural networks. Unlike older TTS systems that sounded robotic, AI-powered TTS analyzes the text for meaning, context, and emotional tone, then generates speech with appropriate pacing, inflection, and emphasis. The best systems can produce speech that's nearly indistinguishable from human recording. They're trained on thousands of hours of human speech to learn the relationships between text and sound, including subtle elements like breath sounds, mouth noises, and emotional expression that make speech sound natural."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Ethical Considerations for Voice AI",
+            "content": "Voice AI raises important ethical questions: consent (using someone's voice without permission), misinformation (making people appear to say things they didn't), fraud and impersonation, and the right to control one's own voice likeness. Many jurisdictions are developing laws around voice cloning, particularly requiring explicit consent for commercial use. Ethical use involves transparent disclosure when AI voice is used, obtaining proper permissions, avoiding deceptive practices, and considering the potential harm from unauthorized voice use, especially for public figures or in sensitive contexts."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — Voice AI Basics",
+            "content": {
+              "quiz": [
+                {
+                  "question": "What is voice cloning?",
+                  "choices": [
+                    "A) Making headphones louder",
+                    "B) Creating a digital replica of a person's voice using AI",
+                    "C) Copying music files between devices",
+                    "D) A type of microphone technology"
+                  ],
+                  "correctAnswer": "B) Creating a digital replica of a person's voice using AI"
+                },
+                {
+                  "question": "What is a key ethical concern with voice AI?",
+                  "choices": [
+                    "A) It uses too much battery power",
+                    "B) Using someone's voice without consent",
+                    "C) It only works with expensive equipment",
+                    "D) The audio quality is too good"
+                  ],
+                  "correctAnswer": "B) Using someone's voice without consent"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Write a Text-to-Speech Prompt",
+            "content": {
+              "directions": "Create a text-to-speech prompt that includes not just the words to be spoken, but also specifications about tone, pacing, and emotional quality. Describe how the voice should sound.",
+              "correctPrompt": "Narrate the following text with a warm, conversational tone, moderate pacing with pauses for emphasis, and a slightly enthusiastic but professional delivery suitable for an educational podcast: 'The discovery of photosynthesis revolutionized our understanding of how plants convert sunlight into energy, a process that sustains nearly all life on Earth.'"
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 9,
+        "moduleTitle": "Editing and Refining AI-Generated Media",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: How to Edit AI-Generated Images",
+            "content": "Editing AI images often involves both traditional editing tools and AI-specific techniques. Use Photoshop or similar software for basic corrections: cropping, color adjustment, removing artifacts. For AI-specific issues like strange hands or distorted elements, use inpainting (replacing specific parts with new AI generation) or outpainting (extending the image beyond its original borders). Many AI tools have built-in editing features that let you regenerate specific areas with modified prompts. The best approach is often generating multiple variants initially, then combining the best elements from each."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Tools to Refine AI Video Output",
+            "content": "Refining AI video involves both traditional video editing software and AI-enhanced tools. Use programs like Premiere Pro or DaVinci Resolve for cutting, color grading, and adding effects. For AI-specific improvements, tools like Topaz Video AI can enhance resolution and stabilize footage. Runway ML offers AI-powered video editing features like motion tracking, rotoscoping, and style transfer. The key is often generating multiple short clips with slightly different parameters, then editing them together seamlessly with transitions that hide inconsistencies between generations."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Improving Music Generated by AI",
+            "content": "AI-generated music often benefits from traditional audio editing. Use DAWs (Digital Audio Workstations) like Ableton, Logic, or FL Studio to adjust levels, EQ, compression, and add effects. For structural improvements, rearrange sections, extend or shorten parts, or combine elements from different AI generations. Many AI music tools allow you to regenerate specific sections while keeping others. For vocals, tools like Melodyne can correct pitch issues. The best results often come from using AI generation as a starting point or element within a larger, human-directed production."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Match Editing Techniques to Media Types",
+            "content": {
+              "pairs": [
+                {
+                  "technique": "Inpainting",
+                  "mediaType": "AI Images - replacing specific areas with new generation"
+                },
+                {
+                  "technique": "Color grading",
+                  "mediaType": "AI Video - adjusting color consistency across clips"
+                },
+                {
+                  "technique": "EQ and compression",
+                  "mediaType": "AI Music - balancing frequency levels and dynamics"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Create a Refinement Prompt",
+            "content": {
+              "directions": "Create a prompt specifically designed to refine or improve an existing AI-generated image. Describe what needs to be changed or enhanced, and how the new version should differ from the original.",
+              "correctPrompt": "Take this generated image of a castle but make these changes: change the time of day from noon to sunset with golden hour lighting, add more dramatic cloud formations in the sky, enhance the details on the stone walls to show more texture, and add a faint mist around the base of the castle. Keep the overall composition but make these specific improvements."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 10,
+        "moduleTitle": "Copyright and Legal Issues in AI Media",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Who Owns AI-Generated Content?",
+            "content": "Copyright ownership of AI-generated content is a complex and evolving legal area. Currently, most jurisdictions don't grant copyright to fully AI-generated works since copyright requires human authorship. However, content that involves significant human creative input (like carefully crafted prompts, selection, and arrangement of AI outputs) may be copyrightable. The U.S. Copyright Office has stated that AI-generated elements缺乏 human authorship cannot be copyrighted, but human-authored elements can be. This means most purely AI-generated media exists in a copyright gray area."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Copyright Challenges with AI Media",
+            "content": "AI media creates several copyright challenges: training data often includes copyrighted material without explicit permission, outputs may closely resemble protected works, and it's difficult to determine when AI-generated content infringes on existing copyrights. There are ongoing lawsuits regarding whether AI training constitutes copyright infringement. Additionally, since AI tools may generate similar content for different users, there are questions about who owns what when multiple people create similar AI content. These issues are being addressed through both litigation and new legislation in various countries."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Using AI Media Legally and Ethically",
+            "content": "To use AI media legally and ethically: avoid generating content that closely mimics protected works or specific artists' styles, disclose when content is AI-generated especially in contexts where authenticity matters, respect platform terms of service regarding AI content, be cautious about generating likenesses of real people without permission, and understand that commercial use may have different legal implications than personal use. When in doubt, consult legal advice specific to your use case and jurisdiction, as laws are rapidly evolving in this area."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — AI Media Copyright",
+            "content": {
+              "quiz": [
+                {
+                  "question": "Who typically owns copyright for fully AI-generated content?",
+                  "choices": [
+                    "A) The AI company",
+                    "B) The user who created the prompt",
+                    "C) Usually no one, as copyright requires human authorship",
+                    "D) The government"
+                  ],
+                  "correctAnswer": "C) Usually no one, as copyright requires human authorship"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Learn: Best Practices for Selling AI Media",
+            "content": "When selling AI-generated media: be transparent that content is AI-generated, avoid claiming exclusive ownership of purely AI-generated works, focus on unique combinations or modifications that add human creativity, understand platform-specific rules about selling AI content, consider creating products that incorporate AI media as elements rather than the entire product, and keep records of your creative process showing human input. Some marketplaces have specific policies about AI content, so review these carefully before selling. The most defensible position involves significant human creative contribution beyond simple prompting."
+          }
+        ]
+      },
+      {
+        "moduleNumber": 11,
+        "moduleTitle": "Realism and Quality in AI-Generated Media",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: How Realistic Can AI Media Get?",
+            "content": "AI-generated media has reached impressive levels of realism, with images often indistinguishable from photographs to casual observation. However, close examination usually reveals telltale signs: unusual patterns in complex elements like hands or hair, inconsistent lighting or shadows, logically impossible details, or artifacts around edges. Video remains less consistently realistic than images, often showing temporal inconsistencies or unnatural movement. Audio generation has advanced significantly, with some AI voices nearly indistinguishable from humans, though emotional nuance remains challenging. Realism continues to improve rapidly with each new model iteration."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Factors That Affect Quality",
+            "content": "Several factors affect AI media quality: prompt specificity (detailed prompts yield better results), model selection (different tools excel at different types of media), parameter settings (quality vs speed trade-offs), output resolution (higher often means better details), and the base training data quality. For images, factors like lighting description, style specifications, and detail requests significantly impact results. For video, motion description and consistency parameters matter. For audio, specifying emotion, pacing, and vocal qualities affects output quality. Iterative refinement also dramatically improves final results."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Limits of Current Media AI Technology",
+            "content": "Current media AI has several limitations: difficulty with precise text rendering in images, inconsistent quality with human hands and faces, challenges maintaining consistency across video frames, limited understanding of physics and object relationships, inability to handle complex multi-character interactions realistically, and limited output length for video and music. The technology also struggles with highly specific or novel requests that differ significantly from its training data. These limitations are actively being addressed through improved models and training techniques, but remain considerations for current projects."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Rank Factors Affecting AI Media Quality",
+            "content": {
+              "ranking": [
+                "Prompt specificity and clarity",
+                "Model selection for the specific task",
+                "Output resolution and quality settings",
+                "Training data relevance to the request",
+                "Parameter adjustments and refinement"
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Practice: Quiz — Media Realism and Quality",
+            "content": {
+              "quiz": [
+                {
+                  "question": "What is a common limitation of current AI image generation?",
+                  "choices": [
+                    "A) Inability to generate any images",
+                    "B) Difficulty with realistic human hands",
+                    "C) Only working in black and white",
+                    "D) Requiring 3D glasses to view"
+                  ],
+                  "correctAnswer": "B) Difficulty with realistic human hands"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 12,
+        "moduleTitle": "Using Free and Paid AI Media Tools",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Popular Free AI Media Tools",
+            "content": "Several quality AI media tools offer free tiers or versions: DALL·E through ChatGPT provides free limited access, Stable Diffusion has completely free open-source implementations, Canva's AI tools offer free generations, NightCafe provides free credits daily, and some music AI tools like Soundraw have free options. These free tiers typically have limitations like reduced quality, watermarks, usage caps, or slower processing. However, they provide excellent opportunities to learn AI media generation without financial commitment and often suffice for personal projects or initial experimentation."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Benefits of Paid AI Media Platforms",
+            "content": "Paid AI media platforms offer significant advantages: higher quality outputs, faster generation times, commercial usage rights, priority access during high demand, higher resolution downloads, more generation credits, advanced features like batch processing or API access, and often better customer support. Paid plans typically remove watermarks and usage restrictions. For professional work or frequent use, paid plans usually provide better value through improved results and time savings. Many offer tiered pricing to match different usage levels from hobbyist to enterprise."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: When to Upgrade to Paid Versions",
+            "content": "Consider upgrading to paid versions when: you're using AI media for commercial purposes, free limits restrict your workflow, you need higher quality or resolution outputs, watermarks interfere with your use, you require specific features only available in paid tiers, or you're generating enough content that paid plans offer better value than paying per generation. Also consider upgrading if you need consistent style across multiple generations (easier with certain paid tools) or if you need technical support for important projects. Try free options first to ensure the tool meets your needs before committing financially."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Match Features to Free vs Paid Tools",
+            "content": {
+              "pairs": [
+                {
+                  "feature": "Watermarked outputs",
+                  "category": "Typically Free Tools"
+                },
+                {
+                  "feature": "Commercial usage rights",
+                  "category": "Typically Paid Tools"
+                },
+                {
+                  "feature": "Limited monthly generations",
+                  "category": "Typically Free Tools"
+                },
+                {
+                  "feature": "Priority processing speed",
+                  "category": "Typically Paid Tools"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Create a Prompt Using a Free Tool",
+            "content": {
+              "directions": "Create a high-quality image prompt that would work well within the limitations of free AI tools (consider potential resolution limits, generation constraints, etc.).",
+              "correctPrompt": "A simple but striking composition of a single red apple on a wooden table with soft natural light, minimalist style, clean background, photorealistic but not requiring extremely fine details that might challenge free-tier resolution limits"
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 13,
+        "moduleTitle": "AI Animation and 3D Model Generation",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Can AI Create Animations?",
+            "content": "Yes, AI can create animations through several approaches: generating video sequences from text prompts, converting static images into moving scenes, creating interpolated frames between keyframes, or applying motion to still images. Tools like Runway ML, Pika Labs, and AnimateDiff can generate short animated sequences. The technology is less advanced than image generation, often resulting in shorter clips with more inconsistencies, but it's improving rapidly. AI is particularly useful for creating style-guided animations, adding motion to existing images, or generating abstract motion graphics that would be time-consuming to create manually."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: AI for 3D Model Generation",
+            "content": "AI 3D model generation creates three-dimensional objects from text or image inputs. Tools like Masterpiece Studio, Kaedim, and OpenAI's Point-E can generate 3D models suitable for games, VR, or 3D printing. The technology works by understanding the geometry and texture of objects from 2D references. Current limitations include difficulty with complex structures, sometimes requiring manual cleanup, and challenges with precise dimensions. However, AI dramatically speeds up the 3D modeling process, especially for concepting or creating simple assets that would otherwise require significant manual modeling work."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Tools for Animation and 3D AI",
+            "content": "For animation: Runway ML offers text-to-video and image-to-video capabilities, Pika Labs focuses on high-quality video generation, and AnimateDiff works with Stable Diffusion for animation. For 3D generation: Masterpiece Studio provides end-to-end 3D creation tools, Kaedim converts 2D images to 3D models, and Point-E creates 3D point clouds from text. These tools vary in accessibility, with some requiring technical setup while others offer web-based interfaces. The field is evolving rapidly, with new tools and capabilities emerging frequently."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — AI Animation and 3D Basics",
+            "content": {
+              "quiz": [
+                {
+                  "question": "What can AI animation tools do?",
+                  "choices": [
+                    "A) Only create flipbook animations",
+                    "B) Generate video sequences from text or images",
+                    "C) Replace all human animators",
+                    "D) Only work with black and white output"
+                  ],
+                  "correctAnswer": "B) Generate video sequences from text or images"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Write an Animation Prompt",
+            "content": {
+              "directions": "Create a prompt for an AI animation tool that describes both the visual elements and the specific motion that should occur. Include details about style and duration.",
+              "correctPrompt": "A paper boat floating down a gentle stream, 5-second animation, watercolor style, peaceful movement with slight rocking motion, leaves falling onto the water around it, early autumn setting with dappled sunlight through trees"
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 14,
+        "moduleTitle": "Combining AI Media with Other Creative Tools",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Integrating AI Media into Workflows",
+            "content": "AI media works best as part of a broader creative workflow rather than a complete replacement for traditional tools. Use AI for: initial concept generation, creating base assets to refine, overcoming creative blocks, generating variations quickly, or creating elements that would be time-consuming manually. Then use traditional software for refinement, compositing, and final polishing. This hybrid approach leverages AI's speed and idea generation while maintaining human creative control and quality standards. The most effective workflows use AI for what it does best while relying on human skills for judgment, refinement, and final execution."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Using AI Media with Graphic Design Software",
+            "content": "AI-generated images integrate seamlessly with graphic design software. Use Photoshop's Generative Fill to extend or modify AI images, Illustrator's vectorization tools to convert AI raster images to vectors, or Canva's AI features to incorporate generated elements into designs. AI can create texture backgrounds, pattern elements, conceptual illustrations, or photo-realistic elements that would be difficult to create or source otherwise. The key is viewing AI as another asset creation tool in the designer's toolkit rather than a replacement for design skills and software knowledge."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: AI Media and Video Editing Tools",
+            "content": "AI-generated video elements work well within traditional video editing workflows. Use AI for: creating background plates, generating specific visual effects, producing motion graphics elements, or creating entire scenes that can be composited with live action. Tools like Runway ML integrate with editing software, allowing AI generation within the editing environment. AI can also assist with tasks like rotoscoping, upscaling, or style transfer that would be time-consuming manually. The most effective approach treats AI as a powerful asset generator within a comprehensive video production pipeline."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Match AI Media Types to Creative Tools",
+            "content": {
+              "pairs": [
+                {
+                  "mediaType": "AI-generated background textures",
+                  "tool": "Photoshop for compositing into designs"
+                },
+                {
+                  "mediaType": "AI-created 3D models",
+                  "tool": "Blender or Maya for refinement and animation"
+                },
+                {
+                  "mediaType": "AI-composed music tracks",
+                  "tool": "DAW like Ableton for mixing and mastering"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Create a Multi-Tool Prompt",
+            "content": {
+              "directions": "Create a prompt for an AI media element that would be used as part of a larger project in another creative tool. Specify how the element should be prepared for integration.",
+              "correctPrompt": "Generate a detailed texture of ancient parchment with faint handwritten notes visible, high resolution with seamless tiling capability, neutral lighting without strong shadows, suitable for use as a background layer in graphic design software, saved with transparency where appropriate"
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 15,
+        "moduleTitle": "AI Media for Social Media Content",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Creating Social Media Images with AI",
+            "content": "AI is perfect for creating engaging social media images. Generate: attention-grabbing post graphics, profile pictures, banner images, product mockups, and promotional visuals. Specify platform-specific dimensions (Instagram square vs. story vs. reel formats), incorporate brand colors and styles, and create variations for A/B testing. AI can quickly generate multiple options for campaigns, create themed content for holidays or events, and maintain visual consistency across posts. The speed of AI generation allows for more frequent posting and experimentation with different visual approaches."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Using AI for Video Content",
+            "content": "AI video tools can create social media videos including: short promotional clips, animated explanations, background visuals for quotes or text, product demonstrations, and attention-grabbing intro/outro sequences. For platforms like TikTok and Reels, AI can generate trendy visual effects, transitions, or stylized footage that would be difficult to create manually. The key is creating short, impactful videos optimized for each platform's specifications and audience expectations. AI's ability to quickly generate multiple variations makes it ideal for testing what resonates with your audience."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Generating Music and Audio for Social Posts",
+            "content": "AI music tools can create original audio for social media: custom background tracks that avoid copyright issues, sound effects for videos, voiceovers using text-to-speech, and audio logos or branding elements. Specify length, mood, and style that matches your content and brand personality. For platforms that prioritize audio (like TikTok), having unique, engaging sound can significantly increase content performance. AI audio generation ensures you have exactly the right audio without licensing complications or production costs of traditional music creation."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — AI Media in Social Marketing",
+            "content": {
+              "quiz": [
+                {
+                  "question": "Why is AI useful for social media content?",
+                  "choices": [
+                    "A) It automatically posts content for you",
+                    "B) It can quickly generate engaging visual and audio content",
+                    "C) It manages social media accounts",
+                    "D) It writes all your captions"
+                  ],
+                  "correctAnswer": "B) It can quickly generate engaging visual and audio content"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Generate a Social Media Media Prompt",
+            "content": {
+              "directions": "Create a prompt for social media content that includes specifications for the platform, dimensions, style, and purpose of the content.",
+              "correctPrompt": "Create an Instagram Reel cover image for a tutorial about coffee brewing, vertical 9:16 aspect ratio, bright and clean aesthetic with coffee beans and equipment arranged appealingly, text space at the top for 'Beginner's Guide to Pour Over', minimalist style with ample negative space for readability on mobile"
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 16,
+        "moduleTitle": "Ethical Use of AI in Media Creation",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Ethical Concerns Around AI Art and Media",
+            "content": "AI media creation raises several ethical concerns: copyright and intellectual property issues regarding training data, potential displacement of human creatives, misinformation through realistic but fake media, consent issues when generating likenesses of real people, cultural appropriation when using styles from specific cultures without understanding, and environmental impact of energy-intensive AI training and operation. There are also questions about authenticity and disclosure when AI-generated content is presented as human-created. These concerns require thoughtful consideration and responsible practices from AI media users."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Avoiding Misuse and Misinformation",
+            "content": "To avoid misuse: never create deceptive or misleading content that could harm others, clearly disclose AI generation when authenticity matters, avoid generating non-consensual intimate imagery or deepfakes without permission, respect copyright and don't intentionally mimic protected works, and consider the potential impact of your AI creations before sharing. Be particularly cautious with political, medical, or news-related content where misinformation could have serious consequences. Ethical AI use involves considering not just what you can create, but what you should create."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Transparency and Disclosure Best Practices",
+            "content": "Be transparent about AI use: disclose AI generation when content could be mistaken for human-created, especially in commercial, journalistic, or artistic contexts. Use labels like 'AI-generated' or 'created with AI assistance' where appropriate. In contexts where authenticity matters (news, historical content, product representations), be extra clear about AI involvement. For commercial work, ensure clients understand what elements are AI-generated. Transparency builds trust and helps audiences understand the nature of the content they're engaging with."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Learn: Respecting Original Creators and Cultures",
+            "content": "Respect original creators: avoid prompting AI to specifically mimic living artists' styles without permission, don't use AI to create derivative works that could undermine original creators' livelihoods, acknowledge inspiration sources when appropriate, and support human artists alongside using AI tools. When drawing from specific cultural styles, do so respectfully and with understanding rather than appropriation. Consider how your AI use affects the creative ecosystem and support human creativity even as you leverage AI capabilities."
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Practice: Quiz — Ethics in AI Media",
+            "content": {
+              "quiz": [
+                {
+                  "question": "Why is transparency important in AI media creation?",
+                  "choices": [
+                    "A) It makes the AI work faster",
+                    "B) It builds trust and helps audiences understand content origins",
+                    "C) It is required by all AI tools",
+                    "D) It improves image quality"
+                  ],
+                  "correctAnswer": "B) It builds trust and helps audiences understand content origins"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 17,
+        "moduleTitle": "Troubleshooting AI Media Outputs",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Common Problems in AI Media Generation",
+            "content": "Common AI media problems include: distorted or unnatural elements (especially hands and faces), inconsistent style within an image, unwanted artifacts or visual noise, text rendering issues, failure to understand specific requests, and for video - temporal inconsistencies or flickering. Audio generation may have unnatural pacing, odd pronunciation, or emotional mismatch. Many issues stem from ambiguous prompts, so the first troubleshooting step is often refining your prompt description. Other solutions include changing models, adjusting parameters, or using inpainting to fix specific areas."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Fixing Unwanted Artifacts in Images",
+            "content": "To fix AI image artifacts: use inpainting to regenerate problematic areas with more specific prompts, try different models or versions (some handle certain elements better), adjust quality vs. speed parameters, use prompt engineering to avoid known problem areas (like specifying 'normal hands' or avoiding complex text), or use traditional editing software to manually correct issues. For consistent problems with certain elements, try generating those elements separately then compositing. Sometimes simply generating multiple variants yields at least one without significant artifacts."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Dealing with Video Glitches and Errors",
+            "content": "AI video glitches include: flickering between frames, inconsistent object appearance, unnatural motion, and temporal discontinuities. Solutions include: using longer prompts with detailed motion descriptions, generating shorter segments, using image-to-video instead of pure text-to-video for more control, adjusting consistency parameters, and using video editing software to smooth transitions or mask errors. For important projects, generating multiple versions and editing together the best parts often yields better results than expecting perfect generations in single attempts."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — Troubleshooting AI Media",
+            "content": {
+              "quiz": [
+                {
+                  "question": "What is the first step when troubleshooting AI media problems?",
+                  "choices": [
+                    "A) Yell at your computer",
+                    "B) Refine your prompt to be more specific",
+                    "C) Buy a new computer",
+                    "D) Give up on AI entirely"
+                  ],
+                  "correctAnswer": "B) Refine your prompt to be more specific"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Improve a Problematic Prompt",
+            "content": {
+              "directions": "Take this problematic prompt that might generate distorted elements and improve it to avoid common AI generation issues: 'a person reading a book with interesting hands'",
+              "correctPrompt": "A person sitting in a comfortable chair reading a book, hands holding the book naturally with fingers positioned normally, focus on the book and upper body, relaxed pose, photorealistic style with good hand anatomy"
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 18,
+        "moduleTitle": "AI Media in Different Languages and Cultures",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Language Support in AI Text-to-Media",
+            "content": "AI media tools primarily support English prompts but increasingly work with other languages. Performance varies significantly by language - English typically yields best results due to more training data. Some tools specifically support major languages like Spanish, French, German, Chinese, and Japanese. For best results with non-English prompts: use simple, clear language; avoid idioms that don't translate well; sometimes including English style terms helps ('anime style' works better than Japanese equivalent); and test with simple prompts first to assess the tool's proficiency with your language before complex requests."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Cultural Sensitivity in AI Media",
+            "content": "Cultural sensitivity is crucial when generating AI media: avoid stereotyping or caricaturing cultures, be respectful when generating content inspired by specific cultural traditions, understand that AI training data may contain biases that perpetuate stereotypes, and consider context when using cultural elements. Especially avoid generating sacred or culturally significant imagery without understanding its meaning. When creating content for or about cultures other than your own, research appropriately or consult with members of those cultures to ensure respectful representation."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Creating Media for Different Audiences",
+            "content": "When creating AI media for different audiences: consider cultural preferences for color, symbolism, and aesthetic styles; be aware of varying cultural norms around imagery; adapt content to local sensitivities and values; and ensure representations are appropriate and respectful. For global audiences, test content with people from different cultural backgrounds when possible. AI can help create localized content variations once you understand these cultural considerations, but human cultural knowledge is essential for appropriate and effective cross-cultural media creation."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — Multilingual AI Media",
+            "content": {
+              "quiz": [
+                {
+                  "question": "Why might English prompts work better in AI media tools?",
+                  "choices": [
+                    "A) AI developers only speak English",
+                    "B) There's more training data in English",
+                    "C) English is easier for computers to understand",
+                    "D) All AI tools are made in English-speaking countries"
+                  ],
+                  "correctAnswer": "B) There's more training data in English"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Write a Culture-Sensitive Prompt",
+            "content": {
+              "directions": "Create a prompt that demonstrates cultural sensitivity when generating media inspired by a culture other than your own. Show respect and understanding in your description.",
+              "correctPrompt": "Generate a respectful representation of traditional Japanese woodblock print style showing a landscape with Mount Fuji in the distance, cherry blossoms in foreground, following appropriate artistic conventions of this style without appropriating sacred or culturally significant elements inappropriately, ukiyo-e inspired but original creation"
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 19,
+        "moduleTitle": "Future Trends in Media-Generating AI",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Emerging Features and Tools",
+            "content": "Emerging AI media features include: longer and more consistent video generation, 3D model generation from text, improved understanding of physics and object relationships, better multi-character interactions, more coherent storytelling across media types, and tools that combine multiple media types (generating synchronized video, audio, and text). We're also seeing more specialized tools for specific industries like architecture, product design, and fashion. The technology is moving toward more controllable, predictable generation with higher fidelity and fewer artifacts."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: How AI Media Might Change Creativity",
+            "content": "AI media is changing creativity by: democratizing access to media creation tools, speeding up the ideation and concepting process, allowing rapid exploration of creative options, lowering technical barriers to visual expression, and creating new hybrid roles that combine traditional skills with AI collaboration. Rather than replacing human creativity, AI is becoming a collaborative tool that amplifies creative potential. The most successful creatives will likely be those who learn to effectively guide and curate AI generation while bringing human vision, emotion, and judgment to the process."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: AI Media in Entertainment and Beyond",
+            "content": "AI media is transforming entertainment: enabling independent creators to produce content that previously required large teams, accelerating pre-visualization in film and game production, creating new forms of interactive and personalized media, and opening possibilities for real-time content generation. Beyond entertainment, AI media has applications in education (creating learning materials), marketing (generating personalized content), architecture and design (visualizing concepts), and scientific communication (creating explanatory visuals). The technology is becoming a general-purpose tool for visual communication across fields."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Learn: Staying Updated on Media AI Advances",
+            "content": "Staying current with media AI requires: following industry leaders and researchers on social media, reading technical blogs from AI companies, participating in communities like Discord channels where users share techniques, experimenting with new tools as they emerge, and attending webinars or conferences on AI creativity. Since the field evolves rapidly, focus on understanding fundamental concepts that remain relevant even as specific tools change. The ability to learn quickly and adapt to new capabilities will be more valuable than mastering any single current tool."
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Practice: Quiz — Future of AI Media",
+            "content": {
+              "quiz": [
+                {
+                  "question": "How is AI media changing creativity?",
+                  "choices": [
+                    "A) Replacing all human creatives",
+                    "B) Democratizing access to media creation tools",
+                    "C) Making creativity obsolete",
+                    "D) Only benefiting large corporations"
+                  ],
+                  "correctAnswer": "B) Democratizing access to media creation tools"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 20,
+        "moduleTitle": "Exploring AI Media Generator Differences",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Comparing DALL·E, Midjourney, and Stable Diffusion",
+            "content": "DALL·E 3 excels at understanding complex prompts and following instructions precisely, making it great for specific requests. Midjourney creates the most aesthetically pleasing images with a distinctive artistic style, ideal for conceptual and mood-based work. Stable Diffusion offers the most control and customization through open-source implementations, perfect for technical users who want to fine-tune results. Each has different strengths: DALL·E for precision, Midjourney for beauty, Stable Diffusion for control. The best choice depends on your specific needs and technical comfort level."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Strengths and Weaknesses of Each Tool",
+            "content": "DALL·E's strengths: excellent prompt understanding, follows instructions well, good at text rendering. Weaknesses: less artistic than Midjourney, fewer customization options. Midjourney's strengths: beautiful aesthetic outputs, strong artistic style, great for conceptual work. Weaknesses: less precise control, operates through Discord. Stable Diffusion's strengths: maximum customization, open-source, can run locally. Weaknesses: requires more technical knowledge, results vary widely based on setup. Understanding these trade-offs helps select the right tool for each project rather than seeking a single best option."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Choosing the Right AI Media Tool for You",
+            "content": "Choose based on your needs: for easy use and precise results - DALL·E; for artistic quality and aesthetic appeal - Midjourney; for technical control and customization - Stable Diffusion. Also consider: your technical skill level, budget (some have free tiers while others are paid), specific features needed (like inpainting or outpainting), integration with other tools, and whether you need commercial rights. Many users eventually learn multiple tools to handle different types of projects. Start with one that matches your primary use case, then expand as needed."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Match Features to AI Media Tools",
+            "content": {
+              "pairs": [
+                {
+                  "feature": "Best prompt understanding and instruction following",
+                  "tool": "DALL·E 3"
+                },
+                {
+                  "feature": "Most artistic and aesthetically pleasing outputs",
+                  "tool": "Midjourney"
+                },
+                {
+                  "feature": "Maximum customization and control options",
+                  "tool": "Stable Diffusion"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Create a Prompt for Each Tool",
+            "content": {
+              "directions": "Create three variations of the same basic concept optimized for DALL·E, Midjourney, and Stable Diffusion respectively. Adjust each prompt to play to the specific strengths of each tool.",
+              "correctPrompt": {
+                "dalle": "A detailed infographic illustration explaining photosynthesis, with clear labels and arrows showing the process from sunlight to glucose production, educational style with precise text rendering, clean design suitable for a textbook diagram",
+                "midjourney": "A magical visualization of photosynthesis as glowing energy flows through a plant, ethereal light effects, fantasy art style with vibrant colors and dreamlike quality, concept art aesthetic with strong visual impact",
+                "stableDiffusion": "A technical diagram of photosynthesis process, [specify model checkpoint: realistic vision], steps: 30, sampler: DPM++ 2M Karras, cfg scale: 7, with controlnet for composition structure, negative prompt: blurry, distorted text"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

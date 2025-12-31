@@ -1,0 +1,1115 @@
+{
+  "ai_course": {
+    
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "moduleTitle": "What is Text-Generating AI?",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Introduction to Generative Text AI",
+            "content": "Text-generating AI is like having a super-smart writing assistant that can create human-like text on almost any topic. These AI systems are trained on massive amounts of text from books, websites, and articles, learning patterns of how language works. Unlike traditional software that follows strict rules, generative AI creates original content by predicting what words should come next based on context. It's not copying text but generating new combinations that make sense based on its training."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: How Text AI Models Work (Basics)",
+            "content": "Text AI models work by analyzing patterns in the enormous amounts of text they're trained on. Think of it like a super-powered autocomplete that understands context. The AI breaks down text into smaller pieces called tokens (words or parts of words) and learns statistical relationships between them. When you give it a prompt, it predicts the most likely next words based on these patterns. More advanced models can maintain context over longer passages, making their responses more coherent and relevant."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Examples of Text-Generating AI Tools",
+            "content": "There are several popular text-generating AI tools available today. ChatGPT from OpenAI is one of the most well-known, capable of conversations, writing, and problem-solving. Google's Gemini (formerly Bard) offers similar capabilities with integration to Google's services. Claude from Anthropic focuses on being helpful, harmless, and honest. There are also open-source models like Llama from Meta that developers can customize. Each has slightly different strengths in creativity, accuracy, or specific capabilities."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — Text AI Basics",
+            "content": {
+              "quiz": [
+                {
+                  "question": "What is the primary function of text-generating AI?",
+                  "choices": [
+                    "A) Copy text from the internet",
+                    "B) Create original human-like text",
+                    "C) Translate between languages",
+                    "D) Check grammar and spelling"
+                  ],
+                  "correctAnswer": "B) Create original human-like text"
+                },
+                {
+                  "question": "How do text AI models primarily generate content?",
+                  "choices": [
+                    "A) By searching the internet in real-time",
+                    "B) By predicting likely next words based on patterns",
+                    "C) By combining pre-written templates",
+                    "D) By asking humans for input"
+                  ],
+                  "correctAnswer": "B) By predicting likely next words based on patterns"
+                },
+                {
+                  "question": "Which of these is NOT a text-generating AI tool?",
+                  "choices": [
+                    "A) ChatGPT",
+                    "B) Gemini",
+                    "C) Photoshop",
+                    "D) Claude"
+                  ],
+                  "correctAnswer": "C) Photoshop"
+                },
+                {
+                  "question": "What are 'tokens' in the context of text AI?",
+                  "choices": [
+                    "A) Payment methods for AI services",
+                    "B) Words or parts of words that AI processes",
+                    "C) Security codes for AI access",
+                    "D) Error messages from AI systems"
+                  ],
+                  "correctAnswer": "B) Words or parts of words that AI processes"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Create a Simple Prompt",
+            "content": {
+              "directions": "Create a simple prompt that asks an AI to explain a basic concept to a complete beginner. Choose any topic you're familiar with (like photosynthesis, gravity, or how computers work). Make sure your prompt specifies the audience (beginner) and the desired format (clear explanation).",
+              "correctPrompt": "Explain how photosynthesis works in simple terms that a 10-year-old could understand. Use everyday analogies and avoid scientific jargon."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 2,
+        "moduleTitle": "Understanding Prompts",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: What Is a Prompt?",
+            "content": "A prompt is your instruction or question to an AI system—it's how you tell the AI what you want it to do. Think of it like giving directions to a very smart assistant who takes everything literally. A good prompt clearly communicates your request, including what you want, who it's for, how it should be formatted, and any specific requirements. The quality of your prompt directly determines the quality of the AI's response, making prompt crafting an essential skill for working with text AI."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Why Prompts Matter in Text Generation",
+            "content": "Prompts are crucial because they set the boundaries and direction for the AI's response. A vague prompt like 'Write about dogs' might give you a scientific classification, a care guide, or a children's story—you can't predict what you'll get. A specific prompt like 'Write a persuasive paragraph about why families should adopt rescue dogs, aimed at adults considering pet ownership' gives the AI clear guidance. Well-crafted prompts save time, reduce frustration, and yield more useful results."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Drag & Drop: Match Prompts to Expected Outputs",
+            "content": {
+              "pairs": [
+                {
+                  "prompt": "List 5 benefits of regular exercise",
+                  "output": "Bullet-point list of exercise benefits"
+                },
+                {
+                  "prompt": "Write a short story about a robot who wants to be a chef",
+                  "output": "Creative narrative about a cooking robot"
+                },
+                {
+                  "prompt": "Explain quantum physics to a 12-year-old",
+                  "output": "Simplified explanation with analogies"
+                },
+                {
+                  "prompt": "Compare iPhone and Android phones in a table",
+                  "output": "Table format comparing features"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — Prompts 101",
+            "content": {
+              "quiz": [
+                {
+                  "question": "What is a prompt in the context of text AI?",
+                  "choices": [
+                    "A) The speed at which AI generates text",
+                    "B) The instruction or question given to the AI",
+                    "C) The first word of the AI's response",
+                    "D) A type of error message from AI systems"
+                  ],
+                  "correctAnswer": "B) The instruction or question given to the AI"
+                },
+                {
+                  "question": "Why are specific prompts better than vague ones?",
+                  "choices": [
+                    "A) They make the AI work faster",
+                    "B) They produce more predictable and useful results",
+                    "C) They use fewer computational resources",
+                    "D) They help the AI learn new information"
+                  ],
+                  "correctAnswer": "B) They produce more predictable and useful results"
+                },
+                {
+                  "question": "Which element is NOT typically important in a good prompt?",
+                  "choices": [
+                    "A) Desired format or structure",
+                    "B) Target audience or reading level",
+                    "C) The exact number of words to generate",
+                    "D) Clear communication of what you want"
+                  ],
+                  "correctAnswer": "C) The exact number of words to generate"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Write a Basic Prompt",
+            "content": {
+              "directions": "Create a prompt that asks the AI to compare two similar but different things (like two sports, two musical instruments, or two learning methods). Specify that you want the comparison in table format with at least three comparison points.",
+              "correctPrompt": "Create a comparison table between learning guitar and learning piano. Include columns for difficulty, time to proficiency, cost, and portability. Make the table suitable for a teenager trying to choose which instrument to learn."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 3,
+        "moduleTitle": "Writing Effective Prompts — Part 1",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Clear and Specific Prompts",
+            "content": "Clear and specific prompts are the foundation of good AI interactions. Instead of 'Write about health,' try 'List 5 evidence-based benefits of Mediterranean diet for heart health in bullet points.' Specificity helps the AI understand exactly what you want. Include details about format (paragraph, list, table), tone (professional, casual, humorous), length, and purpose. The more precise your instructions, the less you'll need to edit or regenerate responses."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Using Context to Guide AI Responses",
+            "content": "Providing context helps the AI generate more relevant and accurate responses. If you're asking for marketing copy, specify the product, target audience, and key selling points. If you're asking for technical information, mention your knowledge level so the AI can adjust its explanation. Context can include background information, the purpose of the text, or even examples of the style you're looking for. Good context setting is like giving a human expert the background they need to help you effectively."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Avoiding Ambiguity in Prompts",
+            "content": "Ambiguity leads to unpredictable AI responses. Words like 'good,' 'interesting,' or 'comprehensive' mean different things to different people. Instead of 'Write a good summary,' try 'Write a 200-word summary highlighting the three main arguments.' Be specific about quantities, qualities, and criteria. Avoid pronouns that might be unclear—instead of 'they,' use the specific noun. Read your prompt from the AI's perspective: would a literal-minded assistant understand exactly what you want?"
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Fix Ambiguous Prompts",
+            "content": {
+              "pairs": [
+                {
+                  "ambiguous": "Write something about science",
+                  "clear": "Explain the theory of relativity to a high school student in three paragraphs"
+                },
+                {
+                  "ambiguous": "Make a list of important things",
+                  "clear": "List 7 essential items for emergency preparedness in a hurricane zone"
+                },
+                {
+                  "ambiguous": "Tell me about that place",
+                  "clear": "Provide a travel guide for visiting Tokyo, including cultural etiquette and must-see attractions"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Improve an Ambiguous Prompt",
+            "content": {
+              "directions": "Take this ambiguous prompt and make it specific and clear: 'Write about social media.' Improve it by adding details about purpose, audience, format, and key points to cover.",
+              "correctPrompt": "Write a 500-word article for parents of teenagers about the pros and cons of social media use. Include sections on mental health impacts, privacy concerns, and practical tips for safe usage. Use a concerned but not alarmist tone."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 4,
+        "moduleTitle": "Writing Effective Prompts — Part 2",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Using Examples Within Prompts",
+            "content": "Including examples in your prompts is one of the most effective ways to get the output you want. If you want a specific style, provide a sample sentence or paragraph. If you want a particular format, show what it should look like. For instance: 'Write in the style of this example: [insert example].' This technique is especially useful for creative writing, marketing copy, or any situation where tone and style matter. Examples give the AI a concrete pattern to follow rather than abstract instructions."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Asking for Step-by-Step Answers",
+            "content": "For complex topics or instructions, asking for step-by-step explanations can dramatically improve the quality of AI responses. Phrases like 'Explain like I'm 10,' 'Break this down into steps,' or 'Provide a step-by-step guide' tell the AI to structure information logically. This approach works well for technical processes, learning new skills, recipes, or any sequential information. Step-by-step prompts also make it easier to identify if the AI has missed crucial steps in its explanation."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Controlling Length and Style",
+            "content": "You can control the length and style of AI responses through specific instructions. For length, specify word count, paragraph count, or page count rather than vague terms like 'short' or 'long.' For style, specify the tone (professional, casual, academic, humorous), reading level, or even mimic a specific writer's style. You can also request specific structural elements like headings, bullet points, or numbered lists. These controls help ensure the output matches your needs without extensive editing."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Order Steps to Improve a Prompt",
+            "content": {
+              "steps": [
+                "Identify the core request or question",
+                "Specify the intended audience",
+                "Define the desired format and structure",
+                "Set length parameters",
+                "Establish tone and style requirements",
+                "Add any examples or constraints"
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Write an Advanced Prompt",
+            "content": {
+              "directions": "Create a comprehensive prompt that includes multiple techniques: specify audience, request step-by-step explanation, control length, and provide an example of the desired style.",
+              "correctPrompt": "Create a step-by-step guide for college students on how to write a research paper. Explain the process in 5 clear steps, using academic but accessible language. Keep the total guide under 800 words. Here's an example of the tone I want: [insert example paragraph]"
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 5,
+        "moduleTitle": "Common Prompting Mistakes",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Vague or Too Broad Prompts",
+            "content": "Vague prompts are the most common mistake and lead to useless or generic responses. Prompts like 'Tell me about history' or 'Write a story' are too broad—the AI doesn't know what aspect of history or what kind of story you want. Instead, specify time periods, locations, themes, or perspectives. The more focused your prompt, the more targeted and useful the response will be. If you find yourself getting generic answers, your prompt likely needs more specificity and constraints."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Overloading the Prompt with Too Much Info",
+            "content": "While specificity is good, overloading a prompt with too many requirements can confuse the AI or cause it to miss important elements. Listing ten different formatting requirements, tone specifications, and content demands in a single prompt can be overwhelming. Instead, focus on the 3-5 most important requirements. If you need complex outputs, consider breaking the request into multiple prompts or conversations rather than one overwhelming instruction."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Forgetting to Specify Output Format",
+            "content": "Forgetting to specify the output format is a common oversight that leads to extra editing work. The AI might write a paragraph when you wanted bullet points, or prose when you wanted a table. Always specify your preferred format—whether it's a list, table, paragraph, email, script, or any other structure. Also consider specifying structural elements like headings, section breaks, or whether to include an introduction and conclusion. Clear format instructions save revision time."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Learn: Relying on AI to 'Guess' Your Intent",
+            "content": "Assuming the AI will understand what you 'really mean' rather than what you actually wrote is a recipe for disappointment. AI systems are literal and can't read your mind. If you want a professional tone, specify 'professional tone' rather than assuming the AI will detect this from context. If you have specific requirements for what to include or exclude, state them explicitly. The more you spell out your intent, the less you'll need to rely on the AI guessing correctly."
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Identify Mistakes in Your Prompt",
+            "content": {
+              "directions": "Review this problematic prompt and identify at least 3 specific issues: 'Write something about climate change that's good for a school project. Make it not too long but cover everything important. I need it by tomorrow.' Rewrite it to fix these issues.",
+              "correctPrompt": "Create a 3-page research overview on climate change causes and solutions for a high school science project. Include sections on greenhouse effect evidence, human activities contributing to climate change, and three potential mitigation strategies. Use academic but accessible language suitable for 11th graders."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 6,
+        "moduleTitle": "ChatGPT and Similar Models Overview",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: What Is ChatGPT?",
+            "content": "ChatGPT is OpenAI's conversational AI system based on the GPT architecture. It's designed to engage in dialogue, answer questions, and assist with various writing and reasoning tasks. Unlike simple chatbots, ChatGPT maintains context throughout a conversation, allowing for back-and-forth exchanges. It can write, explain, create, and problem-solve across countless domains. ChatGPT has undergone several versions, with each iteration becoming more capable, accurate, and nuanced in its understanding and responses."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Differences Between ChatGPT and Other Models",
+            "content": "While ChatGPT is among the most famous text AI models, it's not the only one. Google's Gemini is integrated with Google's search and knowledge graph, potentially offering more current information. Anthropic's Claude emphasizes safety and honesty, sometimes refusing inappropriate requests more consistently. Open-source models like Meta's Llama offer customization options but may require technical expertise. Each model has different strengths in creativity, accuracy, refusal behaviors, and specialization areas."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Model Strengths and Weaknesses",
+            "content": "Each text AI model has distinct strengths and weaknesses. ChatGPT excels at creative tasks and general knowledge but may hallucinate facts. Gemini leverages Google's knowledge for potentially more current information but can be overly confident about incorrect answers. Claude is strong at reasoning and safety but may be overly cautious. All models struggle with very recent events, highly specialized technical knowledge, and consistency across long responses. Understanding these limitations helps set appropriate expectations."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — ChatGPT Basics",
+            "content": {
+              "quiz": [
+                {
+                  "question": "What is ChatGPT primarily designed for?",
+                  "choices": [
+                    "A) Image recognition",
+                    "B) Conversational interactions",
+                    "C) Mathematical calculations",
+                    "D) Video editing"
+                  ],
+                  "correctAnswer": "B) Conversational interactions"
+                },
+                {
+                  "question": "Which company developed ChatGPT?",
+                  "choices": [
+                    "A) Google",
+                    "B) OpenAI",
+                    "C) Microsoft",
+                    "D) Amazon"
+                  ],
+                  "correctAnswer": "B) OpenAI"
+                },
+                {
+                  "question": "What is a common limitation of ChatGPT and similar models?",
+                  "choices": [
+                    "A) They can't generate text",
+                    "B) They may provide incorrect or made-up information",
+                    "C) They only work in English",
+                    "D) They require special hardware to run"
+                  ],
+                  "correctAnswer": "B) They may provide incorrect or made-up information"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Test a ChatGPT Prompt",
+            "content": {
+              "directions": "Create a prompt specifically designed for ChatGPT that takes advantage of its conversational nature. Ask a multi-part question that requires maintaining context across follow-up responses.",
+              "correctPrompt": "Explain the basics of photosynthesis in simple terms. After your explanation, create a study quiz with 5 questions on the topic. Then, based on which questions I get wrong, provide targeted explanations for those specific concepts."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 7,
+        "moduleTitle": "Prompt Engineering Tools and Tricks",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Using System Messages and Instructions",
+            "content": "System messages are special instructions that set the context for how the AI should behave throughout a conversation. Unlike regular prompts, system messages often appear before the conversation begins and establish the AI's role, tone, and constraints. For example: 'You are a helpful science tutor for middle school students. Explain concepts simply with everyday examples. If you're unsure, say so rather than guessing.' Many AI interfaces have dedicated system message fields that help guide the AI's behavior across multiple exchanges."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Temperature and Other Parameters Explained",
+            "content": "Temperature is a technical parameter that controls the randomness of AI responses. Lower temperature (e.g., 0.2) produces more focused, predictable responses—good for factual information. Higher temperature (e.g., 0.8) creates more creative, surprising responses—better for storytelling or brainstorming. Other parameters include max tokens (response length limit), top-p (controls diversity of options considered), and frequency penalty (reduces repetition). Understanding these settings helps tailor AI behavior to your specific needs."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: How to Use Tokens Wisely",
+            "content": "Tokens are the basic units of text that AI processes (approximately 3/4 of a word). There's usually a limit on how many tokens can be in a prompt + response. To use tokens wisely: be concise but specific, avoid unnecessary repetition, and structure information efficiently. If you're接近 the token limit, prioritize the most important instructions. Remember that longer conversations consume more tokens to maintain context. Token management is especially important for complex tasks or when using API services with usage-based pricing."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Match Parameter Effects to Outcomes",
+            "content": {
+              "pairs": [
+                {
+                  "parameter": "Low temperature (0.2)",
+                  "outcome": "Focused, predictable responses"
+                },
+                {
+                  "parameter": "High temperature (0.8)",
+                  "outcome": "Creative, surprising responses"
+                },
+                {
+                  "parameter": "Low max tokens",
+                  "outcome": "Short, concise answers"
+                },
+                {
+                  "parameter": "Frequency penalty",
+                  "outcome": "Less repetitive language"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Adjust Parameters for Better Output",
+            "content": {
+              "directions": "Create a prompt that would benefit from specific parameter adjustments. Explain which parameters you would change and why for your particular use case.",
+              "correctPrompt": "[For a technical documentation task] Set temperature to 0.3 for factual accuracy, max tokens to 1000 for comprehensive coverage, and frequency penalty to 0.5 to avoid repetition. Now: Create installation instructions for XYZ software, including system requirements, download steps, and basic configuration. Use clear, step-by-step formatting."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 8,
+        "moduleTitle": "Handling AI Limitations in Text Generation",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Knowledge Cutoff and Outdated Info",
+            "content": "All AI models have a knowledge cutoff date—the point after which they weren't trained on new information. For example, a model might know everything up to 2023 but nothing about 2024 events. This means AI can provide outdated information about recent developments, current people, or new discoveries. Always verify time-sensitive information from current sources. You can sometimes work around this by asking the AI to reason based on general principles rather than specific recent facts."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Avoiding AI Hallucinations",
+            "content": "Hallucinations occur when AI generates plausible-sounding but incorrect or made-up information. This can include fake citations, incorrect facts, or imaginary events. To reduce hallucinations: ask the AI to cite sources (though it may make these up too), request confidence estimates, ask for reasoning steps, and verify critical information elsewhere. For important facts, use the AI as a starting point rather than a final authority. Specific prompts like 'If you're not certain, please say so' can sometimes help."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Dealing with Repetition or Nonsense Responses",
+            "content": "Sometimes AI gets stuck in loops, becomes repetitive, or generates nonsense. This often happens with overly long conversations, confusing prompts, or when the AI is uncertain. If you get repetitive responses, try: asking a completely different question to reset context, simplifying your prompt, specifying 'avoid repetition,' or starting a new conversation. For nonsense responses, check if your prompt is clear and unambiguous—sometimes rephrasing helps the AI understand better."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Learn: Recognizing When AI Is Guessing",
+            "content": "AI will often guess rather than admit uncertainty, especially with models trained to be helpful. Signs of guessing include: vague language ('it might be,' 'some people say'), overconfidence about niche topics, and inconsistent answers to the same question. You can explicitly ask the AI to indicate confidence levels, request sources, or say 'I don't know' when uncertain. Remember that AI doesn't actually 'know' things—it patterns match based on training data, which can create false confidence."
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Write a Prompt to Reduce Errors",
+            "content": {
+              "directions": "Create a prompt designed specifically to minimize AI errors and hallucinations. Include instructions that ask the AI to acknowledge uncertainty, avoid speculation, and focus on well-established information.",
+              "correctPrompt": "Explain the process of cellular respiration. If any part of your explanation is uncertain or based on incomplete information, clearly indicate this uncertainty. Focus on well-established scientific consensus rather than speculative or emerging theories. Provide a balanced overview that distinguishes between confirmed facts and areas of ongoing research."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 9,
+        "moduleTitle": "Getting the Best Results — Iteration and Refinement",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: How to Edit and Refine Prompts",
+            "content": "Prompt engineering is an iterative process—your first prompt rarely produces perfect results. To refine prompts: analyze what worked and what didn't in the initial response, identify missing elements or misunderstandings, add specificity where the response was vague, and clarify ambiguous instructions. Keep a record of successful prompts for similar tasks. Often, small tweaks like adding 'provide examples' or 'use simpler language' can dramatically improve results. Treat prompt writing as a skill that improves with practice and refinement."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Using Feedback Loops with AI",
+            "content": "You can create feedback loops by having the AI critique and improve its own work. After getting an initial response, ask: 'How could this response be improved?' or 'What are the weaknesses in this explanation?' The AI can often identify its own limitations and suggest improvements. You can also provide specific feedback: 'The third paragraph was too technical—rewrite it for a beginner audience.' This iterative process helps hone in on exactly what you need through successive approximations."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Testing Multiple Prompts for Best Output",
+            "content": "For important tasks, test multiple prompt variations to see which produces the best results. Create slight variations: different wording, additional constraints, alternative structures, or changed emphasis. Compare the outputs to identify which approach works best for your needs. This is especially valuable when you're developing prompts for repeated use. Keep a library of effective prompts organized by use case, and note which variations work best for different types of requests."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Arrange Prompt Refinement Steps",
+            "content": {
+              "steps": [
+                "Generate initial response",
+                "Identify strengths and weaknesses",
+                "Determine what needs clarification or addition",
+                "Revise prompt with specific improvements",
+                "Test revised prompt",
+                "Compare results and further refine if needed"
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Refine Your Prompt Based on Feedback",
+            "content": {
+              "directions": "Take this initial prompt and response, then create an improved prompt based on the weaknesses in the output. Initial prompt: 'Tell me about renewable energy.' Response was too broad and technical. Create a refined prompt that addresses these issues.",
+              "correctPrompt": "Explain solar and wind energy to a middle school audience. Compare them in terms of how they work, where they're used, and their environmental benefits. Use simple analogies and avoid technical jargon. Include one real-world example of each energy type in use."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 10,
+        "moduleTitle": "Using Text AI for Writing Tasks",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Writing Essays and Articles",
+            "content": "AI can assist with various writing tasks from brainstorming to editing. For essays and articles: use prompts that specify structure (introduction, body, conclusion), target audience, length, and key points to cover. AI can help generate outlines, develop arguments, create examples, or even write full drafts. However, always thoroughly edit and fact-check AI-generated content—it may contain errors, clichés, or awkward phrasing. Use AI as a writing assistant rather than replacement for your own critical thinking and voice."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Creating Stories and Creative Writing",
+            "content": "AI excels at creative writing assistance including generating story ideas, developing characters, writing dialogue, or overcoming writer's block. Effective creative writing prompts often include: genre, tone, key plot elements, character descriptions, and desired length. You can ask for multiple versions of a scene, alternative endings, or suggestions for improving pacing. Remember that AI-generated stories often lack deeper meaning or emotional depth—use its output as inspiration rather than final product."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Summarizing and Paraphrasing",
+            "content": "AI is particularly useful for summarizing long texts or paraphrasing complex information into simpler language. For summarization: specify what to focus on (main arguments, key findings, overall gist) and desired length. For paraphrasing: specify the target reading level or audience. These tasks work best when you provide the source text directly rather than asking the AI to recall information. Always verify that summaries accurately represent the original content without introducing distortions."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — Writing with AI",
+            "content": {
+              "quiz": [
+                {
+                  "question": "What is an important consideration when using AI for essay writing?",
+                  "choices": [
+                    "A) The AI will always produce perfect essays",
+                    "B) You should always fact-check and edit AI-generated content",
+                    "C) AI can replace all human writing skills",
+                    "D) AI essays don't need citations"
+                  ],
+                  "correctAnswer": "B) You should always fact-check and edit AI-generated content"
+                },
+                {
+                  "question": "Which element is least important in a creative writing prompt?",
+                  "choices": [
+                    "A) Desired genre",
+                    "B) Target audience",
+                    "C) Specific word count",
+                    "D) Character descriptions"
+                  ],
+                  "correctAnswer": "C) Specific word count"
+                },
+                {
+                  "question": "What should you do when using AI to summarize text?",
+                  "choices": [
+                    "A) Assume the summary is always accurate",
+                    "B) Provide the source text for the AI to summarize",
+                    "C) Never check the original content",
+                    "D) Use AI only for creative writing, not summarization"
+                  ],
+                  "correctAnswer": "B) Provide the source text for the AI to summarize"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Generate a Creative Writing Prompt",
+            "content": {
+              "directions": "Create a detailed prompt for a short story that includes specific elements: genre, main character traits, setting, and a central conflict. Make sure it provides enough direction while leaving room for creativity.",
+              "correctPrompt": "Write a 1000-word science fiction story about a librarian on a generation ship who discovers that the ship's historical records have been altered. The protagonist should be curious but cautious, and the setting should feel claustrophobic and aging. Include a twist about why the records were changed."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 11,
+        "moduleTitle": "Using Text AI for Coding and Technical Help",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: How AI Can Assist with Coding",
+            "content": "AI can be a powerful programming assistant for writing, explaining, and debugging code. It can generate code snippets, explain complex programming concepts, translate code between languages, suggest improvements, and help debug errors. AI is particularly good at routine coding tasks, boilerplate code, and explaining how specific functions work. However, it may introduce security vulnerabilities or inefficient code, so always review and test AI-generated code thoroughly before use."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Writing Code Prompts Effectively",
+            "content": "Effective code prompts include: the programming language, desired functionality, input/output examples, and any constraints or requirements. Instead of 'Write Python code,' try 'Write a Python function that takes a list of numbers and returns the sum of even numbers. Include docstring and example usage.' Provide context about what you're trying to achieve overall, not just the immediate code need. The more specific your coding prompt, the more targeted and useful the response will be."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Debugging and Explaining Code with AI",
+            "content": "AI excels at explaining what code does and identifying potential issues. For debugging: provide the error message, relevant code snippet, and what you expected to happen. Ask the AI to explain the error in simple terms and suggest fixes. For code explanation: ask the AI to walk through code line by line or explain specific functions. This is especially valuable for understanding unfamiliar codebases or complex algorithms. Remember that AI may miss subtle bugs or suggest incorrect fixes."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — AI for Coding",
+            "content": {
+              "quiz": [
+                {
+                  "question": "What should you always do with AI-generated code?",
+                  "choices": [
+                    "A) Use it immediately in production",
+                    "B) Review and test it thoroughly",
+                    "C) Assume it's perfectly secure",
+                    "D) Never modify it"
+                  ],
+                  "correctAnswer": "B) Review and test it thoroughly"
+                },
+                {
+                  "question": "Which element is most important in a code prompt?",
+                  "choices": [
+                    "A) The color scheme for the IDE",
+                    "B) The programming language specification",
+                    "C) The time of day",
+                    "D) The font size"
+                  ],
+                  "correctAnswer": "B) The programming language specification"
+                },
+                {
+                  "question": "How can AI help with debugging?",
+                  "choices": [
+                    "A) By physically fixing your computer",
+                    "B) By explaining errors and suggesting fixes",
+                    "C) By rewriting all your code automatically",
+                    "D) By preventing all future bugs"
+                  ],
+                  "correctAnswer": "B) By explaining errors and suggesting fixes"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Write a Coding Prompt",
+            "content": {
+              "directions": "Create a detailed prompt for a coding task. Specify the language, desired function, input/output examples, and any special requirements like error handling or documentation.",
+              "correctPrompt": "Write a Python function called 'validate_email' that checks if a string is a valid email address. It should return True for valid emails and False for invalid ones. Include basic validation (contains '@', has domain with dot, etc.) but don't use external libraries. Include docstring and 3 example usages showing valid and invalid cases."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 12,
+        "moduleTitle": "Using Text AI for Research and Learning",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Asking for Explanations and Definitions",
+            "content": "AI can be a personalized tutor for learning new concepts. For explanations: specify your current knowledge level and what you want to understand. Ask for analogies, examples, or different explanations if the first one doesn't click. For definitions: request simple explanations, technical definitions, or comparisons between related terms. You can ask the AI to explain things multiple ways or focus on specific aspects that confuse you. This interactive learning approach can be more effective than static reference materials."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Creating Study Notes and Summaries",
+            "content": "AI can help transform dense information into useful study materials. Provide the source material and ask for summaries, outlines, flashcards, or study guides. Specify what to emphasize: key concepts, important dates, definitions, or connections between ideas. You can request different formats: bullet points, mind maps, Q&A format, or comparative tables. This is especially valuable for processing large amounts of information into digestible study aids. Always verify the accuracy of AI-generated study materials."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Using AI to Generate Practice Questions",
+            "content": "AI can create customized practice questions based on study materials or topics. Specify the topic, difficulty level, question type (multiple choice, short answer, essay), and how many questions you need. You can ask for questions focused on specific areas where you need practice. After answering, you can have the AI evaluate your responses or provide model answers. This creates an interactive learning cycle that adapts to your needs and identifies knowledge gaps."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Match Research Tasks with AI Prompts",
+            "content": {
+              "pairs": [
+                {
+                  "task": "Understand a complex scientific concept",
+                  "prompt": "Explain quantum entanglement to a high school student using simple analogies"
+                },
+                {
+                  "task": "Create study materials for an exam",
+                  "prompt": "Make flashcards for key terms from Chapter 5 of my biology textbook"
+                },
+                {
+                  "task": "Practice for a test",
+                  "prompt": "Generate 10 multiple choice questions about World War II causes and effects"
+                },
+                {
+                  "task": "Compare related concepts",
+                  "prompt": "Create a table comparing mitosis and meiosis, highlighting their differences"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Write a Research Prompt",
+            "content": {
+              "directions": "Create a comprehensive research prompt that asks the AI to help you understand a complex topic. Include requests for explanation, examples, and practice questions to test understanding.",
+              "correctPrompt": "Explain the causes of the French Revolution to a college student new to the topic. Provide a historical overview, key factors that led to the revolution, and major events. Include 3 specific examples of grievances that led to unrest. Then create 5 discussion questions that would help someone think critically about the revolution's causes and effects."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 13,
+        "moduleTitle": "Managing Bias and Ethical Use in Text AI",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: What Is Bias in Text AI?",
+            "content": "AI bias refers to systematic errors or unfair preferences in how AI models respond. This can include gender stereotypes, racial biases, cultural assumptions, or political leanings that reflect patterns in the training data. Bias might manifest as always depicting doctors as male and nurses as female, making assumptions based on names or origins, or presenting certain viewpoints as default. Understanding that AI can be biased is crucial for using it responsibly and interpreting its outputs critically."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: How to Spot and Avoid Biased Outputs",
+            "content": "To spot bias: look for stereotypes, unequal treatment of different groups, or assumptions that reflect cultural prejudices rather than facts. To avoid biased outputs: use neutral language in your prompts, explicitly request balanced perspectives, ask the AI to consider multiple viewpoints, and verify information from diverse sources. You can also directly address potential bias: 'Provide a balanced perspective on [topic] that considers multiple cultural viewpoints.' Critical thinking is your best defense against AI bias."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Ethical Concerns When Using AI Text Generators",
+            "content": "Key ethical considerations include: plagiarism (passing off AI work as your own), misinformation (spreading AI errors), privacy (sharing sensitive information), and dependency (over-relying on AI for thinking tasks). Ethical use means: disclosing AI assistance when appropriate, verifying facts, respecting copyright and intellectual property, maintaining human oversight, and using AI to enhance rather than replace human capabilities. Consider the impact of AI use on your learning, work, and relationships."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Learn: Respecting Privacy and Data Use",
+            "content": "Be cautious about what information you share with AI systems. Avoid sharing personally identifiable information, sensitive documents, confidential data, or anything you wouldn't want potentially stored or misused. Remember that your conversations may be reviewed by humans for training purposes (check the provider's privacy policy). For maximum privacy, use services with strong data protection commitments or local AI installations when available. Responsible data handling protects both you and others."
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Create an Ethical Prompt",
+            "content": {
+              "directions": "Create a prompt that explicitly addresses potential bias and requests a balanced, ethical response on a potentially sensitive topic.",
+              "correctPrompt": "Discuss the impact of social media on mental health from a balanced perspective. Consider both potential benefits and harms, and address how effects might differ across age groups, cultures, and individual circumstances. Avoid overgeneralizations and present evidence-based information where possible. Acknowledge limitations in current research where appropriate."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 14,
+        "moduleTitle": "Data Privacy and Security When Using Text AI",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: What Happens to Your Data?",
+            "content": "When you use AI services, your prompts and responses are typically stored and may be used to improve the AI models. Human reviewers might read conversations to assess quality or identify problems. Some services offer options to disable data storage or use conversations for training. Data retention periods vary by provider—some delete quickly, others store indefinitely. Always check the privacy policy of any AI service you use to understand how your data is handled, stored, and potentially shared."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Safe Practices for Sharing Sensitive Info",
+            "content": "Never share sensitive personal, financial, or health information with AI systems. Avoid inputting confidential work documents, proprietary information, or anything covered by privacy regulations. Use generalized examples rather than specific real-world data when possible. If you must work with sensitive information, use services with strong privacy guarantees, local installations, or data anonymization techniques. Remember that once information is shared with an AI service, you lose control over how it might be used or stored."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: How Providers Protect Your Data",
+            "content": "Reputable AI providers implement various security measures including encryption of data in transit and at rest, access controls limiting who can view user data, anonymization techniques to dissociate data from individual users, and compliance with privacy regulations like GDPR. Many offer enterprise versions with enhanced privacy protections. However, absolute security cannot be guaranteed—assume that anything you share could potentially be accessed by employees, hackers, or through legal processes."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — Data Privacy Basics",
+            "content": {
+              "quiz": [
+                {
+                  "question": "What should you avoid sharing with AI systems?",
+                  "choices": [
+                    "A) Questions about the weather",
+                    "B) Sensitive personal information",
+                    "C) Requests for recipe ideas",
+                    "D) Questions about history"
+                  ],
+                  "correctAnswer": "B) Sensitive personal information"
+                },
+                {
+                  "question": "How can you learn about a provider's data practices?",
+                  "choices": [
+                    "A) Guess based on the company name",
+                    "B) Read their privacy policy",
+                    "C) Assume all companies handle data the same",
+                    "D) Ask the AI itself about privacy"
+                  ],
+                  "correctAnswer": "B) Read their privacy policy"
+                },
+                {
+                  "question": "What is a safe practice when using AI?",
+                  "choices": [
+                    "A) Share your passwords to get personalized advice",
+                    "B) Use generalized examples instead of real data",
+                    "C) Input confidential work documents for summarization",
+                    "D) Assume all AI services have maximum security"
+                  ],
+                  "correctAnswer": "B) Use generalized examples instead of real data"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Write a Privacy-Safe Prompt",
+            "content": {
+              "directions": "Create a prompt that seeks useful information while avoiding privacy risks. The prompt should demonstrate how to get helpful responses without sharing sensitive data.",
+              "correctPrompt": "I need to create a password policy for my organization. Provide general best practices for password security including recommended length, complexity requirements, expiration policies, and multi-factor authentication options. Do not include specific examples from real companies—just general guidelines that would apply to most organizations."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 15,
+        "moduleTitle": "Chat Interface Tips and Tricks",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: How to Use Chat Interfaces Efficiently",
+            "content": "Chat interfaces work best when you treat them like conversations with a knowledgeable but literal assistant. Start with clear initial instructions, then build on previous responses. Use follow-up questions to refine or expand on answers. If the AI misunderstands, rephrase rather than repeating the same prompt. You can reference previous messages: 'Earlier you mentioned X—can you explain that further?' Remember that long conversations can cause the AI to forget earlier context, so important instructions may need repeating."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Using Commands and Shortcuts",
+            "content": "Some chat interfaces support special commands or formatting that improve results. These might include: using quotes for exact phrases, asterisks for actions (*laughs*), or specific instruction formats. You can often use shorthand like 'TL;DR' for summaries or specify formatting with phrases like 'in table form' or 'as bullet points.' Some interfaces have slash commands (like /help or /reset) for specific functions. Learning these conveniences can make your AI interactions smoother and more effective."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Multi-turn Conversations and Context",
+            "content": "The ability to maintain context across multiple exchanges is a key advantage of chat interfaces. You can: build complex ideas step-by-step, correct misunderstandings naturally, ask follow-up questions based on previous answers, and refine responses through conversation. However, context windows are limited—very long conversations may cause the AI to 'forget' earlier instructions. For complex tasks, occasionally restate key requirements or start fresh conversations when context becomes muddy."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Organize Chat Best Practices",
+            "content": {
+              "pairs": [
+                {
+                  "practice": "Starting a complex task",
+                  "description": "Begin with clear initial instructions and context"
+                },
+                {
+                  "practice": "When the AI misunderstands",
+                  "description": "Rephrase rather than repeating the same words"
+                },
+                {
+                  "practice": "Long conversations",
+                  "description": "Occasionally restate key requirements as context fades"
+                },
+                {
+                  "practice": "Changing topics significantly",
+                  "description": "Consider starting a new conversation for clean context"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Create a Multi-turn Chat Prompt",
+            "content": {
+              "directions": "Design a conversation starter that sets up a multi-turn interaction. Your initial prompt should establish context and invite follow-up questions or refinements.",
+              "correctPrompt": "Let's plan a beginner-friendly workout routine together. First, suggest a basic full-body routine for someone who's new to exercise. After I review it, I'll ask questions about modifying specific exercises, adjusting for time constraints, and adding progression over time. Start with the initial routine recommendation."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 16,
+        "moduleTitle": "Exploring Advanced Prompt Techniques",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Using Roleplay and Personas in Prompts",
+            "content": "Asking the AI to adopt a specific role or persona can dramatically improve results for certain tasks. For example: 'Act as a seasoned marketing director advising a startup' or 'You are a patient science teacher explaining to a curious student.' Roleplay prompts give the AI context for how to approach the response—what knowledge to emphasize, what tone to use, what assumptions to make. This technique is especially valuable for specialized domains where expertise matters."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Multi-step and Conditional Prompts",
+            "content": "Complex tasks often require multi-step prompts that break down the request into logical sequences. For example: 'First, analyze this problem. Second, suggest three approaches. Third, evaluate which approach is best suited for these constraints.' Conditional prompts specify different paths based on circumstances: 'If the user is a beginner, explain basics first. If advanced, skip to technical details.' These techniques help manage complex requests that require structured thinking or conditional logic."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Combining Text Generation with Other Tools",
+            "content": "AI text generation becomes even more powerful when combined with other tools. You can: generate text then refine it with grammar checkers, use AI to create outlines then flesh them out manually, generate multiple versions then select the best parts of each, or use AI for ideation then execute with specialized tools. Understanding AI's strengths and limitations helps you determine where it adds the most value in your workflow and where other tools or human skills are better suited."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Learn: Creative Uses of Prompts",
+            "content": "Beyond basic queries, prompts can be used creatively for: brainstorming ideas with 'what if' scenarios, simulating debates between different perspectives, creating interactive choose-your-own-adventure stories, generating poetry or lyrics in specific forms, developing character dialogues, or even creating prompt-based games. The flexibility of text AI allows for experimental uses that go far beyond simple question-answering. Creative prompting often yields unexpectedly interesting results."
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Write an Advanced Roleplay Prompt",
+            "content": {
+              "directions": "Create an advanced prompt that uses roleplay, multi-step reasoning, and creative elements. The prompt should establish a specific scenario and ask for a complex response.",
+              "correctPrompt": "You are a veteran travel journalist with 20 years of experience. First, analyze the current trends in sustainable tourism. Second, predict how these trends might evolve over the next decade based on environmental, economic, and social factors. Third, write a short magazine-style article incorporating your analysis and predictions, aimed at environmentally conscious travelers. Use an engaging but authoritative tone."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 17,
+        "moduleTitle": "Troubleshooting Text AI Outputs",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Common Output Issues and How to Fix Them",
+            "content": "Common AI output issues include: off-topic responses, factual errors, repetition, overly verbose answers, and refusal to answer appropriate questions. Fixes include: making prompts more specific, adding constraints, breaking complex questions into parts, asking the AI to think step-by-step, and specifying desired format. When you get poor output, analyze what went wrong and revise your prompt accordingly. Often the issue is ambiguity in the original request rather than AI capability limitations."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: When AI Goes Off-Topic",
+            "content": "AI sometimes goes off-topic due to: ambiguous prompts, following tangential patterns from training data, or misinterpreting the main request. To bring it back: politely redirect ('That's interesting, but let's return to the main topic'), restate your original question more clearly, or ask the AI to focus on specific aspects. If the AI frequently goes off-topic, your prompts may need more focus or clearer boundaries about what's in and out of scope for the response."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Handling Conflicting or Contradictory Answers",
+            "content": "AI can provide conflicting answers to the same question asked differently or at different times. This happens because AI generates probabilistic rather than deterministic responses. When you notice contradictions: ask the AI to explain the discrepancy, request sources or reasoning, or rephrase the question to eliminate ambiguity. For important information, verify against reliable external sources rather than relying solely on AI consistency."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — Troubleshooting Outputs",
+            "content": {
+              "quiz": [
+                {
+                  "question": "What should you do first when getting poor AI output?",
+                  "choices": [
+                    "A) Assume the AI is broken",
+                    "B) Yell at your computer",
+                    "C) Analyze and refine your prompt",
+                    "D) Switch to a different AI immediately"
+                  ],
+                  "correctAnswer": "C) Analyze and refine your prompt"
+                },
+                {
+                  "question": "Why might AI give contradictory answers?",
+                  "choices": [
+                    "A) It enjoys confusing users",
+                    "B) It generates probabilistic rather than deterministic responses",
+                    "C) It has a personal grudge against you",
+                    "D) All AI systems are fundamentally flawed"
+                  ],
+                  "correctAnswer": "B) It generates probabilistic rather than deterministic responses"
+                },
+                {
+                  "question": "How can you handle AI going off-topic?",
+                  "choices": [
+                    "A) Politely redirect back to the main subject",
+                    "B) Accept whatever tangent it follows",
+                    "C) End the conversation immediately",
+                    "D) Assume your original question was wrong"
+                  ],
+                  "correctAnswer": "A) Politely redirect back to the main subject"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Fix a Poor Output Prompt",
+            "content": {
+              "directions": "Here's a prompt that produced a poor output: 'Tell me about computers.' The response was too broad and technical. Create an improved prompt that would yield a more useful response.",
+              "correctPrompt": "Explain what a computer is and how it works to a complete beginner. Use simple analogies (like comparing memory to a desk space and processing to thinking). Focus on the basic components and what they do, avoiding technical jargon. Keep the explanation under 300 words."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 18,
+        "moduleTitle": "Text AI in Different Languages",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Which Languages Does Text AI Support?",
+            "content": "Most major text AI systems support multiple languages, with strongest performance in English followed by other widely spoken languages like Spanish, French, German, Chinese, Arabic, and others. Support varies by model—some specialize in certain languages or regions. Performance is generally best in languages with extensive training data available. Many models can also translate between languages, though specialized translation tools may outperform general AI for this task. Always verify AI outputs in non-native languages for accuracy."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Challenges in Non-English Text Generation",
+            "content": "Non-English text generation faces challenges including: fewer training examples leading to lower quality, cultural nuances that may be missed, different grammatical structures that confuse the AI, and script/writing system differences. AI may directly translate English idioms rather than using appropriate local expressions. For best results in non-English languages: use simple, clear language; verify outputs with native speakers; and be aware that creative or nuanced tasks may work better in English."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: How to Write Prompts for Other Languages",
+            "content": "When writing prompts in other languages: use clear, standard language rather than colloquialisms; be extra specific about requirements; consider including language level targets ('use simple Spanish suitable for learners'); and verify that key terms translate correctly. You can also use mixed-language prompts: 'Respond in French, but use English technical terms where appropriate.' Testing prompts with simple requests first helps identify language-specific issues before attempting complex tasks."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — Multilingual Text AI",
+            "content": {
+              "quiz": [
+                {
+                  "question": "Why might AI perform better in English than other languages?",
+                  "choices": [
+                    "A) AI developers only speak English",
+                    "B) There's more training data available in English",
+                    "C) English is inherently easier for computers",
+                    "D) All AI systems are designed in English-speaking countries"
+                  ],
+                  "correctAnswer": "B) There's more training data available in English"
+                },
+                {
+                  "question": "What is a good practice when using AI in non-native languages?",
+                  "choices": [
+                    "A) Use complex colloquial expressions",
+                    "B) Verify outputs with native speakers",
+                    "C) Assume all translations are perfect",
+                    "D) Never use mixed-language prompts"
+                  ],
+                  "correctAnswer": "B) Verify outputs with native speakers"
+                },
+                {
+                  "question": "How can you improve prompts for other languages?",
+                  "choices": [
+                    "A) Use simpler, clearer language",
+                    "B) Make them as complicated as possible",
+                    "C) Include slang to sound native",
+                    "D) Avoid specifying language requirements"
+                  ],
+                  "correctAnswer": "A) Use simpler, clearer language"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Write a Prompt in Another Language",
+            "content": {
+              "directions": "Create a prompt in a non-English language (or specify that the response should be in another language). Make sure it includes clear instructions and would work well despite potential language limitations.",
+              "correctPrompt": "Responde en español: Explica el concepto de inteligencia artificial a estudiantes de secundaria. Usa analogías simples y evita tecnicismos. Incluye 3 ejemplos de cómo se usa la IA en la vida cotidiana. Mantén la explicación en menos de 250 palabras."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 19,
+        "moduleTitle": "AI Text Generation for Social Media and Marketing",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Writing Captions and Posts with AI",
+            "content": "AI can help create engaging social media content including captions, posts, and hashtags. Effective prompts specify: platform (Twitter, Instagram, etc.), tone (casual, professional, humorous), target audience, key message, and any calls to action. You can ask for multiple options to choose from or variations for A/B testing. AI is particularly good at generating ideas when you're stuck, adapting content for different platforms, and maintaining consistent brand voice across channels."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Generating Ad Copy and Headlines",
+            "content": "AI excels at creating persuasive ad copy and attention-grabbing headlines. For effective advertising prompts: specify the product/service, unique selling points, target audience, desired action (click, buy, learn more), and tone. Ask for multiple options with different angles: benefit-focused, problem-solution, curiosity-driven, etc. You can also request A/B test variations or adaptations for different platforms. Always review AI-generated ad copy for accuracy and appropriateness before use."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Using AI to Analyze Audience and Trends",
+            "content": "Beyond content creation, AI can help analyze audience needs and trends. You can ask it to: identify potential customer pain points, suggest content topics based on trends, analyze competitors' messaging strategies, or generate customer personas. Provide context about your industry, target audience, and goals. While AI shouldn't replace proper market research, it can offer valuable insights and brainstorming perspectives that inform your marketing strategy."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Match Marketing Tasks with Prompts",
+            "content": {
+              "pairs": [
+                {
+                  "task": "Instagram post for a coffee shop",
+                  "prompt": "Write a friendly Instagram caption for a new seasonal latte, including 3 relevant hashtags. Target audience: millennials who appreciate artisanal drinks."
+                },
+                {
+                  "task": "Email subject lines for a webinar",
+                  "prompt": "Generate 5 attention-grabbing email subject lines for a webinar about digital marketing trends. Use curiosity and benefit-driven approaches."
+                },
+                {
+                  "task": "Customer persona development",
+                  "prompt": "Create a detailed customer persona for a premium fitness app user. Include demographics, motivations, pain points, and content preferences."
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Create a Marketing Prompt",
+            "content": {
+              "directions": "Create a comprehensive marketing prompt that asks for multiple related outputs—such as social media posts, email copy, and audience analysis—for a specific product or service.",
+              "correctPrompt": "Develop a mini marketing campaign for a new eco-friendly water bottle. First, analyze the target audience (environmentally conscious millennials). Second, create 3 Instagram post captions with hashtags. Third, write a short email announcement for existing customers. Fourth, suggest 5 blog post topics that would appeal to this audience. Maintain a consistent brand voice that's informative but not preachy."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 20,
+        "moduleTitle": "Future Trends in Text-Generating AI",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Upcoming Features and Improvements",
+            "content": "Text AI continues to evolve rapidly with upcoming improvements including: better reasoning and logic capabilities, reduced hallucinations and errors, improved memory across conversations, more nuanced understanding of context and emotion, and better handling of specialized domains. We'll also see more multimodal AI that combines text with images, audio, and video. These advancements will make AI more reliable, versatile, and integrated into various applications and workflows."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: How Text AI Might Change Communication",
+            "content": "Text AI is transforming how we communicate by: providing real-time writing assistance, breaking language barriers through improved translation, enabling personalized content at scale, and creating new forms of interactive storytelling. This could lead to both positive changes (democratizing access to information and writing help) and challenges (authenticity concerns, over-reliance on AI). The most effective users will likely be those who learn to collaborate with AI rather than depending on it completely."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: The Role of Text AI in AI Ecosystems",
+            "content": "Text AI is becoming a central interface within broader AI ecosystems, serving as the conversational layer that connects specialized AI tools. We'll see more integration where text AI can call upon other AI systems for specific tasks: image generation, data analysis, code execution, etc. This will create more powerful composite AI applications where users can accomplish complex tasks through natural language conversations that orchestrate multiple AI capabilities behind the scenes."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Learn: How to Stay Updated on Text AI Developments",
+            "content": "Staying current with text AI requires: following reputable AI research organizations and developers, reading industry publications, participating in relevant online communities, experimenting with new tools as they emerge, and continuously learning about both capabilities and limitations. Since the field evolves rapidly, focus on understanding fundamental concepts that remain relevant even as specific implementations change. The ability to learn and adapt will be more valuable than memorizing current specific features."
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Practice: Quiz — Future of Text AI",
+            "content": {
+              "quiz": [
+                {
+                  "question": "What is a likely future improvement in text AI?",
+                  "choices": [
+                    "A) Less reliable responses",
+                    "B) Reduced memory across conversations",
+                    "C) Better reasoning and logic capabilities",
+                    "D) More hallucinations and errors"
+                  ],
+                  "correctAnswer": "C) Better reasoning and logic capabilities"
+                },
+                {
+                  "question": "How might text AI change communication?",
+                  "choices": [
+                    "A) By making human writing skills obsolete",
+                    "B) By providing real-time writing assistance to more people",
+                    "C) By eliminating all language barriers perfectly",
+                    "D) By replacing all human communication"
+                  ],
+                  "correctAnswer": "B) By providing real-time writing assistance to more people"
+                },
+                {
+                  "question": "What's the best way to stay updated on AI developments?",
+                  "choices": [
+                    "A) Ignore the field until you need something",
+                    "B) Focus only on one specific tool",
+                    "C) Follow reputable sources and continue learning",
+                    "D) Assume AI won't change much from now on"
+                  ],
+                  "correctAnswer": "C) Follow reputable sources and continue learning"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

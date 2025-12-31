@@ -1,0 +1,1041 @@
+﻿{
+  "ai_course": {
+    
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "moduleTitle": "Everyday Apps That Use AI",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Common AI in Your Phone and Apps",
+            "content": "Your phone is packed with AI that works behind the scenes to make your life easier. When your photos automatically organize into albums like 'Beach Vacation' or 'Best Friends,' that's AI recognizing faces and scenes. Your keyboard's autocorrect and word suggestions use AI to predict what you might type next. Even your phone's battery optimization uses AI to learn your usage patterns and save power. These smart features learn from your habits to personalize your experience without you needing to do anything special."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: AI in Email Filters and Spam Detection",
+            "content": "AI is like a super-smart mail sorter for your email. It learns to recognize which emails are important messages from real people and which are junk mail or scams. It looks at patterns like who sent it, the words used, and how other people have treated similar emails. The more you use your email (marking things as spam or not), the better it gets at protecting you. This is why your inbox stays relatively clean despite thousands of spam emails being sent to you every day."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: AI for Language Translation",
+            "content": "AI translation tools like Google Translate can now convert between languages almost instantly. They don't just replace words from one language to another—they understand the meaning of sentences and recreate them naturally in another language. This helps travelers read signs, students understand foreign texts, and families communicate across language barriers. The technology keeps improving as it learns from millions of translated documents and corrections from users around the world."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — AI in Everyday Apps",
+            "content": {
+              "quiz": [
+                {
+                  "question": "What does AI do in your phone's photo app?",
+                  "choices": [
+                    "A) Deletes bad photos automatically",
+                    "B) Recognizes faces and organizes photos",
+                    "C) Adds filters to every picture",
+                    "D) Charges your phone faster"
+                  ],
+                  "correctAnswer": "B) Recognizes faces and organizes photos"
+                },
+                {
+                  "question": "How does AI help with email?",
+                  "choices": [
+                    "A) It writes all your emails for you",
+                    "B) It sorts spam from important messages",
+                    "C) It makes your emails longer",
+                    "D) It changes your email address"
+                  ],
+                  "correctAnswer": "B) It sorts spam from important messages"
+                },
+                {
+                  "question": "What makes AI translation better than old word-for-word translation?",
+                  "choices": [
+                    "A) It works without internet",
+                    "B) It understands meaning and recreates it naturally",
+                    "C) It only uses two languages",
+                    "D) It's always 100% accurate"
+                  ],
+                  "correctAnswer": "B) It understands meaning and recreates it naturally"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Write a Prompt for a Virtual Assistant",
+            "content": {
+              "directions": "Create a clear prompt you might use with a virtual assistant like Siri or Alexa. Ask it to help you with a daily task like planning your morning or remembering important things.",
+              "correctPrompt": "Hey Alexa, help me plan my Wednesday morning. Set an alarm for 7:00 AM, remind me to take my lunch at 7:30, tell me the weather so I know how to dress, and play upbeat morning music while I get ready."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 2,
+        "moduleTitle": "AI for Studying and Learning",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: How AI Can Help You Study Smarter",
+            "content": "AI can be like having a personal study coach that's available 24/7. It can create flashcards from your notes, quiz you on important concepts, and even explain difficult topics in different ways until you understand. Some tools can analyze what you're struggling with and focus extra practice on those areas. Others can break down big assignments into manageable steps and help you create study schedules that actually work with your life. It's not about replacing studying—it's about making your study time more effective."
+          },
+          {
+            
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: AI Tutors and Personalized Learning",
+            "content": "AI tutors adapt to how you learn best. If you struggle with math word problems, an AI tutor might give you more practice with those. If you learn better with visual examples, it can show you diagrams and illustrations. The AI notices patterns in what you find easy or hard and adjusts accordingly. It's like having a teacher who knows exactly what you need help with and never gets impatient no matter how many times you need to review something."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Using AI to Summarize Notes and Texts",
+            "content": "AI can help you digest large amounts of information quickly. If you have lengthy textbook chapters or articles to get through, AI tools can identify the key points and create shorter summaries. This is especially helpful when you're reviewing for tests or researching topics. The AI looks for important concepts, main ideas, and supporting evidence—similar to how a skilled student would highlight the most important information in a text."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Match AI Tools to Study Tasks",
+            "content": {
+              "pairs": [
+                {
+                  "task": "Creating flashcards from your notes",
+                  "tool": "AI flashcard generator"
+                },
+                {
+                  "task": "Explaining a difficult math concept",
+                  "tool": "AI tutor"
+                },
+                {
+                  "task": "Shortening a long article",
+                  "tool": "AI summarizer"
+                },
+                {
+                  "task": "Planning study sessions",
+                  "tool": "AI study scheduler"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Generate Study Notes with AI",
+            "content": {
+              "directions": "Create a prompt that asks an AI to help you study for a specific test. Include the subject, key topics, and how you want the information organized.",
+              "correctPrompt": "Help me create study notes for my biology test on photosynthesis. Include these key topics: chloroplasts, light reactions, Calvin cycle, and factors affecting photosynthesis. Organize it as bullet points with simple explanations and 2-3 examples for each concept. Make it easy to review in 30 minutes."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 3,
+        "moduleTitle": "Organizing Your Life with AI",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Using AI for Scheduling and Reminders",
+            "content": "AI can help manage your busy schedule like a personal assistant. It can look at your calendar, your habits, and even traffic patterns to suggest the best times for appointments and activities. If you have a regular gym routine, it might notice when you typically go and remind you on those days. It can also help you avoid scheduling too many things back-to-back or suggest when to leave for appointments based on current traffic conditions. The more you use it, the better it understands your patterns and preferences."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: AI Tools for Task Management",
+            "content": "AI task managers can help break big projects into smaller steps and suggest what to work on next. They can prioritize tasks based on deadlines, importance, and even your energy levels throughout the day. Some can automatically sort your to-do list into categories like 'urgent,' 'important,' and 'can wait.' Others can notice when you're most productive and suggest scheduling difficult tasks during those times. It's like having a organized friend who helps you stay on top of everything you need to do."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: AI in Smart Home Devices",
+            "content": "Smart home devices use AI to make your living space more comfortable and efficient. A smart thermostat learns your schedule and preferences to heat or cool your home only when needed, saving energy. Smart lights can adjust based on the time of day or whether anyone is in the room. These devices work together to create a home that adapts to how you live rather than requiring you to constantly adjust settings manually."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — AI for Organization",
+            "content": {
+              "quiz": [
+                {
+                  "question": "How can AI help with scheduling?",
+                  "choices": [
+                    "A) By doing all your work for you",
+                    "B) By suggesting best times based on your habits and traffic",
+                    "C) By canceling appointments you forget",
+                    "D) By scheduling things randomly"
+                  ],
+                  "correctAnswer": "B) By suggesting best times based on your habits and traffic"
+                },
+                {
+                  "question": "What do smart home devices with AI do?",
+                  "choices": [
+                    "A) Make your home more comfortable and efficient",
+                    "B) Clean your house automatically",
+                    "C) Cook all your meals",
+                    "D) Decorate your rooms"
+                  ],
+                  "correctAnswer": "A) Make your home more comfortable and efficient"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Create an AI Task Automation Prompt",
+            "content": {
+              "directions": "Create a prompt that asks an AI to help you automate a daily routine or task. Be specific about what you want to happen and when.",
+              "correctPrompt": "Help me create a morning routine automation. At 6:45 AM, gradually turn on my bedroom lights to simulate sunrise. At 7:00, read out my calendar events for the day and the weather forecast. At 7:15, start playing my news podcast and turn on the coffee maker. Make sure nothing happens on weekends."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 4,
+        "moduleTitle": "AI for Creativity and Content Creation",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Using AI to Brainstorm Ideas",
+            "content": "AI can be your creative partner when you're stuck for ideas. Whether you need topics for a school project, ideas for a story, or suggestions for a art piece, AI can generate dozens of options quickly. It's like having a brainstorming session with someone who has read millions of books, articles, and creative works. The AI doesn't replace your creativity—it jumpstarts it by showing you possibilities you might not have considered, then you choose and develop the best ideas."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: AI for Writing and Design Help",
+            "content": "AI writing tools can help you get past writer's block, check your grammar, or even suggest better ways to phrase your ideas. Design tools can help create logos, social media posts, or presentation slides even if you're not a professional designer. These tools understand patterns of what works well in writing and design—things like which color combinations people find appealing or which sentence structures are clearest. They give you a strong starting point that you can then make your own."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: AI in Music and Art Creation",
+            "content": "AI can help create original music and art even if you've never had formal training. Music AI can compose melodies in different styles or suggest chord progressions. Art AI can generate images from descriptions, create patterns, or suggest color palettes. These tools are especially helpful for people who have creative ideas but lack the technical skills to execute them. They make creative expression more accessible to everyone."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Match Creative Tasks with AI Tools",
+            "content": {
+              "pairs": [
+                {
+                  "task": "Generating story ideas",
+                  "tool": "AI writing assistant"
+                },
+                {
+                  "task": "Creating a logo",
+                  "tool": "AI design tool"
+                },
+                {
+                  "task": "Composing background music",
+                  "tool": "AI music generator"
+                },
+                {
+                  "task": "Designing a presentation",
+                  "tool": "AI slide designer"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Generate Creative Content Prompts",
+            "content": {
+              "directions": "Create a prompt that asks an AI to help you with a creative project. Specify what you're creating and the style or feeling you want to achieve.",
+              "correctPrompt": "Help me design a poster for our school's spring festival. I want it to feel joyful and colorful with a nature theme. Include elements like flowers, sunshine, and people having fun. Use bright colors but keep the text clear and readable. The poster needs to include the date April 15th and the words 'Spring Fling Festival'."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 5,
+        "moduleTitle": "AI in Entertainment and Media",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: How Streaming Services Use AI",
+            "content": "Streaming services like Netflix and Spotify use AI to understand what you enjoy and recommend similar content. They notice patterns in what you watch or listen to, what you skip, and even what time of day you prefer certain types of content. This helps them suggest new shows, movies, or music you'll probably like. The AI also helps the services decide what new content to create by predicting what will be popular with different audiences."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: AI in Gaming and Virtual Reality",
+            "content": "AI makes video games more realistic and engaging. Game characters controlled by AI can react to your actions in smart ways, making the game more challenging and fun. In virtual reality, AI can create more believable worlds and interactions. Some games even use AI to adjust difficulty automatically—making the game easier if you're struggling or harder if you're finding it too simple. This helps keep games enjoyable for players of different skill levels."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Personalized Recommendations with AI",
+            "content": "AI recommendations work like a friend who knows your tastes really well. When you shop online, AI suggests products similar to what you've liked before. When you read news, it shows you articles on topics you care about. These systems learn from your choices and the choices of people with similar interests. They're not perfect—sometimes they suggest things you don't like—but they get better over time as they learn more about your preferences."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — AI in Entertainment",
+            "content": {
+              "quiz": [
+                {
+                  "question": "How do streaming services use AI?",
+                  "choices": [
+                    "A) To create all their shows",
+                    "B) To recommend content you might like",
+                    "C) To control your TV remote",
+                    "D) To charge more for popular shows"
+                  ],
+                  "correctAnswer": "B) To recommend content you might like"
+                },
+                {
+                  "question": "What does AI do in video games?",
+                  "choices": [
+                    "A) Plays the game for you",
+                    "B) Makes characters react intelligently",
+                    "C) Cheats to help you win",
+                    "D) Turns off the console when you lose"
+                  ],
+                  "correctAnswer": "B) Makes characters react intelligently"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Write a Prompt for a Recommendation AI",
+            "content": {
+              "directions": "Create a prompt that asks a recommendation AI to suggest movies or music based on your tastes. Include what you like and what mood you're in.",
+              "correctPrompt": "I'm in the mood for a funny movie tonight. I really like comedies like Superbad and School of Rock—movies about friends having adventures with humor that's silly but not mean-spirited. Suggest 3 movies available on Netflix that have similar vibes but that I might not have seen yet."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 6,
+        "moduleTitle": "Shopping and Online Recommendations",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: AI in E-Commerce Product Suggestions",
+            "content": "Have you ever noticed how shopping sites like Amazon seem to know what you might want? That's AI at work. It looks at what you've looked at and bought before, and compares it to what millions of other shoppers with similar tastes have purchased. It's like a super-powered shopping assistant that's always working in the background, trying to connect you with products you'll actually like, saving you time from searching through everything yourself."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: How AI Analyzes Your Preferences",
+            "content": "AI figures out your style by paying attention to your clicks. When you linger on a pair of red sneakers, it notes you might like red and sneakers. If you keep browsing science fiction books, it learns your favorite genre. It doesn't just see one thing; it connects all these little clues to build a picture of your overall taste. It's always learning, so its suggestions get better the more you use a site."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: AI for Price Comparisons and Deals",
+            "content": "AI can also be your personal bargain hunter. Some tools and browser extensions can track the price of an item over time across different websites. They can alert you when something you want goes on sale or if it's available for less somewhere else. This helps you make sure you're getting a good deal without having to check a dozen different stores manually."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Match AI Shopping Features to Benefits",
+            "content": {
+              "pairs": [
+                {
+                  "feature": "People who bought this also bought...",
+                  "benefit": "Discovers new products you might need"
+                },
+                {
+                  "feature": "Price drop alerts",
+                  "benefit": "Saves you money on items you want"
+                },
+                {
+                  "feature": "Style recommendations",
+                  "benefit": "Helps you find clothes you'll like"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Create a Product Recommendation Prompt",
+            "content": {
+              "directions": "Imagine you're talking to a shopping website's AI helper. Write a prompt asking for recommendations for a specific type of product, including your budget and some things you like.",
+              "correctPrompt": "I need a new backpack for school. My budget is $50. I want something durable that can fit a laptop, has a lot of pockets, and comes in blue or green. Can you show me a few options that have good reviews from other students?"
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 7,
+        "moduleTitle": "AI in Personal Finance",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: AI for Budgeting and Expense Tracking",
+            "content": "Apps like Mint use AI to make budgeting simple. They connect to your bank account (safely) and automatically sort your spending into categories like 'food,' 'entertainment,' or 'transportation.' This gives you a clear picture of where your money is going each month without you having to manually type in every single coffee or bus fare. It can then alert you if you're spending too much in one area, helping you stay on track."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Using AI for Investment Advice",
+            "content": "Robo-advisors are AI tools that help people invest their money. You tell them your goal (e.g., saving for college) and how much risk you're comfortable with, and the AI automatically chooses a mix of investments for you. It handles all the complicated stuff and automatically adjusts your investments over time. This makes investing accessible to everyone, not just experts with a lot of money."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Fraud Detection Powered by AI",
+            "content": "Your bank's AI is like a security guard for your money. It's constantly learning your normal spending habits—where you shop, what you buy, and where you live. If it suddenly sees a transaction for expensive jewelry in a different country, it will flag it as suspicious and might text you to check if it was really you. This helps stop fraud before it causes major problems."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — AI in Finance",
+            "content": {
+              "quiz": [
+                {
+                  "question": "How does AI help with budgeting?",
+                  "choices": [
+                    "A) It gives you free money",
+                    "B) It automatically sorts your spending into categories",
+                    "C) It tells your parents what you buy",
+                    "D) It hides your spending from you"
+                  ],
+                  "correctAnswer": "B) It automatically sorts your spending into categories"
+                },
+                {
+                  "question": "What is a main job of AI in your bank account?",
+                  "choices": [
+                    "A) To spend your money",
+                    "B) To detect unusual activity and prevent fraud",
+                    "C) To judge your shopping choices",
+                    "D) To lower your balance"
+                  ],
+                  "correctAnswer": "B) To detect unusual activity and prevent fraud"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Write a Financial Planning Prompt",
+            "content": {
+              "directions": "Create a prompt for a financial AI helper. Ask it to help you create a simple plan to save up for something you want.",
+              "correctPrompt": "I want to save $300 for a new video game console in 6 months. I get a $20 weekly allowance. Help me create a simple savings plan. How much should I save each week? What's an easy way to track my progress?"
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 8,
+        "moduleTitle": "AI in Job Search and Hiring",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: AI Resume Screening and Job Matching",
+            "content": "When you apply for a job online, your application is often first read by an AI, not a person. This AI scans your resume for keywords and skills that match the job description. It helps companies quickly find the most qualified applicants in a huge pile of resumes. This means using the right keywords from the job ad in your resume is more important than ever!"
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Using AI for Interview Preparation",
+            "content": "You can use AI to practice for interviews. Some tools can act like a mock interviewer, asking you common questions (like 'Tell me about yourself') and even giving you feedback on your answers. It can suggest ways to make your answers clearer or more confident. It's a low-pressure way to prepare so you feel ready for the real thing."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: AI Tools for Career Development",
+            "content": "AI can help you plan your future career. By looking at your skills and interests, it can suggest jobs you might not have thought of. It can also recommend online courses or skills you should learn to qualify for your dream job, creating a personalized roadmap for your career journey."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Match Job Search Tasks with AI Tools",
+            "content": {
+              "pairs": [
+                {
+                  "task": "Getting your resume noticed",
+                  "tool": "AI resume scanner that matches keywords"
+                },
+                {
+                  "task": "Practicing your answers",
+                  "tool": "AI mock interview simulator"
+                },
+                {
+                  "task": "Finding a career path",
+                  "tool": "AI career suggestion tool"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Create a Job Search Prompt",
+            "content": {
+              "directions": "Create a prompt for an AI career coach. Ask for help tailoring your resume for a specific job you're interested in.",
+              "correctPrompt": "I'm applying for a summer job as a lifeguard. Here's my current resume with my babysitting and swim team experience. Help me rewrite my skills and experience to better match a lifeguard job description, emphasizing responsibility, safety, and teamwork."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 9,
+        "moduleTitle": "AI in Health and Fitness",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: AI in Wearable Health Trackers",
+            "content": "Devices like Fitbit or Apple Watch use AI to make sense of all the data they collect. They don't just count your steps; they learn your normal patterns. They can notice if your heart rate is unusually high while you're resting, or if you're not getting enough deep sleep. This helps you understand your health better and can even alert you to potential issues."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: AI for Fitness Coaching and Planning",
+            "content": "Fitness apps use AI as a personal trainer in your pocket. They can create workout plans based on your goals (like building strength or running a 5K), your available equipment, and how much time you have. They adjust the plan as you go, making it harder if it's too easy or suggesting rest if you're overdoing it."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: AI in Medical Diagnosis Support",
+            "content": "Doctors are starting to use AI as a powerful assistant. AI can analyze medical images, like X-rays or skin photos, to help doctors spot signs of disease that the human eye might miss. It's important to know that AI doesn't replace doctors—it gives them more information to make better decisions. The final diagnosis and care always come from a trained human professional."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — AI in Health",
+            "content": {
+              "quiz": [
+                {
+                  "question": "How does AI help in a fitness app?",
+                  "choices": [
+                    "A) It does the workout for you",
+                    "B) It creates and adjusts personalized workout plans",
+                    "C) It buys your gym clothes",
+                    "D) It tells you to never exercise"
+                  ],
+                  "correctAnswer": "B) It creates and adjusts personalized workout plans"
+                },
+                {
+                  "question": "What is the role of AI in medical diagnosis?",
+                  "choices": [
+                    "A) To replace doctors",
+                    "B) To be a tool that assists doctors",
+                    "C) To perform surgery",
+                    "D) To give medical advice without a doctor"
+                  ],
+                  "correctAnswer": "B) To be a tool that assists doctors"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Generate a Fitness Coaching Prompt",
+            "content": {
+              "directions": "Create a prompt for a fitness app's AI coach. Ask it to create a simple starter plan for you based on your goal.",
+              "correctPrompt": "I'm new to working out. My goal is to build some basic strength and feel more energetic. I have 20 minutes, 3 days a week, and no equipment. Can you create a simple bodyweight workout plan for me? Focus on exercises that are easy for beginners to learn."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 10,
+        "moduleTitle": "AI in Smart Homes and IoT",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: What is the Internet of Things (IoT)?",
+            "content": "The Internet of Things (IoT) simply means everyday objects (\"things\") that can connect to the internet and to each other. This includes things like lightbulbs, thermostats, refrigerators, and doorbells. When these devices are connected, they can send information and be controlled remotely, making your home \"smart.\""
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: AI-Powered Smart Thermostats and Lights",
+            "content": "AI turns smart devices from remote-controlled gadgets into intelligent helpers. A smart thermostat like Nest learns your schedule. It figures out when you're usually home and turns on the heat or AC so it's comfortable when you arrive, saving energy when you're away. Smart lights can learn when you typically want lights on or off and can even adjust their color to be brighter in the morning and warmer in the evening."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: AI in Home Security Systems",
+            "content": "AI makes home security smarter. A camera doorbell with AI can tell the difference between a person walking up to your door, a car driving by, or a dog running across the yard. This means you only get alerts for things that actually matter, not every single motion. It can make your home safer without flooding your phone with useless notifications."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Match Smart Devices with AI Features",
+            "content": {
+              "pairs": [
+                {
+                  "device": "Smart Thermostat",
+                  "feature": "Learns your schedule to save energy"
+                },
+                {
+                  "device": "Smart Lights",
+                  "feature": "Can turn on automatically when you come home"
+                },
+                {
+                  "device": "Camera Doorbell",
+                  "feature": "Recognizes people vs. animals"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Create a Smart Home Automation Prompt",
+            "content": {
+              "directions": "Create a prompt for a smart home AI (like Google Home or Alexa) to set up a routine that makes your life easier.",
+              "correctPrompt": "Create a 'I'm leaving' routine for my smart home. When I say 'Alexa, I'm leaving,' have it turn off all the smart lights, lower the thermostat to 62 degrees, and lock the smart door lock. Then, send a confirmation to my phone that the house is secure."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 11,
+        "moduleTitle": "AI for Travel and Navigation",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: AI in Map and Navigation Apps",
+            "content": "Apps like Google Maps or Waze use AI to do much more than just show you a map. They analyze live traffic data from millions of users to find you the absolute fastest route, helping you avoid traffic jams, accidents, and road closures. The AI is constantly recalculating, so if a faster route opens up, it will suggest that instead."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: AI-Powered Travel Planning",
+            "content": "AI can act as your travel agent. You can tell it your budget, the dates you want to travel, and what you like to do (beaches, museums, hiking), and it can suggest destinations, find flight and hotel deals, and even create a rough itinerary for you. It does the boring research part so you can focus on the excitement of your trip."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: AI for Real-Time Traffic and Weather Updates",
+            "content": "Navigation AI doesn't just look at traffic; it also considers the weather. It can warn you if your route goes through a heavy storm or suggest you leave earlier if bad weather is coming that might slow everyone down. This real-time analysis helps you drive more safely and efficiently."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — AI in Travel",
+            "content": {
+              "quiz": [
+                {
+                  "question": "How does AI in navigation apps help you?",
+                  "choices": [
+                    "A) It makes traffic jams worse",
+                    "B) It finds the fastest route using live traffic data",
+                    "C) It chooses the most scenic route always",
+                    "D) It only shows you maps from 10 years ago"
+                  ],
+                  "correctAnswer": "B) It finds the fastest route using live traffic data"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Write a Travel Planning Prompt",
+            "content": {
+              "directions": "Create a prompt for a travel planning AI. Ask it to help you plan a specific trip with a set budget.",
+              "correctPrompt": "Help me plan a 4-day weekend trip to Chicago for two people. Our total budget is $800, including travel and a place to stay. We like art, architecture, and trying local food. Find the most affordable travel options and suggest some free or low-cost activities we would enjoy."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 12,
+        "moduleTitle": "AI for Communication and Socializing",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: AI Chatbots and Virtual Assistants",
+            "content": "Chatbots on websites are often the first to help you with a question. They can answer simple FAQs instantly, any time of day. If your problem is too complex, they usually connect you to a human. Virtual assistants like Siri or Alexa use AI to understand your voice commands and complete tasks, from sending a text to playing music, making technology feel more conversational and easy to use."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: AI in Social Media Content Moderation",
+            "content": "Social media platforms use AI to help keep their sites safe. The AI is trained to identify and often automatically hide harmful content like hate speech, bullying, or graphic violence before most people even see it. Because there's too much content for humans to review everything, AI acts as a first line of defense, making online spaces a bit safer."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: AI for Language Translation in Chats",
+            "content": "AI-powered translation is built right into many chat apps and social media platforms. If your friend posts in a language you don't understand, you can often tap a button to see a translation. This helps break down language barriers in real-time, allowing you to communicate and connect with people from all over the world."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Match Communication Tasks with AI Tools",
+            "content": {
+              "pairs": [
+                {
+                  "task": "Getting quick answers on a website",
+                  "tool": "AI Chatbot"
+                },
+                {
+                  "task": "Keeping a social media feed safe",
+                  "tool": "AI Content Moderator"
+                },
+                {
+                  "task": "Reading a post in another language",
+                  "tool": "AI Translation Tool"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Create a Chatbot Interaction Prompt",
+            "content": {
+              "directions": "Write a prompt like something you'd ask a chatbot on a store's website to get help with a problem.",
+              "correctPrompt": "Hi, I ordered a pair of shoes last week and they haven't shipped yet. My order number is #A12345. Can you check the status for me and tell me when they might ship out?"
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 13,
+        "moduleTitle": "AI in Education and Classrooms",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: AI for Personalized Learning Plans",
+            "content": "AI can help teachers create learning paths that are unique to each student. If a student excels at math but struggles with reading, the AI system can suggest more challenging math problems while providing extra reading support resources. This helps make sure every student gets what they need to succeed, which is hard for one teacher to do for 30 students all at once."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: AI for Grading and Feedback",
+            "content": "AI can quickly grade multiple-choice, fill-in-the-blank, or other structured assignments, giving teachers more time to focus on giving detailed feedback on essays and creative projects. Some AI tools can also provide students with instant, basic feedback on their writing, like checking for grammar mistakes or suggesting clearer ways to phrase a sentence."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: AI Tools for Teachers and Students",
+            "content": "From apps that turn lectures into written notes to platforms that create interactive study games, AI tools are becoming common in classrooms. These tools can help with everything from organizing research to practicing a new language. They are designed to support both teaching and learning, making education more engaging and effective."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — AI in Education",
+            "content": {
+              "quiz": [
+                {
+                  "question": "How can AI help create personalized learning?",
+                  "choices": [
+                    "A) By making every student do the same work",
+                    "B) By suggesting different resources based on a student's needs",
+                    "C) By replacing teachers",
+                    "D) By only teaching math"
+                  ],
+                  "correctAnswer": "B) By suggesting different resources based on a student's needs"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Write an Educational Prompt",
+            "content": {
+              "directions": "Create a prompt for an AI study helper. Ask it to explain a school concept in a simple, memorable way.",
+              "correctPrompt": "I'm having trouble remembering the difference between mitosis and meiosis for my biology test. Can you explain it to me like I'm a beginner? Use a simple analogy, like comparing it to something in everyday life, and list the key differences in a short table."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 14,
+        "moduleTitle": "AI in Marketing and Advertising",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: AI for Targeted Ads",
+            "content": "Have you ever talked about a product and then seen an ad for it? That's AI-powered targeted advertising. Companies use AI to show their ads mostly to people who are likely to be interested. They don't listen to your microphone; instead, they analyze your online activity—what you search for, what you like, and the websites you visit—to guess what you might want to buy."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Using AI for Customer Insights",
+            "content": "Businesses use AI to understand what customers want. By analyzing thousands of product reviews, social media comments, and survey responses, AI can spot overall trends and common complaints. This helps companies improve their products and customer service based on what people are actually saying."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: AI in Content Creation for Marketing",
+            "content": "AI helps marketers create content quickly. It can generate ideas for social media posts, write email subject lines that people are likely to open, or even draft simple blog posts. This frees up humans to do the more creative and strategic work, while the AI handles some of the repetitive tasks."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Match Marketing Tasks with AI Tools",
+            "content": {
+              "pairs": [
+                {
+                  "task": "Showing ads to likely customers",
+                  "tool": "AI Ad Targeting"
+                },
+                {
+                  "task": "Understanding customer feedback",
+                  "tool": "AI Review Analysis"
+                },
+                {
+                  "task": "Writing many email headlines",
+                  "tool": "AI Content Generator"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Generate an Ad Copy Prompt",
+            "content": {
+              "directions": "Imagine you're selling a product. Write a prompt for an AI to help you create a short, catchy social media ad.",
+              "correctPrompt": "Help me write a short Instagram ad for my small business selling handmade scented candles. The vibe is cozy and relaxing. The target audience is college students looking to make their dorm room feel like home. Write 3 catchy captions and suggest some hashtags."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 15,
+        "moduleTitle": "AI in Customer Service",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: AI Chatbots for Customer Support",
+            "content": "Many companies use AI chatbots to handle common customer questions instantly, 24/7. These bots can answer questions about store hours, track orders, process simple returns, or help reset a password. This solves simple problems quickly for customers and allows human customer service agents to focus on solving more complex and sensitive issues."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Automating Common Service Requests",
+            "content": "AI can automate the boring, repetitive parts of customer service. For example, it can automatically send shipping confirmation emails, process subscription cancellations, or sort customer emails into categories (like 'billing question' or 'technical support') so they get to the right team faster. This makes the whole process more efficient for everyone."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: AI for Sentiment Analysis",
+            "content": "AI can read customer emails, chats, or reviews and determine the customer's mood or sentiment—whether they're happy, frustrated, angry, or satisfied. This helps companies prioritize which customers need help most urgently (like an angry customer) and also understand overall how people feel about their products."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — AI in Customer Service",
+            "content": {
+              "quiz": [
+                {
+                  "question": "What is a main benefit of AI chatbots?",
+                  "choices": [
+                    "A) They make customer service slower",
+                    "B) They handle simple questions instantly, anytime",
+                    "C) They are more expensive than humans",
+                    "D) They replace all human workers"
+                  ],
+                  "correctAnswer": "B) They handle simple questions instantly, anytime"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Create a Customer Support Prompt",
+            "content": {
+              "directions": "Write a prompt like what you'd type into a company's website chatbot to get help with a common problem.",
+              "correctPrompt": "Hi, I need to reset the password for my account. My username is 'student123' and the email on my account is my.name@email.com. Can you send a password reset link?"
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 16,
+        "moduleTitle": "AI in Legal and Administrative Tasks",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: AI for Document Review and Analysis",
+            "content": "Lawyers and offices use AI to quickly review massive piles of documents. The AI can be trained to find specific keywords, identify important clauses in contracts, or even spot patterns that might be relevant to a case. This saves countless hours of human time, allowing professionals to focus on the strategic thinking that AI can't do."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: AI in Contract Management",
+            "content": "Companies use AI to keep track of their many contracts with employees, vendors, and clients. The AI can alert them when a contract is about to expire, highlight unusual terms that might be risky, or ensure that everyone is following the agreed-upon terms. It acts like a super-organized assistant that never forgets a detail."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Automating Administrative Workflows",
+            "content": "AI can automate boring office tasks. It can automatically file documents in the right digital folder, schedule meetings by finding times that work for everyone, or process routine paperwork like vacation requests. This reduces errors and frees up employees to do more interesting and valuable work."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Match Legal Tasks with AI Tools",
+            "content": {
+              "pairs": [
+                {
+                  "task": "Finding a specific clause in 1000 contracts",
+                  "tool": "AI Document Review"
+                },
+                {
+                  "task": "Getting a reminder when a contract expires",
+                  "tool": "AI Contract Manager"
+                },
+                {
+                  "task": "Sorting incoming digital files",
+                  "tool": "AI Workflow Automator"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Write a Document Analysis Prompt",
+            "content": {
+              "directions": "Create a prompt for an AI tool that helps you understand a long document. Ask it to find and summarize key information.",
+              "correctPrompt": "I have a long terms of service document for a new app I want to use. Can you review it and give me a simple summary of the 3 most important points? Specifically, what do they do with my data, what can I use the app for, and how can I cancel my account?"
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 17,
+        "moduleTitle": "AI in Environmental Monitoring",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: AI for Climate Data Analysis",
+            "content": "Scientists use AI to make sense of enormous amounts of climate data from satellites, weather stations, and ocean buoys. The AI can identify patterns and make predictions about future climate trends much faster than humans could. This helps us better understand climate change and its potential impacts."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: AI in Wildlife and Ecosystem Monitoring",
+            "content": "AI helps conservationists protect nature. It can analyze images from camera traps to identify and count animal populations without disturbing them. It can listen to audio recordings of forests to monitor bird and insect populations. This helps track endangered species and understand the health of an ecosystem over time."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Using AI for Disaster Prediction",
+            "content": "AI is improving our ability to predict natural disasters. By analyzing historical data and current conditions, AI models can forecast the path of hurricanes, predict areas at high risk for wildfires, or give earlier warnings for floods. While not perfect, these predictions can help save lives and property by giving people more time to prepare or evacuate."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — AI and Environment",
+            "content": {
+              "quiz": [
+                {
+                  "question": "How does AI help with wildlife monitoring?",
+                  "choices": [
+                    "A) It replaces all animals with robots",
+                    "B) It analyzes images and sounds to track animals",
+                    "C) It feeds the animals",
+                    "D) It builds fences around habitats"
+                  ],
+                  "correctAnswer": "B) It analyzes images and sounds to track animals"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Create an Environmental Monitoring Prompt",
+            "content": {
+              "directions": "Create a prompt for an AI that is helping a scientist. Ask it to analyze environmental data to answer a specific question.",
+              "correctPrompt": "I'm a researcher comparing two forests. I have 10 years of data on temperature, rainfall, and tree growth for both forests. Can you analyze this data to tell me which forest showed healthier growth patterns and which environmental factor (rain or temperature) seemed to have the biggest impact on growth?"
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 18,
+        "moduleTitle": "AI and Accessibility",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: AI Tools for People with Disabilities",
+            "content": "AI is creating powerful tools that help people with disabilities navigate the world more independently. From apps that describe scenes for the visually impaired to software that translates sign language into text, AI is breaking down barriers and making technology and information accessible to everyone."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: AI-Powered Speech and Text Assistance",
+            "content": "AI helps people communicate in the way that works best for them. Speech-to-text tools use AI to provide accurate captions for people who are deaf or hard of hearing. Text-to-speech tools can read digital text aloud for people with visual impairments or reading disabilities like dyslexia. These tools are becoming built into phones and computers, making them available to everyone."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: AI for Visual and Hearing Accessibility",
+            "content": "Specific apps use the phone's camera and AI to act as a visual assistant, identifying objects, reading labels, or recognizing currency for people who are blind. Other apps can provide real-time captioning for live conversations for those who are deaf. These technologies empower people with greater independence in their daily lives."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Match Accessibility Tools with Needs",
+            "content": {
+              "pairs": [
+                {
+                  "tool": "Real-time captioning app",
+                  "need": "Help following a conversation for someone who is deaf"
+                },
+                {
+                  "tool": "Object identification app",
+                  "need": "Help identifying items for someone who is blind"
+                },
+                {
+                  "tool": "Text-to-speech reader",
+                  "need": "Help reading digital text for someone with dyslexia"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Write an Accessibility Assistance Prompt",
+            "content": {
+              "directions": "Create a prompt for an AI that is designed to be a helpful accessibility tool. Ask it to perform a specific, helpful task.",
+              "correctPrompt": "You are an AI assistant designed to help with visual accessibility. I'm holding up a canned food item to my phone's camera. Can you identify what the product is and read the cooking instructions aloud to me?"
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 19,
+        "moduleTitle": "Practical Tips for Safe AI Use",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Protecting Your Privacy When Using AI",
+            "content": "It's important to be smart about what you share with AI tools. Avoid giving them very private information like your social security number, home address, or passwords. Remember that your conversations might be used to improve the AI, so don't share anything you wouldn't want others to potentially see. Check the privacy settings on AI apps to control your data."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Avoiding Scams and Misinformation",
+            "content": "AI can be used to create very convincing scams and fake news. Be critical of what you see online. If an offer seems too good to be true, it probably is. If a story seems shocking, check other reliable news sources before believing it or sharing it. AI-generated images and videos (deepfakes) can be very realistic, so don't believe everything you see."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Responsible Use of AI Tools",
+            "content": "Use AI as a helper, not a cheat. It's great for getting ideas or understanding a difficult concept, but don't use it to do your schoolwork for you and claim it as your own. Be honest about when you've used AI. Think of it like a calculator: it's a tool that helps you do math, but you still need to understand the concepts yourself."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — Safe AI Practices",
+            "content": {
+              "quiz": [
+                {
+                  "question": "What kind of information should you avoid sharing with AI?",
+                  "choices": [
+                    "A) Your favorite color",
+                    "B) Your passwords and home address",
+                    "C) Questions about homework",
+                    "D) Your favorite movie"
+                  ],
+                  "correctAnswer": "B) Your passwords and home address"
+                },
+                {
+                  "question": "What is a responsible way to use AI for school?",
+                  "choices": [
+                    "A) Have it write your entire essay",
+                    "B) Use it to explain concepts you don't understand",
+                    "C) Copy its answers directly without learning",
+                    "D) Trick your teacher into thinking it's your work"
+                  ],
+                  "correctAnswer": "B) Use it to explain concepts you don't understand"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Write a Safe AI Usage Prompt",
+            "content": {
+              "directions": "Create a prompt that demonstrates responsible use of an AI tool for a school project.",
+              "correctPrompt": "I'm writing a report on the causes of the American Civil War. I'm confused about the economic differences between the North and South. Can you explain these differences in simple terms and suggest three reputable websites where I can read more to do my own research?"
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 20,
+        "moduleTitle": "The Future of AI in Daily Life",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Emerging AI Technologies to Watch",
+            "content": "AI is getting better at understanding the real world. Soon, AI in your phone might be able to look at what you're seeing through your camera and give you helpful information about it. More advanced personal assistants could anticipate your needs and help you before you even ask. The line between the digital and physical world will continue to blur thanks to AI."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: How AI Could Change Everyday Activities",
+            "content": "In the future, AI could make everyday tasks even easier. Imagine a fridge that suggests recipes based on the food about to expire inside, or a homework helper that can guide you through a difficult math problem step-by-step just by looking at it with your phone. AI will likely become a more integrated and invisible helper throughout our day."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Preparing for AI in Your Future",
+            "content": "The best way to prepare for an AI future is to be a smart user. Learn how these tools work, their potential, and their limitations. Focus on building human skills that AI is bad at: creativity, critical thinking, collaboration, and empathy. AI is a tool to be used by people, not a replacement for people."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Learn: Staying Updated on AI Innovations",
+            "content": "AI changes fast! You can stay updated by following tech news, trying out new apps, and even taking online courses. Remember that not every new AI product will be useful or last long. The key is to stay curious and be willing to learn how to use new tools that can genuinely make your life better."
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Practice: Quiz — Future of AI in Real Life",
+            "content": {
+              "quiz": [
+                {
+                  "question": "What is a good way to prepare for a future with more AI?",
+                  "choices": [
+                    "A) Ignore all new technology",
+                    "B) Focus on building human skills like creativity and empathy",
+                    "C) Try to become a robot",
+                    "D) Wait for AI to do everything for you"
+                  ],
+                  "correctAnswer": "B) Focus on building human skills like creativity and empathy"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

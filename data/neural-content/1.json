@@ -1,0 +1,1933 @@
+{
+    "ai_course": {
+      "modules": [
+        {
+          "moduleNumber": 1,
+          "moduleTitle": "What is Artificial Intelligence?",
+          "lessons": [
+            {
+              "lessonNumber": 1,
+              "lessonTitle": "Learn: Defining AI in Simple Terms",
+              "content": "Think of *Artificial Intelligence* (*AI*) as a *digital brain* we can teach to do smart things. It's like having a super helpful student inside your phone or computer that learns from examples instead of following strict rules. AI can recognize faces, understand what you're saying, and even beat humans at games—not because it's magic, but because it's really good at spotting patterns in lots of information."
+            },
+            {
+              "lessonNumber": 2,
+              "lessonTitle": "Learn: Different Ways AI Shows Up in Daily Life",
+              "content": "AI is already all around us, working behind the scenes to make life easier! When you ask Siri or Alexa for the weather, that's AI understanding your voice. Netflix and Spotify use AI to suggest shows and music you'll probably like—it's like having a friend who knows your taste perfectly. Even your email's spam filter uses AI to protect you from junk mail. These smart helpers learn from data to adapt to what you need."
+            },
+            {
+              "lessonNumber": 3,
+              "lessonTitle": "Learn: Why AI Matters Today",
+              "content": "AI is a big deal now because we have tons of data and powerful computers that can make sense of it all. Doctors use AI to spot diseases in X-rays, businesses use it to understand customers better, and it can handle boring tasks so humans can focus on creative work. Think of AI as a *super-powered tool* that helps us solve problems faster and dream up new inventions in fields like healthcare, education, and entertainment."
+            },
+            {
+              "lessonNumber": 4,
+              "lessonTitle": "Practice: Quiz – What Is AI?",
+              "content": {
+                "quiz": [
+                  {
+                    "question": "What does AI stand for?",
+                    "choices": [
+                      "A) Automatic Internet",
+                      "B) Artificial Intelligence",
+                      "C) Algorithmic Invention",
+                      "D) Assisted Imaging"
+                    ],
+                    "correctAnswer": "B) Artificial Intelligence"
+                  },
+                  {
+                    "question": "Which of the following is an example of AI in daily life?",
+                    "choices": [
+                      "A) A refrigerator keeping milk cold",
+                      "B) A calculator performing simple arithmetic",
+                      "C) An email spam filter sorting unwanted mail",
+                      "D) A pencil writing on paper"
+                    ],
+                    "correctAnswer": "C) An email spam filter sorting unwanted mail"
+                  },
+                  {
+                    "question": "How does AI learn to perform tasks?",
+                    "choices": [
+                      "A) By analyzing data and finding patterns",
+                      "B) By trial and error like a human exploring",
+                      "C) By guessing and often being wrong",
+                      "D) By following one fixed set of instructions"
+                    ],
+                    "correctAnswer": "A) By analyzing data and finding patterns"
+                  },
+                  {
+                    "question": "Which is NOT a characteristic of AI?",
+                    "choices": [
+                      "A) Can learn from examples",
+                      "B) Has emotions",
+                      "C) Recognizes patterns",
+                      "D) Performs tasks quickly"
+                    ],
+                    "correctAnswer": "B) Has emotions"
+                  },
+                  {
+                    "question": "Which best describes AI vs. human intelligence?",
+                    "choices": [
+                      "A) AI and humans think and feel the same way",
+                      "B) AI never makes mistakes like humans do",
+                      "C) AI can learn patterns but doesn't have feelings",
+                      "D) Humans cannot learn as fast as AI"
+                    ],
+                    "correctAnswer": "C) AI can learn patterns but doesn't have feelings"
+                  }
+                ]
+              }
+            },
+            {
+              "lessonNumber": 5,
+              "lessonTitle": "Learn: AI vs Human Intelligence",
+              "content": "AI is like a super-focused expert that's amazing at one specific job, while humans are like all-rounders who can do many things. Your brain can learn a language, feel happy or sad, and create art—all at once! AI might beat you at chess but it doesn't understand why winning feels good or care about the game. Humans have *common sense*, *creativity*, and *emotions*; AI has speed and pattern recognition. The coolest things happen when we team up human smarts with AI tools!"
+            }
+          ]
+        },
+        {
+          "moduleNumber": 2,
+          "moduleTitle": "AI Vocabulary: Basic Terms You Need to Know",
+          "lessons": [
+            {
+              "lessonNumber": 1,
+              "lessonTitle": "Learn: Key AI Terms Explained",
+              "content": "Let's learn the ABCs of AI! *Machine Learning* is a type of AI where computers learn from examples, like showing a kid lots of dog pictures until they can spot any dog. A *Neural Network* is a computer system inspired by our brains—it uses connected *neurons* (tiny decision-makers) to recognize complex patterns. A *Dataset* is just a collection of examples (photos, text) we use to teach AI. *Training* is the learning process itself, and a *Prediction* is the AI's educated guess based on what it learned."
+            },
+            {
+              "lessonNumber": 2,
+              "lessonTitle": "Drag & Drop: Match AI Terms with Definitions",
+              "content": {
+                "pairs": [
+                  {
+                    "term": "A. Algorithm",
+                    "definition": "1. A set of instructions for solving a problem step by step"
+                  },
+                  {
+                    "term": "B. Model",
+                    "definition": "2. Learned rules and patterns that AI uses to make decisions"
+                  },
+                  {
+                    "term": "C. Data",
+                    "definition": "3. Information (like text, numbers, or images) used for training AI"
+                  },
+                  {
+                    "term": "D. Neural Network",
+                    "definition": "4. A type of AI model made of layers (inspired by the human brain)"
+                  },
+                  {
+                    "term": "E. Machine Learning",
+                    "definition": "5. The field of teaching computers to learn from data"
+                  }
+                ]
+              }
+            },
+            {
+              "lessonNumber": 3,
+              "lessonTitle": "Learn: What 'Algorithm,' 'Model,' and 'Data' Mean",
+              "content": "Imagine baking cookies: an *algorithm* is the recipe—the step-by-step instructions. *Data* are your ingredients—the flour, sugar, and chocolate chips. The *model* is the actual batch of cookies you get after following the recipe with your ingredients—it's the final result of your learning process! In AI, the algorithm processes data to create a model that can make predictions. So: algorithm = method, data = ingredients, model = delicious results!"
+            },
+            {
+              "lessonNumber": 4,
+              "lessonTitle": "Learn: Common AI Acronyms and Their Meanings",
+              "content": "AI has its own alphabet soup of acronyms! *AI* itself stands for *Artificial Intelligence*—the big umbrella term. *ML* means *Machine Learning* (AI that learns from data). *DL* is *Deep Learning* (a powerful type of ML using complex neural networks). *NLP* is *Natural Language Processing*—how AI understands human language, like in chatbots. *CV* means *Computer Vision*—how AI 'sees' and interprets images. These shortcuts pop up everywhere in tech talks!"
+            },
+            {
+              "lessonNumber": 5,
+              "lessonTitle": "Practice: Quiz – Test Your AI Vocabulary",
+              "content": {
+                "quiz": [
+                  {
+                    "question": "What does ML stand for?",
+                    "choices": [
+                      "A) Machine Language",
+                      "B) Machine Learning",
+                      "C) Mainframe Logic",
+                      "D) Mixed Layers"
+                    ],
+                    "correctAnswer": "B) Machine Learning"
+                  },
+                  {
+                    "question": "What does NLP stand for in AI?",
+                    "choices": [
+                      "A) Neural Language Protocol",
+                      "B) Natural Language Processing",
+                      "C) Neural Learning Program",
+                      "D) None of the above"
+                    ],
+                    "correctAnswer": "B) Natural Language Processing"
+                  },
+                  {
+                    "question": "What is an algorithm in AI?",
+                    "choices": [
+                      "A) A step-by-step set of instructions for solving a problem",
+                      "B) A collection of data examples",
+                      "C) The output of an AI model",
+                      "D) A type of computer hardware"
+                    ],
+                    "correctAnswer": "A) A step-by-step set of instructions for solving a problem"
+                  },
+                  {
+                    "question": "What is data in the context of AI?",
+                    "choices": [
+                      "A) Another word for algorithm",
+                      "B) A code inside the AI software",
+                      "C) A collection of facts (numbers, text, images) used for learning",
+                      "D) The final decision made by an AI model"
+                    ],
+                    "correctAnswer": "C) A collection of facts (numbers, text, images) used for learning"
+                  },
+                  {
+                    "question": "What does CV commonly refer to in AI?",
+                    "choices": [
+                      "A) Curriculum Vitae",
+                      "B) Computer Vision",
+                      "C) Coefficient Vector",
+                      "D) Cloud Variable"
+                    ],
+                    "correctAnswer": "B) Computer Vision"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "moduleNumber": 3,
+          "moduleTitle": "Machine Learning Explained",
+          "lessons": [
+            {
+              "lessonNumber": 1,
+              "lessonTitle": "Learn: What is Machine Learning?",
+              "content": "Machine Learning is like teaching a computer to learn from experience instead of giving it a strict rulebook. Imagine showing a child hundreds of cat photos until they can recognize any cat—that's basically what ML does! The computer looks at tons of examples, figures out patterns on its own, and builds a mental model. This means it can get smarter over time as it sees more data, adapting to new situations without being reprogrammed."
+            },
+            {
+              "lessonNumber": 2,
+              "lessonTitle": "Learn: How Machines Learn from Data",
+              "content": "Computers learn through practice and feedback, much like studying for a test. First, we give them labeled data—like pictures tagged 'cat' or 'dog.' The AI makes guesses about what each picture shows. When it's wrong, it adjusts its thinking to do better next time. This trial-and-error process happens over thousands of examples until the computer gets really good at making accurate predictions, even on stuff it's never seen before!"
+            },
+            {
+              "lessonNumber": 3,
+              "lessonTitle": "Drag & Drop: Identify Examples of Machine Learning",
+              "content": {
+                "categories": [
+                  {
+                    "category": "Machine Learning (Yes)",
+                    "examples": [
+                      "Self-driving car (uses AI to learn driving rules)",
+                      "Netflix recommendation system (suggests shows based on viewing habits)",
+                      "Email spam filter (learns to recognize unwanted emails)",
+                      "Voice assistant (like Siri or Google Assistant)"
+                    ]
+                  },
+                  {
+                    "category": "Not Machine Learning (No)",
+                    "examples": [
+                      "Simple calculator (just follows programmed math rules)",
+                      "Traditional bicycle (no AI involved)",
+                      "Electric toaster (heats bread, no learning)",
+                      "Manual light switch (turns lights on/off, no AI)"
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "lessonNumber": 4,
+              "lessonTitle": "Learn: Supervised vs Unsupervised Learning",
+              "content": "There are two main ways AI learns! *Supervised learning* is like studying with answer keys—the data comes with labels ('cat photo,' 'dog photo') so the AI can check its work. *Unsupervised learning* is more like exploring without a guide—the AI gets data with no labels and has to find patterns on its own, like grouping similar items together. Supervised learning needs a 'teacher' (labeled data), while unsupervised learning lets the AI explore and discover hidden structures."
+            },
+            {
+              "lessonNumber": 5,
+              "lessonTitle": "Practice: Quiz – Machine Learning Basics",
+              "content": {
+                "quiz": [
+                  {
+                    "question": "Machine Learning is a branch of which field?",
+                    "choices": [
+                      "A) Physics",
+                      "B) Chemistry",
+                      "C) Artificial Intelligence",
+                      "D) Biology"
+                    ],
+                    "correctAnswer": "C) Artificial Intelligence"
+                  },
+                  {
+                    "question": "Which of these is an example of machine learning?",
+                    "choices": [
+                      "A) A spam email filter",
+                      "B) A traditional microwave oven",
+                      "C) A paper map",
+                      "D) A calculator"
+                    ],
+                    "correctAnswer": "A) A spam email filter"
+                  },
+                  {
+                    "question": "Supervised learning involves:",
+                    "choices": [
+                      "A) Training on labeled data (with correct answers)",
+                      "B) Training without any data",
+                      "C) Random guessing by the computer",
+                      "D) Only using pre-programmed rules"
+                    ],
+                    "correctAnswer": "A) Training on labeled data (with correct answers)"
+                  },
+                  {
+                    "question": "Unsupervised learning means the AI:",
+                    "choices": [
+                      "A) Uses data with labels",
+                      "B) Finds patterns or groups in data without labels",
+                      "C) Learns from a teacher's notes",
+                      "D) Requires a human for every step"
+                    ],
+                    "correctAnswer": "B) Finds patterns or groups in data without labels"
+                  },
+                  {
+                    "question": "Machine learning models improve when they are given more:",
+                    "choices": [
+                      "A) Electricity",
+                      "B) Data (examples to learn from)",
+                      "C) Power supplies",
+                      "D) Software patches"
+                    ],
+                    "correctAnswer": "B) Data (examples to learn from)"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "moduleNumber": 4,
+          "moduleTitle": "Neural Networks – The Basics",
+          "lessons": [
+            {
+              "lessonNumber": 1,
+              "lessonTitle": "Learn: What is a Neural Network?",
+              "content": "A neural network is like a digital brain inspired by our own! Imagine a web of tiny decision-makers (called *neurons*) working together in layers. Information comes in the front door (input layer), gets processed through middle layers where the thinking happens, and then comes out as an answer (output layer). It doesn't actually 'think' like humans, but this brain-like structure helps it recognize complex patterns in things like photos, sounds, and text."
+            },
+            {
+              "lessonNumber": 2,
+              "lessonTitle": "Learn: How Neural Networks Mimic the Brain",
+              "content": "Our brains have neurons that pass signals to each other—neural networks copy this idea with math! Each artificial neuron takes in numbers, does a simple calculation, and passes the result to the next neuron. Early layers might notice basic stuff like edges in a picture, while deeper layers combine these to recognize more complex things like shapes or entire objects. It's like a team where everyone has a small job that together solves a big puzzle."
+            },
+            {
+              "lessonNumber": 3,
+              "lessonTitle": "Drag & Drop: Label Parts of a Neural Network",
+              "content": {
+                "pairs": [
+                  {
+                    "term": "Input Layer",
+                    "definition": "Where the data first enters (like pixels of an image)"
+                  },
+                  {
+                    "term": "Hidden Layers",
+                    "definition": "Middle layers that process patterns step by step"
+                  },
+                  {
+                    "term": "Output Layer",
+                    "definition": "Final answer or prediction (e.g., 'cat' or 'dog')"
+                  },
+                  {
+                    "term": "Neuron",
+                    "definition": "A tiny processing unit inside each layer"
+                  },
+                  {
+                    "term": "Connection (Weight)",
+                    "definition": "Strength of the signal passed between neurons"
+                  }
+                ]
+              }
+            },
+            {
+              "lessonNumber": 4,
+              "lessonTitle": "Learn: Why Neural Networks Are Important in AI",
+              "content": "Neural networks are super important because they're great at handling messy, complicated patterns that regular algorithms struggle with. They power amazing tech like voice assistants that understand your speech, facial recognition on your phone, and medical systems that can spot diseases in scans. Their ability to learn and improve with more data makes them incredibly flexible and powerful—they're behind most of the AI breakthroughs you hear about today!"
+            },
+            {
+              "lessonNumber": 5,
+              "lessonTitle": "Practice: Quiz – Neural Networks 101",
+              "content": {
+                "quiz": [
+                  {
+                    "question": "What inspired neural networks?",
+                    "choices": [
+                      "A) Human brain structure",
+                      "B) Electrical wiring",
+                      "C) Animal instincts",
+                      "D) Computer chips"
+                    ],
+                    "correctAnswer": "A) Human brain structure"
+                  },
+                  {
+                    "question": "Which part of a neural network gives the final answer?",
+                    "choices": [
+                      "A) Input layer",
+                      "B) Hidden layers",
+                      "C) Output layer",
+                      "D) Neurons"
+                    ],
+                    "correctAnswer": "C) Output layer"
+                  },
+                  {
+                    "question": "What do hidden layers do?",
+                    "choices": [
+                      "A) Store the final answer",
+                      "B) Process patterns step by step",
+                      "C) Only collect raw data",
+                      "D) Act like a memory card"
+                    ],
+                    "correctAnswer": "B) Process patterns step by step"
+                  },
+                  {
+                    "question": "Connections between neurons are called:",
+                    "choices": [
+                      "A) Links",
+                      "B) Weights",
+                      "C) Synapses",
+                      "D) Pathways"
+                    ],
+                    "correctAnswer": "B) Weights"
+                  },
+                  {
+                    "question": "Why are neural networks important?",
+                    "choices": [
+                      "A) They always give perfect answers",
+                      "B) They can handle complex patterns and improve with data",
+                      "C) They replace all human thinking",
+                      "D) They work only for video games"
+                    ],
+                    "correctAnswer": "B) They can handle complex patterns and improve with data"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "moduleNumber": 5,
+          "moduleTitle": "Deep Learning and How It Works",
+          "lessons": [
+            {
+              "lessonNumber": 1,
+              "lessonTitle": "Learn: What is Deep Learning?",
+              "content": "Deep Learning is like machine learning on steroids—it uses neural networks with many, many layers (that's what makes it 'deep'). Think of it like a sandwich: each layer adds something new. The first layers might detect simple things like edges in an image, middle layers recognize shapes, and final layers put it all together to identify complete objects like 'cat' or 'car.' This multi-layer approach is why we have super-smart AI that can understand speech, translate languages, and even drive cars!"
+            },
+            {
+              "lessonNumber": 2,
+              "lessonTitle": "Learn: How Deep Learning Builds on Neural Networks",
+              "content": "If a regular neural network is a simple sandwich, deep learning is a towering club sandwich with extra layers! Each additional layer helps the AI understand more complex details and abstractions. It's like learning math: you start with addition, then multiplication, then algebra—each step building on the last. These deep networks need massive amounts of data and computing power, but they're behind today's most impressive AI achievements that feel almost magical."
+            },
+            {
+              "lessonNumber": 3,
+              "lessonTitle": "Learn: Real-World Examples of Deep Learning",
+              "content": "Deep learning isn't just theory—it's everywhere in your daily life! Voice assistants like Siri and Alexa use it to understand your spoken questions. Google Translate uses it to convert between languages accurately. Self-driving cars use it to recognize pedestrians, signs, and other vehicles. Doctors use it to spot tumors in medical scans. Even social media uses deep learning to filter content and recommend posts you might like. It's the secret sauce behind modern AI magic!"
+            },
+            {
+              "lessonNumber": 4,
+              "lessonTitle": "Drag & Drop: Sort AI Techniques by Complexity",
+              "content": {
+                "order": [
+                  "Traditional Algorithms (fixed rules)",
+                  "Machine Learning (learns from data with shallow models)",
+                  "Neural Networks (pattern recognition with layers)",
+                  "Deep Learning (neural networks with many layers, advanced tasks)"
+                ]
+              }
+            },
+            {
+              "lessonNumber": 5,
+              "lessonTitle": "Practice: Quiz – Deep Learning Fundamentals",
+              "content": {
+                "quiz": [
+                  {
+                    "question": "Deep learning is a subfield of:",
+                    "choices": [
+                      "A) Computer Science",
+                      "B) Machine Learning",
+                      "C) Data Entry",
+                      "D) Robotics"
+                    ],
+                    "correctAnswer": "B) Machine Learning"
+                  },
+                  {
+                    "question": "What makes deep learning 'deep'?",
+                    "choices": [
+                      "A) It uses very tall computers",
+                      "B) It has many layers in its neural network",
+                      "C) It requires human teachers",
+                      "D) It runs only on smartphones"
+                    ],
+                    "correctAnswer": "B) It has many layers in its neural network"
+                  },
+                  {
+                    "question": "Which task is deep learning especially good at?",
+                    "choices": [
+                      "A) Simple arithmetic",
+                      "B) Image and speech recognition",
+                      "C) Storing files",
+                      "D) Printing documents"
+                    ],
+                    "correctAnswer": "B) Image and speech recognition"
+                  },
+                  {
+                    "question": "Which of these is NOT an example of deep learning?",
+                    "choices": [
+                      "A) Detecting objects in self-driving cars",
+                      "B) Sorting spam emails",
+                      "C) Spotting tumors in X-rays",
+                      "D) Translating text across languages"
+                    ],
+                    "correctAnswer": "B) Sorting spam emails"
+                  },
+                  {
+                    "question": "Why does deep learning need lots of data?",
+                    "choices": [
+                      "A) To avoid being bored",
+                      "B) To improve accuracy through many examples",
+                      "C) To replace traditional computers",
+                      "D) To reduce memory space"
+                    ],
+                    "correctAnswer": "B) To improve accuracy through many examples"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "moduleNumber": 6,
+          "moduleTitle": "Different Types of AI – Narrow vs. General",
+          "lessons": [
+            {
+              "lessonNumber": 1,
+              "lessonTitle": "Learn: What is Narrow AI?",
+              "content": "Narrow AI is like a super-specialized expert that's amazing at one specific job but can't do anything else. Think of a calculator—it's brilliant at math but useless for cooking dinner. Examples include spam filters, Netflix recommendations, Siri, and self-driving cars. These AIs are powerful within their limited domain but can't switch tasks or understand things outside their specialty. All the AI we have today is Narrow AI!"
+            },
+            {
+              "lessonNumber": 2,
+              "lessonTitle": "Learn: What is General AI?",
+              "content": "General AI is the dream of creating a machine that can think and learn like a human across any task. It would have common sense, creativity, and adaptability—able to solve problems it wasn't specifically programmed for. This is the kind of AI you see in movies, but it doesn't exist yet! Scientists are still figuring out how to create machines with true understanding and reasoning abilities. It's one of the biggest challenges in AI research."
+            },
+            {
+              "lessonNumber": 3,
+              "lessonTitle": "Learn: Current Examples of Narrow AI",
+              "content": "Narrow AI is everywhere once you know where to look! Google Maps uses it to find the best routes based on traffic. Netflix uses it to suggest shows you'll enjoy. Spam filters use it to protect your inbox. Chatbots use it to answer customer questions. Even the facial recognition that unlocks your phone is Narrow AI. These systems are incredibly useful but limited—each is a master of one trade but can't learn new tricks outside its specialty."
+            },
+            {
+              "lessonNumber": 4,
+              "lessonTitle": "Learn: Why General AI is Hard to Build",
+              "content": "Building General AI is incredibly difficult because it requires replicating human qualities like common sense, reasoning, and adaptability. While computers are fast calculators, they don't naturally understand context, emotions, or abstract ideas. Teaching machines to truly comprehend the world like humans do—with all its nuances and complexities—is a huge challenge that scientists are still working on. It's not just about processing power; it's about creating genuine understanding."
+            },
+            {
+              "lessonNumber": 5,
+              "lessonTitle": "Practice: Quiz – Types of AI",
+              "content": {
+                "quiz": [
+                  {
+                    "question": "Which of the following is an example of Narrow AI?",
+                    "choices": [
+                      "A) A self-driving car",
+                      "B) A robot that can do all human jobs",
+                      "C) A human brain",
+                      "D) None of the above"
+                    ],
+                    "correctAnswer": "A) A self-driving car"
+                  },
+                  {
+                    "question": "What is General AI?",
+                    "choices": [
+                      "A) AI built for one task",
+                      "B) AI that can think and learn like a human across tasks",
+                      "C) AI that only answers trivia",
+                      "D) AI used for gaming only"
+                    ],
+                    "correctAnswer": "B) AI that can think and learn like a human across tasks"
+                  },
+                  {
+                    "question": "Why is General AI not real yet?",
+                    "choices": [
+                      "A) Computers are too slow",
+                      "B) It requires human-like reasoning and common sense",
+                      "C) Nobody is interested in building it",
+                      "D) Laws prevent it"
+                    ],
+                    "correctAnswer": "B) It requires human-like reasoning and common sense"
+                  },
+                  {
+                    "question": "Spam filters are an example of:",
+                    "choices": [
+                      "A) General AI",
+                      "B) Narrow AI",
+                      "C) Human intelligence",
+                      "D) Random algorithms"
+                    ],
+                    "correctAnswer": "B) Narrow AI"
+                  },
+                  {
+                    "question": "Which is true about Narrow AI?",
+                    "choices": [
+                      "A) It can do any human task",
+                      "B) It is only good at one specific job",
+                      "C) It has feelings and emotions",
+                      "D) It can replace humans in all areas"
+                    ],
+                    "correctAnswer": "B) It is only good at one specific job"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "moduleNumber": 7,
+          "moduleTitle": "The Turing Test and AI Intelligence",
+          "lessons": [
+            {
+              "lessonNumber": 1,
+              "lessonTitle": "Learn: Who Was Alan Turing?",
+              "content": "Alan Turing was a brilliant British mathematician and computer scientist often called the *father of AI*. During World War II, he helped crack the German Enigma code, which significantly shortened the war. But his biggest contribution to AI was proposing a simple way to think about machine intelligence—instead of asking 'Can machines think?' he suggested we ask if a machine's behavior could fool a human into thinking it's human. This became the famous *Turing Test*."
+            },
+            {
+              "lessonNumber": 2,
+              "lessonTitle": "Learn: What is the Turing Test?",
+              "content": "The Turing Test is like a game of digital disguise for AI! Here's how it works: a person has text conversations with both a human and a computer (without knowing which is which). If the person can't reliably tell the computer from the human, the computer passes the test. It's not about whether the AI is truly intelligent inside, but whether it can convincingly act intelligent enough to trick people. It's been the gold standard for measuring AI behavior for decades."
+            },
+            {
+              "lessonNumber": 3,
+              "lessonTitle": "Learn: Why the Turing Test Matters",
+              "content": "The Turing Test was revolutionary because it gave us a practical way to think about machine intelligence instead of getting stuck in philosophical debates. It set a clear goal for AI research and inspired decades of work in natural language processing. While some AIs can now pass limited versions of the test, experts debate whether this really means they're intelligent or just good at mimicking conversation. It remains an important idea that shapes how we think about and develop AI."
+            },
+            {
+              "lessonNumber": 4,
+              "lessonTitle": "Drag & Drop: Place AI Milestones on a Timeline",
+              "content": {
+                "timeline": [
+                  "1950 - Alan Turing publishes 'Computing Machinery and Intelligence'",
+                  "1956 - Early AI research programs begin",
+                  "1966 - First chatbot ELIZA created",
+                  "1997 - Deep Blue beats world chess champion",
+                  "2020s - Modern chatbots like ChatGPT appear"
+                ]
+              }
+            },
+            {
+              "lessonNumber": 5,
+              "lessonTitle": "Practice: Quiz – Turing Test and AI Intelligence",
+              "content": {
+                "quiz": [
+                  {
+                    "question": "Who was Alan Turing?",
+                    "choices": [
+                      "A) A movie director",
+                      "B) A mathematician and AI pioneer",
+                      "C) A soldier in World War II",
+                      "D) A software CEO"
+                    ],
+                    "correctAnswer": "B) A mathematician and AI pioneer"
+                  },
+                  {
+                    "question": "The Turing Test measures:",
+                    "choices": [
+                      "A) If AI is faster than humans",
+                      "B) If AI can fool a person into thinking it's human",
+                      "C) If AI can calculate numbers",
+                      "D) If AI can drive cars"
+                    ],
+                    "correctAnswer": "B) If AI can fool a person into thinking it's human"
+                  },
+                  {
+                    "question": "Which chatbot was one of the first ever built?",
+                    "choices": [
+                      "A) ChatGPT",
+                      "B) Alexa",
+                      "C) ELIZA",
+                      "D) Siri"
+                    ],
+                    "correctAnswer": "C) ELIZA"
+                  },
+                  {
+                    "question": "What does passing the Turing Test mean?",
+                    "choices": [
+                      "A) AI truly thinks like a human",
+                      "B) AI can mimic human-like conversation well enough to trick people",
+                      "C) AI can solve any problem",
+                      "D) AI has emotions"
+                    ],
+                    "correctAnswer": "B) AI can mimic human-like conversation well enough to trick people"
+                  },
+                  {
+                    "question": "Why is the Turing Test debated today?",
+                    "choices": [
+                      "A) It is too expensive",
+                      "B) Passing it doesn't mean real understanding",
+                      "C) Nobody uses it anymore",
+                      "D) It only works on robots"
+                    ],
+                    "correctAnswer": "B) Passing it doesn't mean real understanding"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "moduleNumber": 8,
+          "moduleTitle": "How AI Systems Make Decisions",
+          "lessons": [
+            {
+              "lessonNumber": 1,
+              "lessonTitle": "Learn: Decision-Making in AI Systems",
+              "content": "AI doesn't actually 'decide' like humans do—it calculates probabilities based on patterns it learned. Think of it like a super-smart pattern-matching machine! When an AI looks at an email, it doesn't think 'this is spam'; it calculates how similar the email is to known spam messages based on words, sender, and other features. The decision is just the outcome with the highest probability. It's math, not magic—but the results can feel magical!"
+            },
+            {
+              "lessonNumber": 2,
+              "lessonTitle": "Learn: Role of Algorithms and Data",
+              "content": "AI decisions come from two key ingredients working together: *algorithms* and *data*. The algorithm is like a recipe—it's the set of rules that tells the computer how to process information. The data is like the ingredients—the examples and experiences the AI learns from. Just like you need both a good recipe and quality ingredients to bake a great cake, AI needs both smart algorithms and good data to make good decisions."
+            },
+            {
+              "lessonNumber": 3,
+              "lessonTitle": "Drag & Drop: Match AI Decisions to Examples",
+              "content": {
+                "pairs": [
+                  {
+                    "scenario": "Netflix suggests a movie",
+                    "aiType": "Recommendation AI"
+                  },
+                  {
+                    "scenario": "Siri understands 'What's the weather?'",
+                    "aiType": "Natural Language Processing"
+                  },
+                  {
+                    "scenario": "Car stops when it sees a red light",
+                    "aiType": "Computer Vision"
+                  },
+                  {
+                    "scenario": "Email marked as spam",
+                    "aiType": "Classification AI"
+                  }
+                ]
+              }
+            },
+            {
+              "lessonNumber": 4,
+              "lessonTitle": "Learn: Challenges AI Faces When Deciding",
+              "content": "AI isn't perfect at making decisions—it struggles when things get messy or complicated! It has trouble with tasks that require *common sense* or understanding *context* (like detecting sarcasm). It also gets confused by new situations it hasn't seen before in its training data. And if the data it learned from was biased or incomplete, its decisions will be too. AI is powerful, but it's not a replacement for human judgment in tricky situations."
+            },
+            {
+              "lessonNumber": 5,
+              "lessonTitle": "Practice: Quiz – AI Decision Processes",
+              "content": {
+                "quiz": [
+                  {
+                    "question": "AI decisions are usually based on:",
+                    "choices": [
+                      "A) Guesswork",
+                      "B) Probabilities and patterns",
+                      "C) Human emotions",
+                      "D) Random choices"
+                    ],
+                    "correctAnswer": "B) Probabilities and patterns"
+                  },
+                  {
+                    "question": "The 'recipe' for AI is called:",
+                    "choices": [
+                      "A) Model",
+                      "B) Algorithm",
+                      "C) Dataset",
+                      "D) Prediction"
+                    ],
+                    "correctAnswer": "B) Algorithm"
+                  },
+                  {
+                    "question": "Which is an example of AI decision-making?",
+                    "choices": [
+                      "A) A toaster heating bread",
+                      "B) Netflix recommending a show",
+                      "C) A light switch turning on",
+                      "D) A pencil writing words"
+                    ],
+                    "correctAnswer": "B) Netflix recommending a show"
+                  },
+                  {
+                    "question": "What makes AI decisions weaker?",
+                    "choices": [
+                      "A) Too much computing power",
+                      "B) Blurry, messy, or incomplete data",
+                      "C) Clear and labeled data",
+                      "D) Algorithms that never change"
+                    ],
+                    "correctAnswer": "B) Blurry, messy, or incomplete data"
+                  },
+                  {
+                    "question": "Why do self-driving cars sometimes make mistakes?",
+                    "choices": [
+                      "A) They get tired like humans",
+                      "B) They lack common sense and context",
+                      "C) They don't have enough gas",
+                      "D) They are programmed to be wrong"
+                    ],
+                    "correctAnswer": "B) They lack common sense and context"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "moduleNumber": 9,
+          "moduleTitle": "How AI Learns from Data",
+          "lessons": [
+            {
+              "lessonNumber": 1,
+              "lessonTitle": "Learn: Data's Role in AI Learning",
+              "content": "Data is the textbook that AI studies from—without it, AI can't learn anything! Imagine trying to teach a student without any examples or information—that's AI without data. The more high-quality, diverse data we feed an AI, the better it becomes at its task. Whether it's thousands of cat pictures for image recognition or millions of conversations for a chatbot, data provides the raw material from which AI extracts patterns and knowledge."
+            },
+            {
+              "lessonNumber": 2,
+              "lessonTitle": "Learn: Types of Data Used in AI",
+              "content": "AI works with two main types of data: *structured* and *unstructured*. Structured data is neat and organized, like spreadsheets with clear columns and rows—think sales numbers or temperature readings. Unstructured data is messy and varied, like photos, videos, social media posts, or emails. AI can learn from both, but structured data is easier to process while unstructured data requires more complex techniques to find patterns in the chaos."
+            },
+            {
+              "lessonNumber": 3,
+              "lessonTitle": "Drag & Drop: Classify Data Types (Structured vs Unstructured)",
+              "content": {
+                "categories": [
+                  {
+                    "category": "Structured",
+                    "examples": [
+                      "Sales receipts",
+                      "Student grades",
+                      "Phone numbers"
+                    ]
+                  },
+                  {
+                    "category": "Unstructured",
+                    "examples": [
+                      "Tweets",
+                      "Selfies",
+                      "YouTube videos",
+                      "Audio recordings"
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "lessonNumber": 4,
+              "lessonTitle": "Learn: What Happens When AI Gets Bad Data",
+              "content": "The saying 'garbage in, garbage out' is especially true for AI! If an AI is trained on bad, biased, or incomplete data, it will make bad, biased, or incomplete decisions. For example, if a facial recognition system is mostly trained on photos of light-skinned people, it will be much worse at recognizing people with darker skin. This is why having diverse, representative, and high-quality data is so important—AI can only be as fair and accurate as the data it learns from."
+            },
+            {
+              "lessonNumber": 5,
+              "lessonTitle": "Practice: Quiz – Data and AI Learning",
+              "content": {
+                "quiz": [
+                  {
+                    "question": "What is structured data?",
+                    "choices": [
+                      "A) Organized in tables with clear labels",
+                      "B) Random and messy",
+                      "C) Always in images",
+                      "D) Only used in math"
+                    ],
+                    "correctAnswer": "A) Organized in tables with clear labels"
+                  },
+                  {
+                    "question": "Which is unstructured data?",
+                    "choices": [
+                      "A) A spreadsheet of student grades",
+                      "B) A set of tweets",
+                      "C) A phone directory",
+                      "D) A bank statement"
+                    ],
+                    "correctAnswer": "B) A set of tweets"
+                  },
+                  {
+                    "question": "Why is data important for AI?",
+                    "choices": [
+                      "A) It helps AI guess better",
+                      "B) It gives AI examples to learn from",
+                      "C) It makes AI slower",
+                      "D) It prevents errors"
+                    ],
+                    "correctAnswer": "B) It gives AI examples to learn from"
+                  },
+                  {
+                    "question": "What happens if AI is trained on biased data?",
+                    "choices": [
+                      "A) It becomes fairer automatically",
+                      "B) It reflects those biases in its answers",
+                      "C) It ignores the data",
+                      "D) It improves accuracy for everyone"
+                    ],
+                    "correctAnswer": "B) It reflects those biases in its answers"
+                  },
+                  {
+                    "question": "'Garbage in, garbage out' means:",
+                    "choices": [
+                      "A) AI can fix bad data",
+                      "B) Poor data leads to poor AI results",
+                      "C) AI deletes data automatically",
+                      "D) Data always turns into good results"
+                    ],
+                    "correctAnswer": "B) Poor data leads to poor AI results"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "moduleNumber": 10,
+          "moduleTitle": "A Brief History of AI Development",
+          "lessons": [
+            {
+              "lessonNumber": 1,
+              "lessonTitle": "Learn: Early AI Ideas and Research",
+              "content": "People have dreamed about artificial minds for centuries, but AI as a science really began in the 1950s. Pioneers like Alan Turing and John McCarthy started asking: 'Can machines think?' In 1956, McCarthy organized the famous Dartmouth Conference where the term 'Artificial Intelligence' was officially born. Early AI could play simple games like checkers and solve logic problems, but it was pretty limited compared to today's technology."
+            },
+            {
+              "lessonNumber": 2,
+              "lessonTitle": "Learn: AI Winter and Comeback",
+              "content": "AI hasn't had a smooth ride—it went through several 'AI Winters' where progress stalled and funding dried up. These happened when AI couldn't live up to the huge promises researchers made. But the field always bounced back! With more data, better algorithms, and faster computers, AI made a huge comeback in the 2000s and 2010s. The current AI boom shows what happens when patience, research, and technology finally come together."
+            },
+            {
+              "lessonNumber": 3,
+              "lessonTitle": "Learn: Recent AI Breakthroughs",
+              "content": "The last 25 years have been packed with amazing AI milestones! In 1997, IBM's Deep Blue beat the world chess champion. In 2011, IBM's Watson won at Jeopardy! against human champions. In 2016, Google's AlphaGo defeated the world's best Go player in a game much more complex than chess. And now in the 2020s, tools like ChatGPT and DALL-E are bringing powerful AI to everyone. Each breakthrough showed new possibilities for what AI can do!"
+            },
+            {
+              "lessonNumber": 4,
+              "lessonTitle": "Drag & Drop: Match Dates to AI Events",
+              "content": {
+                "pairs": [
+                  {
+                    "date": "1956",
+                    "event": "AI field officially named at Dartmouth conference"
+                  },
+                  {
+                    "date": "1997",
+                    "event": "Deep Blue beats Garry Kasparov"
+                  },
+                  {
+                    "date": "2011",
+                    "event": "Watson wins on Jeopardy!"
+                  },
+                  {
+                    "date": "2016",
+                    "event": "AlphaGo defeats Lee Sedol"
+                  },
+                  {
+                    "date": "2020s",
+                    "event": "Generative AI becomes mainstream"
+                  }
+                ]
+              }
+            },
+            {
+              "lessonNumber": 5,
+              "lessonTitle": "Practice: Quiz – AI History",
+              "content": {
+                "quiz": [
+                  {
+                    "question": "Who coined the term 'Artificial Intelligence'?",
+                    "choices": [
+                      "A) Alan Turing",
+                      "B) John McCarthy",
+                      "C) Albert Einstein",
+                      "D) Steve Jobs"
+                    ],
+                    "correctAnswer": "B) John McCarthy"
+                  },
+                  {
+                    "question": "What is an 'AI winter'?",
+                    "choices": [
+                      "A) A period when AI was too advanced",
+                      "B) A time when AI research slowed due to low progress",
+                      "C) A special conference about AI",
+                      "D) The first computer to play chess"
+                    ],
+                    "correctAnswer": "B) A time when AI research slowed due to low progress"
+                  },
+                  {
+                    "question": "Which AI won the game show Jeopardy?",
+                    "choices": [
+                      "A) AlphaGo",
+                      "B) Siri",
+                      "C) IBM Watson",
+                      "D) ChatGPT"
+                    ],
+                    "correctAnswer": "C) IBM Watson"
+                  },
+                  {
+                    "question": "In what year did AlphaGo beat the world's best Go player?",
+                    "choices": [
+                      "A) 1997",
+                      "B) 2005",
+                      "C) 2016",
+                      "D) 2022"
+                    ],
+                    "correctAnswer": "C) 2016"
+                  },
+                  {
+                    "question": "Which is a recent example of AI used by the public?",
+                    "choices": [
+                      "A) Slide rules",
+                      "B) DALL·E and ChatGPT",
+                      "C) Typewriters",
+                      "D) DVD players"
+                    ],
+                    "correctAnswer": "B) DALL·E and ChatGPT"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "moduleNumber": 11,
+          "moduleTitle": "Everyday AI Examples Around You",
+          "lessons": [
+            {
+              "lessonNumber": 1,
+              "lessonTitle": "Learn: AI in Smartphones and Apps",
+              "content": "Your smartphone is basically a pocket-sized AI powerhouse! The facial recognition that unlocks your phone? That's AI. The voice assistant that answers your questions? AI. Even autocorrect and predictive text while you type are powered by AI learning your writing style. When your phone automatically organizes photos into 'pets' or 'friends' albums, that's AI recognizing patterns. Our phones are packed with little AI helpers making our digital lives smoother."
+            },
+            {
+              "lessonNumber": 2,
+              "lessonTitle": "Learn: AI in Entertainment (Netflix, Spotify)",
+              "content": "Ever wonder how Netflix seems to know your taste in shows or how Spotify creates perfect playlists? That's AI working behind the scenes! These systems analyze what you watch or listen to, compare it with millions of other users, and find patterns to predict what you'll enjoy next. It's like having a personal entertainment assistant who knows your mood and preferences better than you sometimes do! This personalized experience is all thanks to AI recommendation algorithms."
+            },
+            {
+              "lessonNumber": 3,
+              "lessonTitle": "Learn: AI in Smart Homes",
+              "content": "Smart homes are getting smarter thanks to AI! Smart speakers like Alexa or Google Home use AI to understand your voice commands. Smart thermostats learn your schedule and temperature preferences to automatically adjust your home's climate. Security cameras with AI can tell the difference between a pet walking by and a potential intruder, sending you alerts only when needed. These AI-powered devices work together to make your home more comfortable, efficient, and secure."
+            },
+            {
+              "lessonNumber": 4,
+              "lessonTitle": "Drag & Drop: Match AI Example to Its Use Case",
+              "content": {
+                "pairs": [
+                  {
+                    "example": "Netflix",
+                    "useCase": "Recommends shows"
+                  },
+                  {
+                    "example": "Smart thermostat",
+                    "useCase": "Learns temperature habits"
+                  },
+                  {
+                    "example": "Face ID",
+                    "useCase": "Unlocks your phone"
+                  },
+                  {
+                    "example": "Spam filter",
+                    "useCase": "Sorts unwanted emails"
+                  }
+                ]
+              }
+            },
+            {
+              "lessonNumber": 5,
+              "lessonTitle": "Practice: Quiz – Everyday AI",
+              "content": {
+                "quiz": [
+                  {
+                    "question": "Which of these is AI in your phone?",
+                    "choices": [
+                      "A) A flashlight app",
+                      "B) Autocorrect while texting",
+                      "C) The battery itself",
+                      "D) Airplane mode"
+                    ],
+                    "correctAnswer": "B) Autocorrect while texting"
+                  },
+                  {
+                    "question": "Netflix recommendations are based on:",
+                    "choices": [
+                      "A) Random guessing",
+                      "B) AI looking at your viewing patterns",
+                      "C) Manual updates by employees",
+                      "D) Your internet speed"
+                    ],
+                    "correctAnswer": "B) AI looking at your viewing patterns"
+                  },
+                  {
+                    "question": "A smart thermostat uses AI to:",
+                    "choices": [
+                      "A) Heat only in summer",
+                      "B) Learn your habits and adjust temperatures",
+                      "C) Always keep one fixed temperature",
+                      "D) Control your lights"
+                    ],
+                    "correctAnswer": "B) Learn your habits and adjust temperatures"
+                  },
+                  {
+                    "question": "Spam filters are an example of:",
+                    "choices": [
+                      "A) AI classification",
+                      "B) AI gaming",
+                      "C) Human intelligence",
+                      "D) Physics rules"
+                    ],
+                    "correctAnswer": "A) AI classification"
+                  },
+                  {
+                    "question": "Which is NOT an everyday AI use?",
+                    "choices": [
+                      "A) Siri recognizing your voice",
+                      "B) Google Maps giving routes",
+                      "C) A toaster browning bread",
+                      "D) Spotify recommending music"
+                    ],
+                    "correctAnswer": "C) A toaster browning bread"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "moduleNumber": 12,
+          "moduleTitle": "Robots vs. AI - What's the Difference?",
+          "lessons": [
+            {
+              "lessonNumber": 1,
+              "lessonTitle": "Learn: What Are Robots?",
+              "content": "Robots are physical machines that can move and interact with the real world. Some are simple, like a robotic vacuum cleaner that bumps around your house. Others are complex, like robotic arms in factories that assemble cars. The key thing is that robots have bodies—they exist in physical space. Not all robots are smart; some just follow simple pre-programmed instructions over and over without any intelligence."
+            },
+            {
+              "lessonNumber": 2,
+              "lessonTitle": "Learn: How AI and Robots Work Together",
+              "content": "When you combine AI with robots, you get machines that can think and act! AI becomes the robot's brain, helping it understand its environment and make smart decisions. A self-driving car is a great example—it's a robot (the physical car) with AI (the smart system that sees the road, recognizes traffic signs, and decides when to turn or stop). The AI gives the robot its intelligence, while the robot gives the AI a body to interact with the world."
+            },
+            {
+              "lessonNumber": 3,
+              "lessonTitle": "Learn: AI Without Robots - Examples",
+              "content": "Lots of AI exists purely as software with no physical body! ChatGPT has conversations through text but doesn't have arms or legs. Netflix's recommendation system suggests movies but doesn't move around. Email filters sort your inbox without any physical form. These are all examples of AI working behind the scenes as pure software—intelligent but invisible. You interact with them through screens and speakers, not as physical machines moving around."
+            },
+            {
+              "lessonNumber": 4,
+              "lessonTitle": "Drag & Drop: Identify Robot vs AI Use Cases",
+              "content": {
+                "pairs": [
+                  {
+                    "example": "Self-driving car",
+                    "category": "Robot + AI"
+                  },
+                  {
+                    "example": "ChatGPT",
+                    "category": "AI only"
+                  },
+                  {
+                    "example": "Factory robotic arm (no sensors)",
+                    "category": "Robot only"
+                  },
+                  {
+                    "example": "Netflix recommendation system",
+                    "category": "AI only"
+                  }
+                ]
+              }
+            },
+            {
+              "lessonNumber": 5,
+              "lessonTitle": "Practice: Quiz – Robots and AI",
+              "content": {
+                "quiz": [
+                  {
+                    "question": "What is a robot?",
+                    "choices": [
+                      "A) A physical machine that can act in the world",
+                      "B) Any software program",
+                      "C) Only an AI assistant",
+                      "D) A smartphone app"
+                    ],
+                    "correctAnswer": "A) A physical machine that can act in the world"
+                  },
+                  {
+                    "question": "Which is AI without being a robot?",
+                    "choices": [
+                      "A) Netflix recommendations",
+                      "B) A robotic vacuum",
+                      "C) A self-driving car",
+                      "D) A robotic arm"
+                    ],
+                    "correctAnswer": "A) Netflix recommendations"
+                  },
+                  {
+                    "question": "Which combines both AI and robotics?",
+                    "choices": [
+                      "A) A toaster",
+                      "B) A self-driving car",
+                      "C) ChatGPT",
+                      "D) Netflix"
+                    ],
+                    "correctAnswer": "B) A self-driving car"
+                  },
+                  {
+                    "question": "A robotic arm in a factory that follows fixed instructions is:",
+                    "choices": [
+                      "A) Robot with AI",
+                      "B) Robot only",
+                      "C) AI only",
+                      "D) Neither"
+                    ],
+                    "correctAnswer": "B) Robot only"
+                  },
+                  {
+                    "question": "Why is AI important for robots?",
+                    "choices": [
+                      "A) It gives them the ability to make decisions",
+                      "B) It powers their batteries",
+                      "C) It keeps them from overheating",
+                      "D) It replaces their hardware"
+                    ],
+                    "correctAnswer": "A) It gives them the ability to make decisions"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "moduleNumber": 13,
+          "moduleTitle": "Training AI Algorithms",
+          "lessons": [
+            {
+              "lessonNumber": 1,
+              "lessonTitle": "Learn: What Does Training Mean?",
+              "content": "Training an AI is like teaching a student—you provide examples and let it practice until it gets better! We feed the AI lots of data (like thousands of cat and dog photos) and let it look for patterns. The AI makes guesses, checks how close it was, and adjusts its thinking. This process repeats over and over, with the AI gradually improving its accuracy. The better the training, the smarter the AI becomes at its specific task."
+            },
+            {
+              "lessonNumber": 2,
+              "lessonTitle": "Learn: How Training Data Works",
+              "content": "Good training data has two parts: the input and the correct answer (called a label). For example, a photo of a cat (input) with the label 'cat.' The AI studies these pairs, learning to connect features in the input with the correct label. It's like flashcards for studying—the question on one side, answer on the other. The AI uses these to learn what characteristics make something a 'cat' versus a 'dog' or something else."
+            },
+            {
+              "lessonNumber": 3,
+              "lessonTitle": "Learn: Overfitting and Underfitting Explained",
+              "content": "Sometimes AI doesn't train quite right! *Overfitting* happens when an AI memorizes the training examples too perfectly—like a student who memorizes practice test questions but fails the real exam because the questions are slightly different. *Underfitting* is the opposite—the AI doesn't learn enough from the training data, like a student who didn't study enough and struggles with both practice and real tests. Good training finds the sweet spot between these two problems."
+            },
+            {
+              "lessonNumber": 4,
+              "lessonTitle": "Drag & Drop: Order Steps in Training an AI Model",
+              "content": {
+                "steps": [
+                  "Collect data",
+                  "Label data",
+                  "Train the model with examples",
+                  "Adjust the model based on errors",
+                  "Test the model on new data"
+                ]
+              }
+            },
+            {
+              "lessonNumber": 5,
+              "lessonTitle": "Practice: Quiz - AI Training Basics",
+              "content": {
+                "quiz": [
+                  {
+                    "question": "What is training in AI?",
+                    "choices": [
+                      "A) Teaching a model with data examples",
+                      "B) Making robots lift weights",
+                      "C) Writing fixed rules for computers",
+                      "D) Teaching humans about AI"
+                    ],
+                    "correctAnswer": "A) Teaching a model with data examples"
+                  },
+                  {
+                    "question": "Training data usually includes:",
+                    "choices": [
+                      "A) Only random pictures",
+                      "B) Inputs and labels",
+                      "C) Only text documents",
+                      "D) No correct answers"
+                    ],
+                    "correctAnswer": "B) Inputs and labels"
+                  },
+                  {
+                    "question": "What is overfitting?",
+                    "choices": [
+                      "A) AI learns too little",
+                      "B) AI memorizes training data but fails new tasks",
+                      "C) AI works perfectly forever",
+                      "D) AI ignores patterns"
+                    ],
+                    "correctAnswer": "B) AI memorizes training data but fails new tasks"
+                  },
+                  {
+                    "question": "What is underfitting?",
+                    "choices": [
+                      "A) AI learns too much",
+                      "B) AI fails to learn enough patterns",
+                      "C) AI memorizes too many labels",
+                      "D) AI becomes a robot"
+                    ],
+                    "correctAnswer": "B) AI fails to learn enough patterns"
+                  },
+                  {
+                    "question": "Which step comes last in training?",
+                    "choices": [
+                      "A) Collecting data",
+                      "B) Labeling data",
+                      "C) Testing on new data",
+                      "D) Adjusting model weights"
+                    ],
+                    "correctAnswer": "C) Testing on new data"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "moduleNumber": 14,
+          "moduleTitle": "What AI Can and Cannot Do",
+          "lessons": [
+            {
+              "lessonNumber": 1,
+              "lessonTitle": "Learn: AI Strengths and Capabilities",
+              "content": "AI is amazing at tasks that involve processing huge amounts of information and finding patterns! It can recognize faces in photos, translate between languages in seconds, play complex games like chess better than humans, and sort through thousands of emails to find spam. AI can work 24/7 without getting tired and handle information much faster than people can. These strengths make it perfect for data-heavy, repetitive tasks that need speed and accuracy."
+            },
+            {
+              "lessonNumber": 2,
+              "lessonTitle": "Learn: AI Limitations Today",
+              "content": "Despite its power, AI has some big limitations. It has no *common sense*—it might not understand that you can't eat a picture of a sandwich. It doesn't truly understand context or sarcasm. It struggles with completely new situations it wasn't trained on. And it can make mistakes if its training data was biased or incomplete. AI is a powerful tool, but it's not a replacement for human judgment, especially in tricky or novel situations."
+            },
+            {
+              "lessonNumber": 3,
+              "lessonTitle": "Learn: Why AI Can't Replace Human Creativity",
+              "content": "AI can create art, music, and writing, but it's not truly creative like humans. It works by mixing and matching patterns from its training data—it can't imagine completely new ideas from scratch. Humans draw on emotions, life experiences, and abstract thinking to create something truly original. AI might make a new song that sounds like other songs, but it won't feel inspired by a beautiful sunset or write a poem about falling in love for the first time."
+            },
+            {
+              "lessonNumber": 4,
+              "lessonTitle": "Drag & Drop: Sort Tasks AI Can vs Cannot Do",
+              "content": {
+                "categories": [
+                  {
+                    "category": "AI Can",
+                    "examples": [
+                      "Translate languages",
+                      "Sort spam",
+                      "Recognize faces in photos"
+                    ]
+                  },
+                  {
+                    "category": "AI Cannot",
+                    "examples": [
+                      "Feel emotions",
+                      "Imagine brand-new concepts",
+                      "Use common sense in daily life"
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "lessonNumber": 5,
+              "lessonTitle": "Practice: Quiz – AI Capabilities",
+              "content": {
+                "quiz": [
+                  {
+                    "question": "Which is something AI is good at?",
+                    "choices": [
+                      "A) Feeling empathy",
+                      "B) Recognizing images",
+                      "C) Having dreams",
+                      "D) Telling jokes with meaning"
+                    ],
+                    "correctAnswer": "B) Recognizing images"
+                  },
+                  {
+                    "question": "AI struggles when:",
+                    "choices": [
+                      "A) Data is biased or messy",
+                      "B) There's lots of clean data",
+                      "C) The task is repetitive",
+                      "D) The problem involves math"
+                    ],
+                    "correctAnswer": "A) Data is biased or messy"
+                  },
+                  {
+                    "question": "AI-generated art is different from human creativity because:",
+                    "choices": [
+                      "A) AI can dream",
+                      "B) AI only mixes patterns it has seen before",
+                      "C) AI always paints better than humans",
+                      "D) AI feels emotions when creating"
+                    ],
+                    "correctAnswer": "B) AI only mixes patterns it has seen before"
+                  },
+                  {
+                    "question": "Which is NOT an AI limitation?",
+                    "choices": [
+                      "A) No common sense",
+                      "B) Can't truly feel emotions",
+                      "C) Makes errors with poor data",
+                      "D) Can calculate large numbers quickly"
+                    ],
+                    "correctAnswer": "D) Can calculate large numbers quickly"
+                  },
+                  {
+                    "question": "Which task belongs in 'AI Cannot Do'?",
+                    "choices": [
+                      "A) Translate text",
+                      "B) Spot tumors in X-rays",
+                      "C) Imagine a brand-new fantasy creature",
+                      "D) Recommend a movie"
+                    ],
+                    "correctAnswer": "C) Imagine a brand-new fantasy creature"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "moduleNumber": 15,
+          "moduleTitle": "Why AI Is So Popular Now",
+          "lessons": [
+            {
+              "lessonNumber": 1,
+              "lessonTitle": "Learn: Advances That Boosted AI Growth",
+              "content": "AI has exploded recently because of three big advances: better algorithms, more data, and faster computers! Researchers developed smarter ways for AI to learn (especially deep learning). The internet created massive amounts of data for training. And computer chips (especially GPUs) became powerful enough to handle all these calculations. It's like suddenly having better recipes, more ingredients, and a faster oven—all coming together to bake amazing AI systems!"
+            },
+            {
+              "lessonNumber": 2,
+              "lessonTitle": "Learn: Data Explosion and Computing Power",
+              "content": "We're living in a data explosion! Billions of people using smartphones and the internet create enormous amounts of data every day—photos, videos, messages, and more. At the same time, computers have become incredibly powerful, with special chips that can process this data super fast. This combination—massive data + massive computing power—is the fuel that powers modern AI. The more data AI has to learn from, and the faster it can process it, the smarter it becomes."
+            },
+            {
+              "lessonNumber": 3,
+              "lessonTitle": "Learn: AI in Business and Society Today",
+              "content": "AI has moved from labs into everyday life! Businesses use AI everywhere: banks use it to detect fraud, stores use it to recommend products, factories use it to optimize production. In healthcare, AI helps doctors analyze medical images. In our personal lives, AI powers our social media feeds, navigation apps, and smart home devices. It's become a normal part of how we work and live, solving practical problems and creating new possibilities across society."
+            },
+            {
+              "lessonNumber": 4,
+              "lessonTitle": "Learn: Media and AI Hype – What's Real?",
+              "content": "AI gets a lot of hype in movies and news—sometimes it's portrayed as either a superhero that will solve all problems or a villain that will take over the world! The reality is more balanced. Today's AI is incredibly powerful but narrow—great at specific tasks but not generally intelligent. It won't suddenly become conscious or take over, but it is transforming many industries. It's important to separate the exciting real advances from the science fiction fantasies."
+            },
+            {
+              "lessonNumber": 5,
+              "lessonTitle": "Practice: Quiz – AI Popularity",
+              "content": {
+                "quiz": [
+                  {
+                    "question": "Which is NOT a reason AI grew quickly?",
+                    "choices": [
+                      "A) Better algorithms",
+                      "B) More data",
+                      "C) Slower computers",
+                      "D) Faster chips"
+                    ],
+                    "correctAnswer": "C) Slower computers"
+                  },
+                  {
+                    "question": "What does the 'data explosion' mean?",
+                    "choices": [
+                      "A) Computers exploded",
+                      "B) More and more data is being created",
+                      "C) Data disappeared suddenly",
+                      "D) Data became less useful"
+                    ],
+                    "correctAnswer": "B) More and more data is being created"
+                  },
+                  {
+                    "question": "Which industry uses AI for fraud detection?",
+                    "choices": [
+                      "A) Music",
+                      "B) Banking",
+                      "C) Gardening",
+                      "D) Sports"
+                    ],
+                    "correctAnswer": "B) Banking"
+                  },
+                  {
+                    "question": "What is one danger of AI hype?",
+                    "choices": [
+                      "A) People expect too much from AI",
+                      "B) AI becomes weaker",
+                      "C) Data stops being useful",
+                      "D) Computers run slower"
+                    ],
+                    "correctAnswer": "A) People expect too much from AI"
+                  },
+                  {
+                    "question": "Most AI today is:",
+                    "choices": [
+                      "A) Narrow (task-specific)",
+                      "B) General (like humans)",
+                      "C) Creative with feelings",
+                      "D) Smarter than all people"
+                    ],
+                    "correctAnswer": "A) Narrow (task-specific)"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "moduleNumber": 16,
+          "moduleTitle": "Pioneers Who Shaped AI",
+          "lessons": [
+            {
+              "lessonNumber": 1,
+              "lessonTitle": "Learn: Alan Turing and Early Thinkers",
+              "content": "Alan Turing was a brilliant British mathematician often called the *father of computer science and AI*. During World War II, he helped crack the German Enigma code, saving countless lives. But his biggest contribution to AI was proposing the *Turing Test*—a simple way to think about machine intelligence by asking whether a computer could converse so well that people couldn't tell it from a human. His ideas laid the foundation for everything that followed in AI."
+            },
+            {
+              "lessonNumber": 2,
+              "lessonTitle": "Learn: John McCarthy and Coining 'AI'",
+              "content": "John McCarthy was the person who actually coined the term *'Artificial Intelligence'*! In 1956, he organized the famous Dartmouth Conference where AI was officially born as a field of study. He also created the Lisp programming language, which became incredibly important for AI research. McCarthy didn't just name the field—he helped establish its goals and methods, imagining machines that could think and learn like humans."
+            },
+            {
+              "lessonNumber": 3,
+              "lessonTitle": "Learn: Important AI Researchers Over Time",
+              "content": "Many brilliant minds have shaped AI over the years! *Marvin Minsky* was a foundational researcher who co-founded the MIT AI Lab. *Geoffrey Hinton*, *Yann LeCun*, and *Yoshua Bengio* (often called the 'godfathers of deep learning') revolutionized AI with their work on neural networks in the 2010s, earning them the Turing Award—like the Nobel Prize of computing. Each generation of researchers has built on previous work to advance what AI can do."
+            },
+            {
+              "lessonNumber": 4,
+              "lessonTitle": "Learn: How Their Ideas Influence AI Today",
+              "content": "The pioneers' ideas directly shape the AI we use today! Turing's concepts underlie all of computing. McCarthy's work established AI as a field. The deep learning research of Hinton, LeCun, and Bengio made possible the voice assistants, image recognition, and language tools we use daily. Modern AI like ChatGPT, self-driving cars, and medical AI all stand on the shoulders of these thinkers who imagined what machines could do long before the technology existed."
+            },
+            {
+              "lessonNumber": 5,
+              "lessonTitle": "Practice: Quiz - AI History Makers",
+              "content": {
+                "quiz": [
+                  {
+                    "question": "Who is known as the father of AI?",
+                    "choices": [
+                      "A) John McCarthy",
+                      "B) Alan Turing",
+                      "C) Steve Jobs",
+                      "D) Bill Gates"
+                    ],
+                    "correctAnswer": "B) Alan Turing"
+                  },
+                  {
+                    "question": "Who coined the term 'Artificial Intelligence'?",
+                    "choices": [
+                      "A) Marvin Minsky",
+                      "B) Alan Turing",
+                      "C) John McCarthy",
+                      "D) Geoffrey Hinton"
+                    ],
+                    "correctAnswer": "C) John McCarthy"
+                  },
+                  {
+                    "question": "Which pioneer is linked to deep learning breakthroughs?",
+                    "choices": [
+                      "A) Geoffrey Hinton",
+                      "B) Thomas Edison",
+                      "C) Nikola Tesla",
+                      "D) Charles Babbage"
+                    ],
+                    "correctAnswer": "A) Geoffrey Hinton"
+                  },
+                  {
+                    "question": "The Dartmouth Conference (1956) is important because:",
+                    "choices": [
+                      "A) It invented the smartphone",
+                      "B) It marked the start of AI as a field",
+                      "C) It ended AI research",
+                      "D) It built the first robot"
+                    ],
+                    "correctAnswer": "B) It marked the start of AI as a field"
+                  },
+                  {
+                    "question": "Which modern AI tool is influenced by early pioneers?",
+                    "choices": [
+                      "A) ChatGPT",
+                      "B) A hammer",
+                      "C) A bicycle",
+                      "D) A clock"
+                    ],
+                    "correctAnswer": "A) ChatGPT"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "moduleNumber": 17,
+          "moduleTitle": "AI vs. Traditional Computer Programs",
+          "lessons": [
+            {
+              "lessonNumber": 1,
+              "lessonTitle": "Learn: What Makes AI Different?",
+              "content": "Traditional programs follow exact instructions written by humans—like a recipe that must be followed precisely. AI is different because it learns its own rules from data! Think of a calculator (traditional) versus a spam filter (AI). The calculator always does exactly what it's programmed to do. The spam filter learns what spam looks like by studying thousands of examples and gets better over time. AI adapts; traditional programs just execute."
+            },
+            {
+              "lessonNumber": 2,
+              "lessonTitle": "Learn: Rule-Based Programs vs Learning Programs",
+              "content": "*Rule-based programs* follow fixed instructions—they're like a music box that plays the same tune every time. *Learning programs* (AI) improve with experience—they're like a musician who gets better with practice. Rule-based systems are great for predictable tasks with clear rules (like calculating taxes). Learning systems excel at messy, pattern-based tasks where rules are hard to define (like recognizing faces or understanding speech)."
+            },
+            {
+              "lessonNumber": 3,
+              "lessonTitle": "Learn: When AI Is Used Instead of Traditional Code",
+              "content": "AI is the better choice when the problem is too complex for humans to write all the rules! For example, it's impossible to write rules for every possible way a person might ask for the weather—but AI can learn to understand language variations. AI is also better for tasks that involve prediction, pattern recognition, or need to adapt to new information. Traditional code is better for straightforward, predictable tasks where rules never change."
+            },
+            {
+              "lessonNumber": 4,
+              "lessonTitle": "Drag & Drop: Identify Program Types",
+              "content": {
+                "pairs": [
+                  {
+                    "example": "Calculator",
+                    "type": "Rule-based program"
+                  },
+                  {
+                    "example": "Spam filter",
+                    "type": "AI"
+                  },
+                  {
+                    "example": "Autocorrect",
+                    "type": "AI"
+                  },
+                  {
+                    "example": "Traffic light system",
+                    "type": "Rule-based program"
+                  }
+                ]
+              }
+            },
+            {
+              "lessonNumber": 5,
+              "lessonTitle": "Practice: Quiz - AI vs Traditional Programs",
+              "content": {
+                "quiz": [
+                  {
+                    "question": "Traditional programs rely on:",
+                    "choices": [
+                      "A) Rules written by humans",
+                      "B) Learning from data",
+                      "C) Guessing randomly",
+                      "D) AI models"
+                    ],
+                    "correctAnswer": "A) Rules written by humans"
+                  },
+                  {
+                    "question": "Which is an example of AI?",
+                    "choices": [
+                      "A) A basic calculator",
+                      "B) A spam email filter",
+                      "C) A wall clock",
+                      "D) A manual typewriter"
+                    ],
+                    "correctAnswer": "B) A spam email filter"
+                  },
+                  {
+                    "question": "When is AI preferred over traditional coding?",
+                    "choices": [
+                      "A) For simple math problems",
+                      "B) When tasks have clear rules",
+                      "C) For complex tasks like speech recognition",
+                      "D) For operating a light switch"
+                    ],
+                    "correctAnswer": "C) For complex tasks like speech recognition"
+                  },
+                  {
+                    "question": "Rule-based programs are less flexible because:",
+                    "choices": [
+                      "A) They break easily",
+                      "B) They can't learn from new examples",
+                      "C) They always need Wi-Fi",
+                      "D) They require expensive hardware"
+                    ],
+                    "correctAnswer": "B) They can't learn from new examples"
+                  },
+                  {
+                    "question": "Which is true about AI vs traditional code?",
+                    "choices": [
+                      "A) AI never makes mistakes",
+                      "B) Traditional code learns automatically",
+                      "C) AI adapts to new data, while traditional code does not",
+                      "D) They both always need huge datasets"
+                    ],
+                    "correctAnswer": "C) AI adapts to new data, while traditional code does not"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "moduleNumber": 18,
+          "moduleTitle": "Generative AI - Creating New Things",
+          "lessons": [
+            {
+              "lessonNumber": 1,
+              "lessonTitle": "Learn: What Is Generative AI?",
+              "content": "Generative AI is like a creative digital artist that can make new things! Instead of just recognizing patterns (like identifying cats in photos), it creates new content based on patterns it learned. It can write stories, compose music, generate images, and more—all original content, not just copies. It's like a student who has read thousands of books and can now write their own stories in a similar style. This creative ability is what makes tools like ChatGPT and DALL-E so exciting!"
+            },
+            {
+              "lessonNumber": 2,
+              "lessonTitle": "Learn: Examples of Generative AI (text, images, music)",
+              "content": "Generative AI is everywhere now! *ChatGPT* can write essays, poems, and code. *DALL-E* and *Midjourney* can create stunning images from text descriptions—like 'a cat astronaut riding a unicorn.' *Suno* and *Soundraw* can compose original music in different styles. These tools don't just copy existing work—they generate completely new creations based on what they've learned from massive amounts of data. It's like having a creative partner that never runs out of ideas!"
+            },
+            {
+              "lessonNumber": 3,
+              "lessonTitle": "Learn: How Generative AI Works",
+              "content": "Generative AI works by learning patterns from huge datasets and then using those patterns to create new things. For text, it learns which words typically follow other words—it might see 'the cat sat on the...' thousands of times and learn that 'mat' often comes next. For images, it learns what visual elements make up certain objects. It then uses these patterns to generate new content one piece at a time, like building a sentence word by word or an image pixel by pixel."
+            },
+            {
+              "lessonNumber": 4,
+              "lessonTitle": "Drag & Drop: Match Generative AI Output to Input",
+              "content": {
+                "pairs": [
+                  {
+                    "input": "Prompt: 'Draw a cat in space'",
+                    "output": "Image of a cat astronaut"
+                  },
+                  {
+                    "input": "Prompt: 'Write a poem about rain'",
+                    "output": "New poem"
+                  },
+                  {
+                    "input": "Prompt: 'Generate happy background music'",
+                    "output": "AI-made song"
+                  },
+                  {
+                    "input": "Prompt: 'Summarize this book'",
+                    "output": "Short summary text"
+                  }
+                ]
+              }
+            },
+            {
+              "lessonNumber": 5,
+              "lessonTitle": "Practice: Quiz – Generative AI",
+              "content": {
+                "quiz": [
+                  {
+                    "question": "Generative AI creates:",
+                    "choices": [
+                      "A) Only copies of existing data",
+                      "B) New outputs based on learned patterns",
+                      "C) Physical robots",
+                      "D) Computer chips"
+                    ],
+                    "correctAnswer": "B) New outputs based on learned patterns"
+                  },
+                  {
+                    "question": "Which tool generates images?",
+                    "choices": [
+                      "A) ChatGPT",
+                      "B) DALL:E",
+                      "C) Suno",
+                      "D) Grammarly"
+                    ],
+                    "correctAnswer": "B) DALL:E"
+                  },
+                  {
+                    "question": "Generative AI works by:",
+                    "choices": [
+                      "A) Following fixed rules",
+                      "B) Predicting patterns from data",
+                      "C) Guessing randomly",
+                      "D) Copying without change"
+                    ],
+                    "correctAnswer": "B) Predicting patterns from data"
+                  },
+                  {
+                    "question": "An example of generative AI for music is:",
+                    "choices": [
+                      "A) Midjourney",
+                      "B) Soundraw",
+                      "C) Google Translate",
+                      "D) Siri"
+                    ],
+                    "correctAnswer": "B) Soundraw"
+                  },
+                  {
+                    "question": "Generative AI is different because:",
+                    "choices": [
+                      "A) It makes completely new content",
+                      "B) It only organizes existing files",
+                      "C) It runs without data",
+                      "D) It ignores patterns"
+                    ],
+                    "correctAnswer": "A) It makes completely new content"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "moduleNumber": 19,
+          "moduleTitle": "Can AI Have Emotions or Consciousness?",
+          "lessons": [
+            {
+              "lessonNumber": 1,
+              "lessonTitle": "Learn: What Is Consciousness?",
+              "content": "Consciousness is that amazing awareness we have of ourselves and the world around us. It's what lets you know you exist, think about your thoughts, feel emotions, and experience the taste of chocolate or the beauty of a sunset. It's one of the biggest mysteries of science—we don't fully understand how it works in humans, let alone how to create it in machines. Consciousness is what makes our experiences feel real and meaningful."
+            },
+            {
+              "lessonNumber": 2,
+              "lessonTitle": "Learn: Can Machines Feel or Think?",
+              "content": "Based on everything we know today, machines cannot truly feel or think like humans. AI can analyze data about emotions—it can recognize a smiling face in a photo or detect angry words in text—but it doesn't experience happiness or anger itself. It's like a camera that can detect light but doesn't have eyes that see. AI processes information; it doesn't have subjective experiences, self-awareness, or genuine understanding of what it's processing."
+            },
+            {
+              "lessonNumber": 3,
+              "lessonTitle": "Learn: Arguments For and Against AI Emotions",
+              "content": "Some people argue that if AI becomes advanced enough, it might develop something like emotions or consciousness. Others say that even the most advanced AI is just complex pattern matching—it might simulate emotions perfectly but never truly experience them. Most experts believe that without a biological brain and body, machines can't have genuine emotions or consciousness. They can act emotional, but they don't feel emotional—it's performance, not experience."
+            },
+            {
+              "lessonNumber": 4,
+              "lessonTitle": "Learn: How AI Simulates Emotions",
+              "content": "AI simulates emotions by learning patterns from human communication. When you tell a chatbot you're sad, it doesn't feel sympathy—it recognizes that 'sad' often pairs with responses like 'I understand' or 'That must be difficult.' It's like an actor following a script: convincing but not genuine. The AI generates caring responses because its training data shows that's what humans do in similar situations, not because it actually cares about your feelings."
+            },
+            {
+              "lessonNumber": 5,
+              "lessonTitle": "Practice: Quiz – AI and Consciousness",
+              "content": {
+                "quiz": [
+                  {
+                    "question": "What does consciousness mean?",
+                    "choices": [
+                      "A) Having emotions",
+                      "B) Being aware of self and surroundings",
+                      "C) Writing computer code",
+                      "D) Understanding math"
+                    ],
+                    "correctAnswer": "B) Being aware of self and surroundings"
+                  },
+                  {
+                    "question": "Can AI feel emotions?",
+                    "choices": [
+                      "A) Yes, always",
+                      "B) No, it only mimics patterns",
+                      "C) Sometimes, when programmed",
+                      "D) Only in robots"
+                    ],
+                    "correctAnswer": "B) No, it only mimics patterns"
+                  },
+                  {
+                    "question": "Which is an argument against AI emotions?",
+                    "choices": [
+                      "A) AI doesn't have awareness",
+                      "B) AI can act human-like",
+                      "C) AI simulates caring phrases",
+                      "D) AI detects facial expressions"
+                    ],
+                    "correctAnswer": "A) AI doesn't have awareness"
+                  },
+                  {
+                    "question": "When AI says 'I understand how you feel,' it is:",
+                    "choices": [
+                      "A) Showing real empathy",
+                      "B) Mimicking patterns from data",
+                      "C) Feeling sadness",
+                      "D) Developing consciousness"
+                    ],
+                    "correctAnswer": "B) Mimicking patterns from data"
+                  },
+                  {
+                    "question": "Which best describes AI and consciousness today?",
+                    "choices": [
+                      "A) AI is fully conscious",
+                      "B) AI may develop feelings soon",
+                      "C) AI has no true awareness",
+                      "D) AI understands itself like humans"
+                    ],
+                    "correctAnswer": "C) AI has no true awareness"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "moduleNumber": 20,
+          "moduleTitle": "The Future of AI - Possibilities and Responsibilities",
+          "lessons": [
+            {
+              "lessonNumber": 1,
+              "lessonTitle": "Learn: Emerging AI Trends",
+              "content": "AI is advancing incredibly fast! We're seeing more powerful *generative AI* that can create amazingly realistic content. *AI in healthcare* is helping with drug discovery and personalized medicine. *AI and robotics* are combining to create more helpful machines. *AI ethics* is becoming a major focus as we think about how to use this technology responsibly. The future will likely bring AI that's even better at understanding context, learning with less data, and working alongside humans as helpful partners."
+            },
+            {
+              "lessonNumber": 2,
+              "lessonTitle": "Learn: Ethical Considerations in AI",
+              "content": "As AI becomes more powerful, we need to think carefully about how to use it responsibly. Important questions include: How do we prevent AI bias and discrimination? Who is responsible when AI makes a mistake? How do we protect privacy with AI systems that collect so much data? Should AI be used in weapons? These aren't just technical questions—they're about what kind of future we want to build with this technology and how to ensure AI benefits all of humanity, not just a few."
+            },
+            {
+              "lessonNumber": 3,
+              "lessonTitle": "Learn: AI Careers and Learning Paths",
+              "content": "AI is creating exciting new career opportunities! You could become an *AI engineer* who builds AI systems, a *data scientist* who works with the data that powers AI, an *AI ethicist* who helps guide responsible AI development, or someone who uses AI tools in fields like healthcare, art, or business. You don't necessarily need to be a math genius—there are roles for creative thinkers, problem solvers, and people who care about making technology that helps people. The most important skill is curiosity!"
+            },
+            {
+              "lessonNumber": 4,
+              "lessonTitle": "Learn: How to Stay Updated on AI Developments",
+              "content": "AI moves so fast that it's hard to keep up, but there are ways to stay informed! Follow reputable tech news sites that explain developments clearly. Try out new AI tools yourself to understand what they can do. Take online courses (many are free!) to learn the basics. Join communities where people discuss AI developments. Remember that not everything you hear about AI is accurate—look for information from scientists and experts rather than just sensational headlines."
+            },
+            {
+              "lessonNumber": 5,
+              "lessonTitle": "Practice: Quiz – AI Future",
+              "content": {
+                "quiz": [
+                  {
+                    "question": "Which is an emerging AI trend?",
+                    "choices": [
+                      "A) AI that uses less electricity",
+                      "B) Generative AI creating new content",
+                      "C) AI that replaces all human jobs",
+                      "D) AI that doesn't need data"
+                    ],
+                    "correctAnswer": "B) Generative AI creating new content"
+                  },
+                  {
+                    "question": "Why are ethical considerations important in AI?",
+                    "choices": [
+                      "A) They make AI more expensive",
+                      "B) They ensure AI benefits society responsibly",
+                      "C) They slow down AI development",
+                      "D) They are only important for researchers"
+                    ],
+                    "correctAnswer": "B) They ensure AI benefits society responsibly"
+                  },
+                  {
+                    "question": "Which career works with AI systems?",
+                    "choices": [
+                      "A) AI engineer",
+                      "B) Garden designer",
+                      "C) Baseball player",
+                      "D) Chef"
+                    ],
+                    "correctAnswer": "A) AI engineer"
+                  },
+                  {
+                    "question": "How can you stay updated on AI developments?",
+                    "choices": [
+                      "A) Avoid all technology",
+                      "B) Only watch movies about AI",
+                      "C) Try new AI tools and follow tech news",
+                      "D) Wait for AI to become perfect"
+                    ],
+                    "correctAnswer": "C) Try new AI tools and follow tech news"
+                  },
+                  {
+                    "question": "What's the most important skill for working with AI?",
+                    "choices": [
+                      "A) Being able to run fast",
+                      "B) Knowing everything about math",
+                      "C) Curiosity and willingness to learn",
+                      "D) Having a loud voice"
+                    ],
+                    "correctAnswer": "C) Curiosity and willingness to learn"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }

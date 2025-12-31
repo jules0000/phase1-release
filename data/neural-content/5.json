@@ -1,0 +1,1000 @@
+ 
+ {
+  "ai_course": {
+    
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "moduleTitle": "What is Prompt Engineering?",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: What Is a Prompt in AI?",
+            "content": "A prompt is simply how you talk to an AI—it's your question, instruction, or request. Think of it like giving directions to a very smart but very literal person. If you say 'write something about dogs,' you might get a scientific article, a poem, or a story. But if you say 'write a funny short story about a dog who becomes a chef,' the AI understands exactly what you want. Good prompts are the key to getting helpful responses from AI tools."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Why Prompt Engineering Matters",
+            "content": "Prompt engineering matters because the quality of your question determines the quality of the answer. A vague prompt gets a vague response, while a clear, specific prompt gets exactly what you need. Learning to write good prompts saves you time, reduces frustration, and helps you use AI tools more effectively for school, work, and creative projects. It's like learning to ask the right questions to get the best help."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: How Good Prompts Affect AI Output",
+            "content": "Good prompts act like a detailed map for the AI. They provide clear direction about what you want, how you want it, and who it's for. A well-written prompt can turn a confusing, generic response into a focused, useful answer. The AI has incredible knowledge, but it needs your guidance to deliver that knowledge in the way that's most helpful to you."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — Prompt Basics",
+            "content": {
+              "quiz": [
+                {
+                  "question": "What is a prompt?",
+                  "choices": [
+                    "A) A type of computer virus",
+                    "B) The way you talk to or instruct an AI",
+                    "C) A programming language",
+                    "D) An AI's response"
+                  ],
+                  "correctAnswer": "B) The way you talk to or instruct an AI"
+                },
+                {
+                  "question": "Why does prompt engineering matter?",
+                  "choices": [
+                    "A) It makes the AI work faster",
+                    "B) It helps you get better, more useful responses",
+                    "C) It's only important for programmers",
+                    "D) It makes the AI smarter"
+                  ],
+                  "correctAnswer": "B) It helps you get better, more useful responses"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Write Your First Simple Prompt",
+            "content": {
+              "directions": "Write a simple but clear prompt asking an AI to explain a basic concept to someone who is new to the topic.",
+              "correctPrompt": "Explain what photosynthesis is to a 5th grader. Use simple language and include one everyday analogy to help them understand."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 2,
+        "moduleTitle": "Anatomy of a Good Prompt",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Components of Effective Prompts",
+            "content": "Effective prompts usually include four key components: the task (what you want the AI to do), the context (background information), the format (how you want the response structured), and the audience (who the response is for). For example, instead of 'write about climate change,' a better prompt would be 'Write a paragraph explaining climate change causes for middle school students, using simple language and one real-world example.'"
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Clarity and Specificity in Prompts",
+            "content": "Being clear and specific means using precise language that leaves little room for misunderstanding. Instead of 'make it better,' say 'make it more formal' or 'make it simpler.' Instead of 'something about sports,' say 'three key rules of basketball for beginners.' The more specific you are, the less you'll need to revise or regenerate the response."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Including Context in Prompts",
+            "content": "Context helps the AI understand your situation and needs. Are you a student studying for a test? A business person preparing a report? Someone trying to explain a concept to children? Including this context helps the AI tailor its response appropriately. For example, 'Explain quantum physics to a high school student who's struggling with the concept' will get a different response than 'Explain quantum physics to a physics major.'"
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Identify Good vs Bad Prompt Parts",
+            "content": {
+              "pairs": [
+                {
+                  "example": "Vague: 'Write about health'",
+                  "improved": "Specific: 'List 5 benefits of exercise for mental health'"
+                },
+                {
+                  "example": "No context: 'Explain taxes'",
+                  "improved": "With context: 'Explain how income taxes work to a college student with their first job'"
+                },
+                {
+                  "example": "No format: 'Give me ideas'",
+                  "improved": "With format: 'Give me 3 blog post ideas in bullet point format'"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Build a Clear Prompt",
+            "content": {
+              "directions": "Create a clear, specific prompt that includes all four components: task, context, format, and audience.",
+              "correctPrompt": "Create a step-by-step guide for beginners on how to make scrambled eggs. Include a list of ingredients and equipment needed. Format it as numbered instructions with bullet points for ingredients. The audience is college students cooking for the first time."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 3,
+        "moduleTitle": "Writing Clear Instructions",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: How to Give Clear AI Instructions",
+            "content": "Clear instructions use action words that tell the AI exactly what to do. Use verbs like 'create,' 'list,' 'explain,' 'compare,' 'summarize,' or 'write' rather than vague phrases like 'deal with' or 'handle.' Be direct and concise. For example, instead of 'Can you maybe do something about my essay?', try 'Please proofread my essay and suggest improvements to sentence structure.'"
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Avoiding Ambiguity",
+            "content": "Ambiguity means being unclear or having multiple interpretations. Avoid words like 'good,' 'interesting,' or 'better' without explaining what you mean. Instead of 'make it better,' say 'make it more concise' or 'add more examples.' Instead of 'something interesting about space,' say 'three surprising facts about black holes that would interest a high school science student.'"
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Using Examples to Guide AI",
+            "content": "Examples show the AI exactly what you're looking for. If you want a specific style, provide a sample. If you want a particular format, show what it should look like. For instance: 'Write in the style of this example: [insert example].' or 'Format the response like this: Question: [space for question], Answer: [space for answer].' Examples reduce guesswork and improve results."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — Clear Instructions",
+            "content": {
+              "quiz": [
+                {
+                  "question": "What makes instructions clear to AI?",
+                  "choices": [
+                    "A) Using technical jargon",
+                    "B) Using specific action words",
+                    "C) Being as vague as possible",
+                    "D) Using only one-word commands"
+                  ],
+                  "correctAnswer": "B) Using specific action words"
+                },
+                {
+                  "question": "How can you avoid ambiguity in prompts?",
+                  "choices": [
+                    "A) Use words like 'good' and 'better'",
+                    "B) Provide specific criteria and examples",
+                    "C) Make your prompts as short as possible",
+                    "D) Use slang and informal language"
+                  ],
+                  "correctAnswer": "B) Provide specific criteria and examples"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Write an Instruction-Based Prompt",
+            "content": {
+              "directions": "Create a prompt that gives very clear, specific instructions for a task. Use action words and avoid ambiguity.",
+              "correctPrompt": "Compare and contrast traditional books and e-books. Create a table with three columns: 'Feature,' 'Traditional Books,' and 'E-Books.' Include these five features: portability, cost, accessibility, reading experience, and environmental impact. Write one sentence explaining each comparison point."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 4,
+        "moduleTitle": "Controlling Output Style and Format",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Asking for Specific Formats (lists, paragraphs)",
+            "content": "You can control how the AI presents information by specifying the format. Ask for bullet points, numbered lists, tables, paragraphs, or even scripts or poetry. For example: 'List the steps in bullet points' or 'Present the information in a table with three columns.' Being specific about format helps you get information in the most useful structure for your needs."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Controlling Tone and Style",
+            "content": "You can request different tones and styles to match your purpose. Ask for formal, casual, professional, humorous, academic, or simple language. For example: 'Explain using professional business language' or 'Write in a casual, conversational tone as if explaining to a friend.' You can even ask the AI to mimic specific styles: 'Write in the style of a sports journalist' or 'Explain like I'm 10 years old.'"
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Managing Response Length",
+            "content": "You can control how long or short the response should be. Ask for specific word counts, paragraph numbers, or page lengths. For example: 'Summarize in under 200 words' or 'Explain in three paragraphs.' This prevents responses that are too brief or overly detailed for your needs. If the response isn't the right length, you can ask for it to be expanded or condensed."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Match Styles to Prompt Examples",
+            "content": {
+              "pairs": [
+                {
+                  "style": "Formal business report",
+                  "prompt": "Analyze these sales figures and write a formal business report for company executives"
+                },
+                {
+                  "style": "Simple explanation for children",
+                  "prompt": "Explain how rainbows form to a 7-year-old using simple words and examples"
+                },
+                {
+                  "style": "Bullet point summary",
+                  "prompt": "List the main causes of World War II in bullet points with brief explanations"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Write a Style-Controlled Prompt",
+            "content": {
+              "directions": "Create a prompt that specifically controls the format, tone, and length of the response.",
+              "correctPrompt": "Explain the water cycle in three short paragraphs using simple language suitable for 4th graders. Include the terms evaporation, condensation, and precipitation. Use a friendly, educational tone and keep the total explanation under 150 words."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 5,
+        "moduleTitle": "Using Step-by-Step Prompts",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Breaking Tasks into Steps",
+            "content": "Complex tasks are easier for AI to handle when broken into clear steps. Instead of 'Plan my wedding,' try 'First, suggest a wedding budget breakdown. Second, create a timeline for planning. Third, list key decisions that need to be made.' This approach helps the AI organize its response and ensures it covers all aspects of your request. It also makes it easier for you to follow and implement the advice."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Asking AI to Think Aloud or Explain",
+            "content": "You can ask the AI to show its reasoning process by saying 'think step by step' or 'explain your reasoning.' This is especially useful for math problems, logical puzzles, or when you want to understand how the AI reached its conclusion. For example: 'Solve this algebra problem and explain each step' or 'Evaluate these arguments and explain which is strongest and why.'"
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Using Sequential Prompts",
+            "content": "Sometimes the best approach is a conversation with multiple prompts. Start with a general question, then based on the response, ask follow-up questions to dig deeper. For example: First ask 'What are some healthy breakfast options?' Then based on the response, ask 'Can you provide recipes for two of these options?' Then 'What are the nutritional benefits of these recipes?' This sequential approach often yields better results than one overly complex prompt."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — Step-by-Step Prompts",
+            "content": {
+              "quiz": [
+                {
+                  "question": "Why break tasks into steps for AI?",
+                  "choices": [
+                    "A) It makes the AI work slower",
+                    "B) It helps the AI organize complex responses better",
+                    "C) Steps are only for cooking recipes",
+                    "D) AI can't handle multi-step tasks"
+                  ],
+                  "correctAnswer": "B) It helps the AI organize complex responses better"
+                },
+                {
+                  "question": "When should you ask AI to 'think step by step'?",
+                  "choices": [
+                    "A) When you want shorter answers",
+                    "B) When you want to understand the reasoning process",
+                    "C) Only for math problems",
+                    "D) When you're in a hurry"
+                  ],
+                  "correctAnswer": "B) When you want to understand the reasoning process"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Write a Stepwise Prompt",
+            "content": {
+              "directions": "Create a prompt that breaks a complex task into clear, sequential steps for the AI to follow.",
+              "correctPrompt": "Help me plan a community clean-up day. First, suggest a timeline for planning and executing the event. Second, list key tasks that need to be completed. Third, suggest ways to recruit volunteers. Fourth, provide safety guidelines for participants. Present each section clearly with headings."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 6,
+        "moduleTitle": "Prompt Iteration and Refinement",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Testing and Improving Prompts",
+            "content": "Prompt writing is an iterative process. Your first prompt rarely gives perfect results. Test different phrasings, add more details, or try different approaches. Keep a record of what works well so you can use similar structures for future requests. If a response isn't quite right, don't start over—build on it with follow-up prompts like 'Now make it more formal' or 'Add examples to each point.'"
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Reading AI Responses Critically",
+            "content": "Look at AI responses with a critical eye. Did it answer your actual question? Did it miss any important aspects? Is the information accurate? Notice patterns in what works and what doesn't. If the AI consistently misunderstands certain types of requests, you'll know to be extra specific with those topics. Critical reading helps you learn how to write better prompts in the future."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Adjusting Prompts Based on Output",
+            "content": "When responses aren't right, analyze why. Was your prompt too vague? Did you forget to specify format or length? Use the imperfect response as clues for how to improve your next prompt. For example, if you get a bulleted list when you wanted paragraphs, your next prompt should specifically say 'Write in paragraph format.' Each interaction teaches you how to communicate better with AI."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Order Steps to Refine a Prompt",
+            "content": {
+              "steps": [
+                "Write initial prompt",
+                "Review AI response critically",
+                "Identify what worked and what didn't",
+                "Revise prompt with specific improvements",
+                "Test revised prompt",
+                "Further refine if needed"
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Refine Your Prompt",
+            "content": {
+              "directions": "Take this weak prompt and improve it based on what you've learned about clarity, specificity, and structure.",
+              "correctPrompt": "Weak prompt: 'Tell me about science.' Improved: 'Explain three major scientific discoveries from the past 50 years and their impact on daily life. Write for a high school audience, use one paragraph per discovery, and include how each discovery affects ordinary people today.'"
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 7,
+        "moduleTitle": "Avoiding Common Prompt Mistakes",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Vague or Overloaded Prompts",
+            "content": "Two common mistakes are being too vague ('write something good') or overloading a single prompt with too many requests. Vague prompts give unpredictable results. Overloaded prompts often cause the AI to miss some requests or produce shallow responses on all of them. Instead, break complex requests into multiple prompts or focus on one well-defined task per prompt."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Unclear Goals or Missing Context",
+            "content": "Without clear goals and context, the AI has to guess what you want. Always specify your purpose and any relevant background information. For example, instead of 'Write a resume,' say 'Write a resume for a high school student applying for a first job at a retail store. Highlight teamwork and customer service skills.' The context helps the AI provide more relevant and useful responses."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Forgetting Output Format",
+            "content": "Forgetting to specify how you want the response formatted is a common oversight. The AI might give you paragraphs when you wanted bullet points, or a formal report when you wanted casual advice. Always include format preferences in your prompt. If you forget, you can follow up with 'Please reformat that as a bulleted list' or 'Can you make that more conversational?'"
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — Spot Prompt Mistakes",
+            "content": {
+              "quiz": [
+                {
+                  "question": "What's wrong with a vague prompt?",
+                  "choices": [
+                    "A) Nothing—AI loves vague prompts",
+                    "B) It gives unpredictable or useless results",
+                    "C) It makes the AI respond faster",
+                    "D) Vague prompts are always better"
+                  ],
+                  "correctAnswer": "B) It gives unpredictable or useless results"
+                },
+                {
+                  "question": "Why is context important in prompts?",
+                  "choices": [
+                    "A) It confuses the AI",
+                    "B) It helps the AI provide more relevant responses",
+                    "C) Context is never important",
+                    "D) It makes prompts longer unnecessarily"
+                  ],
+                  "correctAnswer": "B) It helps the AI provide more relevant responses"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Fix a Faulty Prompt",
+            "content": {
+              "directions": "Identify the problems in this prompt and rewrite it to fix the issues: 'Something about history that's interesting for a thing I need to do.'",
+              "correctPrompt": "Provide three interesting facts about Ancient Egypt for a middle school history project. Present each fact with a brief explanation in bullet point format. Focus on daily life rather than pyramids or pharaohs."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 8,
+        "moduleTitle": "Using Examples and Demonstrations",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Why Examples Help AI Understand Tasks",
+            "content": "Examples show the AI exactly what you want rather than just telling it. They provide concrete patterns for the AI to follow. This is especially helpful for creative tasks, specific formats, or unusual requests. Examples reduce ambiguity and increase the chances of getting exactly what you're looking for on the first try."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: How to Provide Examples in Prompts",
+            "content": "You can provide examples in several ways: show the AI an example of the style you want, provide sample inputs and outputs, or give examples of what you don't want. For instance: 'Write in the style of this example: [insert example]' or 'Format the response like this: Question: [text], Answer: [text].' The clearer your examples, the better the results."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Few-Shot Prompting Basics",
+            "content": "Few-shot prompting means giving the AI a few examples of what you want before asking it to perform the task. For example: 'Here are examples of good product descriptions: [example 1], [example 2]. Now write a product description for a new wireless headphones.' This technique helps the AI understand patterns and expectations quickly, leading to better results."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Match Examples to Prompts",
+            "content": {
+              "pairs": [
+                {
+                  "example": "Providing writing samples",
+                  "prompt": "Write a social media post in the same style as these examples: [examples]"
+                },
+                {
+                  "example": "Showing desired format",
+                  "prompt": "Format the response as: Term: [definition]. Example: [example]. Like this: photosynthesis: the process plants use to create food. Example: A tree using sunlight to grow."
+                },
+                {
+                  "example": "Giving counter-examples",
+                  "prompt": "Don't use technical jargon like 'utilize'—use simple words like 'use' instead"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Create a Prompt With Examples",
+            "content": {
+              "directions": "Create a prompt that includes specific examples to guide the AI toward the type of response you want.",
+              "correctPrompt": "Write encouraging feedback for a student's essay. Use phrases like those in these examples: 'Good use of evidence here' and 'This paragraph makes a strong point, but could use more development.' Now provide feedback on this essay excerpt: [insert essay excerpt]."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 9,
+        "moduleTitle": "Advanced Prompt Techniques — Roles and Personas",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Using Roleplay in Prompts",
+            "content": "Asking the AI to play a role can dramatically improve responses for specific tasks. You can say 'Act as a [role]' such as 'Act as a career counselor' or 'Act as a science teacher.' This gives the AI context about what knowledge to draw on and what perspective to take. Roleplay prompts are especially useful for expert advice, creative writing, and specialized explanations."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Asking AI to Take on Personas",
+            "content": "Beyond professional roles, you can ask the AI to adopt specific personas or characters. For example: 'Write as if you're a friendly grandmother giving advice' or 'Explain this concept as if you're a excited science enthusiast.' Personas help control the tone, style, and approach of the response. They can make information more engaging and accessible."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Benefits of Role-Based Prompts",
+            "content": "Role-based prompts provide built-in context and constraints that lead to better responses. They help the AI understand the appropriate level of detail, terminology, and perspective. A medical explanation from 'a doctor talking to a patient' will be different from 'a medical researcher writing for a journal.' This technique gives you more control over the style and content of responses."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — Role and Persona Prompts",
+            "content": {
+              "quiz": [
+                {
+                  "question": "What is a benefit of using roleplay in prompts?",
+                  "choices": [
+                    "A) It makes the AI respond in character voices",
+                    "B) It provides context for appropriate knowledge and tone",
+                    "C) It only works for creative writing",
+                    "D) It confuses the AI"
+                  ],
+                  "correctAnswer": "B) It provides context for appropriate knowledge and tone"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Write a Roleplay Prompt",
+            "content": {
+              "directions": "Create a prompt that asks the AI to adopt a specific role or persona to answer your question.",
+              "correctPrompt": "Act as a friendly financial advisor helping a college student create their first budget. Explain basic budgeting principles in simple terms, suggest categories for a student budget, and provide one practical tip for sticking to a budget with limited income."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 10,
+        "moduleTitle": "Using Parameters to Control AI Behavior",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: What Are Parameters (temperature, max tokens, etc.)?",
+            "content": "Parameters are settings that control how the AI generates responses. 'Temperature' controls randomness (low temperature = more predictable, high temperature = more creative). 'Max tokens' limits response length. 'Top-p' controls diversity of options considered. While you don't always have access to these in consumer apps, understanding them helps you know why AI might behave differently in different tools."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: How Changing Parameters Affects Output",
+            "content": "Changing parameters significantly affects outputs. Lower temperature gives more focused, predictable responses—good for factual information. Higher temperature produces more creative, surprising responses—better for storytelling or ideas. Max tokens limits how long responses can be. Understanding these effects helps you choose the right tools and settings for different tasks."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: When to Use Different Parameter Settings",
+            "content": "Use low temperature settings for technical writing, factual explanations, or code generation where accuracy is key. Use higher temperature for creative writing, brainstorming, or when you want unexpected ideas. Adjust max tokens based on how detailed you need responses to be. Many apps have these settings pre-optimized for different use cases like 'creative' vs 'precise' modes."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Match Parameters to Effects",
+            "content": {
+              "pairs": [
+                {
+                  "parameter": "Low temperature",
+                  "effect": "More predictable, factual responses"
+                },
+                {
+                  "parameter": "High temperature",
+                  "effect": "More creative, surprising responses"
+                },
+                {
+                  "parameter": "Low max tokens",
+                  "effect": "Shorter, more concise answers"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Adjust Parameters for a Prompt",
+            "content": {
+              "directions": "Create a prompt and specify what parameter settings would be best for it and why.",
+              "correctPrompt": "[For a technical explanation task] Use low temperature setting for accurate, factual responses. Now: Explain how solar panels convert sunlight into electricity. Include the key steps in the process and use appropriate technical terms but explain them clearly for a non-expert audience."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 11,
+        "moduleTitle": "Multi-turn Conversations and Context Management",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: How AI Remembers Context",
+            "content": "AI tools can remember previous messages in a conversation, but this memory has limits. They typically remember recent messages best, and very long conversations can cause them to 'forget' earlier context. The AI uses this conversation history to maintain context about what you're discussing, your preferences, and the task you're working on together."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Keeping Multi-turn Chats Clear",
+            "content": "To keep multi-turn conversations effective, be clear about what you're referring to. Use specific references like 'In your previous answer about X...' or 'Building on what you said earlier...' If changing topics significantly, you might need to provide context again. For very long conversations, occasionally summarize key points to help maintain context."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Avoiding Context Loss",
+            "content": "Context loss happens when conversations become too long or complex. To avoid this: keep conversations focused on one main topic, occasionally restate important information, and start new conversations for completely new topics. If you notice the AI forgetting context, politely remind it: 'To recap, we're discussing X and you just suggested Y. Now...'"
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — Managing Context",
+            "content": {
+              "quiz": [
+                {
+                  "question": "How can you help AI maintain context in long conversations?",
+                  "choices": [
+                    "A) Never change topics",
+                    "B) Occasionally restate important information",
+                    "C) Make conversations as long as possible",
+                    "D) Use only one-word prompts"
+                  ],
+                  "correctAnswer": "B) Occasionally restate important information"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Write a Multi-turn Prompt",
+            "content": {
+              "directions": "Create the first prompt in what would become a multi-turn conversation. Set up context that would be built upon in future messages.",
+              "correctPrompt": "I'm planning a beginner-friendly vegetable garden for my backyard. First, suggest 5 easy vegetables for beginners to grow in a temperate climate. Explain why each is good for beginners and the basic growing conditions each needs."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 12,
+        "moduleTitle": "Prompt Engineering for Specific Tasks — Writing",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Prompts for Essays and Articles",
+            "content": "For essays and articles, provide clear structure guidance. Specify thesis, main points, and conclusion requirements. For example: 'Write a 5-paragraph essay on X. Paragraph 1: Introduction with thesis. Paragraphs 2-4: Main points with evidence. Paragraph 5: Conclusion summarizing key ideas.' Include audience, tone, and length requirements for best results."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Prompts for Summaries and Paraphrasing",
+            "content": "When asking for summaries, specify what to focus on and how concise to be. For example: 'Summarize this article in 3 bullet points focusing on the main findings' or 'Paraphrase this paragraph using simpler language.' For paraphrasing, you can specify reading level: 'Rewrite this for a 8th grade reading level' or 'Explain this to someone without technical background.'"
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Prompts for Creative Writing",
+            "content": "Creative writing prompts benefit from specific constraints and inspiration. Specify genre, tone, characters, setting, and plot elements. For example: 'Write a short mystery story set in a library with a librarian detective. Include a missing book and a unexpected twist ending.' Providing writing samples or style examples can also help guide creative outputs."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Match Writing Tasks to Prompt Styles",
+            "content": {
+              "pairs": [
+                {
+                  "task": "Academic essay",
+                  "prompt": "Use formal structure with thesis, evidence, and conclusion"
+                },
+                {
+                  "task": "Creative story",
+                  "prompt": "Provide character, setting, and plot constraints"
+                },
+                {
+                  "task": "Summary",
+                  "prompt": "Specify length and focus areas"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Write a Writing Prompt",
+            "content": {
+              "directions": "Create a detailed prompt for a specific type of writing task, including all necessary structure and style guidance.",
+              "correctPrompt": "Write a 500-word blog post about the benefits of learning a musical instrument as an adult. Use an engaging, conversational tone. Include three main benefits with personal anecdotes or examples for each. End with an encouraging conclusion that motivates readers to try learning an instrument."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 13,
+        "moduleTitle": "Prompt Engineering for Specific Tasks — Coding",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: How to Prompt AI for Coding Help",
+            "content": "For coding help, specify language, desired functionality, and any constraints. For example: 'Write a Python function that calculates factorial with error handling for negative numbers.' Include input/output examples: 'It should take an integer and return its factorial. Example: input 5 → output 120.' The more specific you are about requirements, the better the code will be."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Writing Prompts for Debugging",
+            "content": "When seeking debugging help, provide the code, the error message, and what you expected to happen. For example: 'This Python code gives [error message]. I expected it to [expected behavior]. Can you identify the issue and fix it?' Describe what you've already tried: 'I already checked for syntax errors and variable names.' This helps the AI understand where to focus."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Asking for Code Explanations",
+            "content": "Request code explanations at your level of understanding. For example: 'Explain this JavaScript code like I'm a beginner' or 'Walk through this algorithm step by step.' You can ask for specific aspects: 'Explain how the recursion works in this function' or 'What's the time complexity of this algorithm and why?'"
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — Coding Prompts",
+            "content": {
+              "quiz": [
+                {
+                  "question": "What should you include when asking for coding help?",
+                  "choices": [
+                    "A) Only the error message",
+                    "B) Programming language, desired functionality, and examples",
+                    "C) Just the code with no explanation",
+                    "D) Your opinion about the programming language"
+                  ],
+                  "correctAnswer": "B) Programming language, desired functionality, and examples"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Create a Coding Prompt",
+            "content": {
+              "directions": "Create a detailed prompt asking for help with a specific coding task.",
+              "correctPrompt": "Write a Python function called 'count_words' that takes a string and returns a dictionary with word counts. It should ignore punctuation and be case-insensitive. For example: input 'Hello hello world' should return {'hello': 2, 'world': 1}. Include docstring documentation and example usage."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 14,
+        "moduleTitle": "Troubleshooting and Debugging Prompts",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: When Prompts Don't Work Well",
+            "content": "Prompts sometimes fail because they're too vague, too complex, or contain conflicting instructions. The AI might misunderstand your intent, provide irrelevant information, or produce low-quality results. Recognizing these failure modes helps you diagnose and fix prompt issues. Common signs include: off-topic responses, partial answers, or refusal to answer."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Diagnosing Prompt Problems",
+            "content": "When a prompt doesn't work, diagnose the issue. Was it ambiguous? Did it assume knowledge the AI didn't have? Did it contain conflicting instructions? Look at what the AI produced versus what you wanted. The mismatch often reveals the problem. For example, if you got bullet points instead of paragraphs, you forgot to specify format."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Strategies for Troubleshooting",
+            "content": "Troubleshoot prompts by: simplifying complex requests, adding missing context, clarifying ambiguous terms, breaking multi-part questions into separate prompts, or providing examples of desired outputs. If one approach isn't working, try a completely different phrasing or structure. Sometimes starting fresh with a new approach works better than endlessly tweaking a problematic prompt."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Match Problems to Fixes",
+            "content": {
+              "pairs": [
+                {
+                  "problem": "Vague response",
+                  "fix": "Add specific details and examples"
+                },
+                {
+                  "problem": "Wrong format",
+                  "fix": "Specify desired format clearly"
+                },
+                {
+                  "problem": "Off-topic answer",
+                  "fix": "Clarify the main topic and focus"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Fix a Bad Prompt",
+            "content": {
+              "directions": "This prompt isn't working well. Identify the issues and create a fixed version: 'Something about science that's good for a thing.'",
+              "correctPrompt": "Explain the scientific method to a 5th grade class. Use simple language and everyday examples they would understand. Describe each step in order and explain why each step is important for conducting good science."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 15,
+        "moduleTitle": "Prompt Engineering for Different Languages",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: How Prompting Differs by Language",
+            "content": "Prompting works similarly across languages, but some languages may have different cultural contexts, idioms, or structural considerations. AI models trained primarily on English data may perform slightly differently in other languages. Some concepts may not translate directly, requiring adjustments to prompts. Being aware of these differences helps create effective prompts in any language."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Writing Prompts in Non-English Languages",
+            "content": "When writing prompts in other languages, use clear, standard language rather than slang or regional dialects. Be especially specific since AI may have less training data in other languages. If possible, include key terms in English if the concept doesn't translate well. Test with simple prompts first to assess the AI's proficiency in that language before attempting complex requests."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Challenges in Multilingual Prompting",
+            "content": "Multilingual prompting faces challenges like translation nuances, cultural context differences, and varying amounts of training data across languages. Some languages may have different formal/informal distinctions that affect tone. Idioms and humor often don't translate well. Being aware of these challenges helps you create prompts that work effectively across languages."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — Multilingual Prompts",
+            "content": {
+              "quiz": [
+                {
+                  "question": "What should you consider when prompting in other languages?",
+                  "choices": [
+                    "A) Use lots of slang and idioms",
+                    "B) Use clear, standard language and be extra specific",
+                    "C) Assume it will work exactly like English",
+                    "D) Never use other languages with AI"
+                  ],
+                  "correctAnswer": "B) Use clear, standard language and be extra specific"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Write a Prompt in Another Language",
+            "content": {
+              "directions": "Create a prompt in a non-English language or specify that the response should be in another language.",
+              "correctPrompt": "Responde en español: Explica el concepto de inteligencia artificial a estudiantes de secundaria. Usa analogías simples y evita tecnicismos. Incluye 3 ejemplos de cómo se usa la IA en la vida cotidiana. Mantén la explicación en menos de 200 palabras."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 16,
+        "moduleTitle": "Ethical Considerations in Prompt Engineering",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Avoiding Harmful or Biased Prompts",
+            "content": "Avoid prompts that request harmful, unethical, or biased content. Don't ask for misinformation, hate speech, or content that promotes dangerous activities. Be aware that AI can reflect and amplify biases present in its training data, so avoid prompts that might encourage stereotyping or discrimination. Use AI responsibly and ethically."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Responsible Prompt Writing",
+            "content": "Write prompts that request helpful, accurate, and constructive content. Clearly indicate when you're asking for creative fiction versus factual information. Don't use AI to generate academic work dishonestly or create deceptive content. Consider the potential impact of the content you're asking the AI to generate."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Respecting Privacy and Data",
+            "content": "Don't include personal, private, or sensitive information in your prompts. Avoid sharing others' personal data without permission. Remember that your prompts may be used to train AI models, so don't include anything you wouldn't want potentially seen by others. Use AI tools in ways that respect privacy and confidentiality."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — Ethical Prompting",
+            "content": {
+              "quiz": [
+                {
+                  "question": "What should you avoid in prompts?",
+                  "choices": [
+                    "A) Requests for harmful or biased content",
+                    "B) Clear instructions",
+                    "C) Specific examples",
+                    "D) Format requests"
+                  ],
+                  "correctAnswer": "A) Requests for harmful or biased content"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Create an Ethical Prompt",
+            "content": {
+              "directions": "Create a prompt that demonstrates ethical use of AI for a sensitive topic.",
+              "correctPrompt": "Provide balanced, factual information about climate change that acknowledges the scientific consensus while respectfully presenting common questions people have. Explain the evidence for human-caused climate change and address three common misconceptions with clear, science-based responses."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 17,
+        "moduleTitle": "Using Prompt Templates and Frameworks",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: What Are Prompt Templates?",
+            "content": "Prompt templates are reusable structures for common types of requests. They provide a framework that you can customize for specific needs. For example, a summarization template might be: 'Summarize the following text in [number] sentences focusing on [key aspects]. Text: [text to summarize].' Templates save time and ensure consistency across similar requests."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Common Frameworks (e.g., QA, Summarization)",
+            "content": "Common prompt frameworks include: Q&A format (Question: [question], Answer: [space for answer]), summarization (Summarize [text] focusing on [key points] in [length]), comparison (Compare [A] and [B] in terms of [criteria]), and step-by-step (First, [task1]. Second, [task2]. etc.). These frameworks provide reliable structures for different types of tasks."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: How to Customize Templates",
+            "content": "Customize templates by replacing placeholders with specific information, adjusting for your particular needs, and adding relevant context or constraints. For example, a basic summary template becomes: 'Summarize the following article about renewable energy in 3 bullet points for a high school science class. Focus on solar and wind power advantages.' Good templates are flexible enough to adapt to different situations."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Match Templates to Tasks",
+            "content": {
+              "pairs": [
+                {
+                  "template": "Q&A framework",
+                  "task": "Creating study guides or FAQs"
+                },
+                {
+                  "template": "Step-by-step framework",
+                  "task": "Instructions or process explanations"
+                },
+                {
+                  "template": "Comparison framework",
+                  "task": "Evaluating options or alternatives"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Customize a Prompt Template",
+            "content": {
+              "directions": "Take this basic template and customize it for a specific need: 'Explain [concept] to [audience] focusing on [key aspects].'",
+              "correctPrompt": "Explain photosynthesis to 5th grade students focusing on how plants use sunlight, water, and carbon dioxide to make their own food. Use simple analogies like a kitchen or factory to help them understand the process."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 18,
+        "moduleTitle": "Creative Prompt Engineering",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Using Prompts for Brainstorming",
+            "content": "AI excels at brainstorming when given good constraints. Instead of 'give me ideas,' try 'Generate 10 ideas for [topic] that are [constraints].' For example: 'Generate 10 ideas for a science fair project that are inexpensive, use household materials, and demonstrate physics principles.' The constraints actually make brainstorming more productive by focusing creativity."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Generating Ideas with AI",
+            "content": "Use AI to generate ideas by providing clear inspiration and boundaries. Specify what you're looking for, what to avoid, and any must-have elements. For example: 'Suggest names for a new coffee shop that sounds cozy and welcoming. Avoid corporate-sounding names. Must include a reference to books or reading.' The AI can then generate options within your creative parameters."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Experimenting with Different Styles",
+            "content": "Creative prompting involves experimenting with different approaches, styles, and constraints. Try the same request with different tones, formats, or perspectives. For example, ask for a poem, then a short story, then a script on the same topic. Experimentation helps you discover new creative possibilities and learn what types of prompts yield the most interesting results."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — Creative Prompting",
+            "content": {
+              "quiz": [
+                {
+                  "question": "What makes creative prompts effective?",
+                  "choices": [
+                    "A) Being completely open-ended",
+                    "B) Providing creative constraints and inspiration",
+                    "C) Using only one-word prompts",
+                    "D) Avoiding any specifics"
+                  ],
+                  "correctAnswer": "B) Providing creative constraints and inspiration"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Write a Creative Prompt",
+            "content": {
+              "directions": "Create a prompt for a creative task that includes specific constraints and inspiration.",
+              "correctPrompt": "Write a short poem about the changing seasons from the perspective of an old oak tree. Use sensory language describing sights, sounds, and feelings. Include at least three different seasons and create a mood of peaceful observation. Use simple rhyme and rhythm suitable for children."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 19,
+        "moduleTitle": "Collaboration with AI — Best Practices",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: How to Work with AI Effectively",
+            "content": "Effective AI collaboration means viewing AI as a tool or partner, not a replacement for your own thinking. Use AI for what it does well (generating options, providing information, handling routine tasks) while you provide direction, judgment, and creativity. The best results come from combining AI capabilities with human oversight and decision-making."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Combining Human and AI Strengths",
+            "content": "Combine AI's strengths (speed, information access, pattern recognition) with human strengths (judgment, creativity, ethical reasoning, context understanding). Use AI to generate possibilities, then apply your judgment to select and refine the best options. Have AI handle routine aspects while you focus on higher-level thinking and decision-making."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Using AI Feedback to Improve Your Work",
+            "content": "Use AI as a feedback tool by asking for constructive criticism, alternative perspectives, or suggestions for improvement. For example: 'Review this essay and suggest ways to strengthen the argument' or 'What are potential weaknesses in this business idea?' AI can provide valuable outside perspective, though you should always apply your own critical thinking to its suggestions."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Drag & Drop: Match Collaboration Tips to Examples",
+            "content": {
+              "pairs": [
+                {
+                  "tip": "Use AI for generation, human for judgment",
+                  "example": "Have AI draft email options, then choose and edit the best one"
+                },
+                {
+                  "tip": "Leverage AI's information access",
+                  "example": "Ask AI to research and summarize information on a topic"
+                },
+                {
+                  "tip": "Apply human ethical reasoning",
+                  "example": "Review AI suggestions for potential biases or ethical issues"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Write a Collaborative Prompt",
+            "content": {
+              "directions": "Create a prompt that demonstrates effective human-AI collaboration for a task.",
+              "correctPrompt": "I'm drafting a letter to my school principal suggesting improvements to the library. Help me brainstorm 5-7 specific, practical suggestions. Then, help me organize these into a polite, persuasive letter format that I can review and edit before sending."
+            }
+          }
+        ]
+      },
+      {
+        "moduleNumber": 20,
+        "moduleTitle": "Staying Updated on Prompt Engineering",
+        "lessons": [
+          {
+            "lessonNumber": 1,
+            "lessonTitle": "Learn: Where to Find New Prompting Techniques",
+            "content": "Stay updated by following AI companies' blogs, joining online communities focused on AI tools, reading tutorials from experienced users, and experimenting with new features as they're released. Many users share effective prompt formulas and techniques in forums and social media groups dedicated to specific AI tools."
+          },
+          {
+            "lessonNumber": 2,
+            "lessonTitle": "Learn: Communities and Resources",
+            "content": "Helpful resources include: official documentation from AI companies, community forums like Reddit's AI communities, YouTube tutorials on prompt engineering, and newsletters that cover AI developments. Academic papers on prompt engineering sometimes contain valuable insights, though these can be more technical."
+          },
+          {
+            "lessonNumber": 3,
+            "lessonTitle": "Learn: Experimenting and Learning Continuously",
+            "content": "The best way to learn prompt engineering is through continuous experimentation. Try new approaches, test different phrasings, and learn from both successes and failures. Keep notes on what works well for different types of tasks. As AI technology evolves, staying curious and adaptable will help you continue to get the most from these tools."
+          },
+          {
+            "lessonNumber": 4,
+            "lessonTitle": "Practice: Quiz — Staying Current",
+            "content": {
+              "quiz": [
+                {
+                  "question": "How can you stay updated on prompt engineering?",
+                  "choices": [
+                    "A) Never change your approach",
+                    "B) Follow AI communities and experiment with new techniques",
+                    "C) Use only one AI tool",
+                    "D) Avoid learning new methods"
+                  ],
+                  "correctAnswer": "B) Follow AI communities and experiment with new techniques"
+                }
+              ]
+            }
+          },
+          {
+            "lessonNumber": 5,
+            "lessonTitle": "Prompt Auto Grader: Create a Prompt Using a New Technique",
+            "content": {
+              "directions": "Create a prompt using a technique you learned in this course that you hadn't used before.",
+              "correctPrompt": "Act as a patient and encouraging math tutor. Explain how to solve quadratic equations to a frustrated high school student. Break it down into small, manageable steps with plenty of examples. Check for understanding after each concept and use encouraging language throughout."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
