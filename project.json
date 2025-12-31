@@ -1,0 +1,72 @@
+{
+  "name": "neural-learning-platform",
+  "version": "1.0.0",
+  "description": "AI-powered learning platform with neural content generation",
+  "type": "fullstack",
+  "structure": {
+    "backend": {
+      "path": "backend/",
+      "language": "python",
+      "framework": "flask",
+      "entryPoint": "wsgi.py"
+    },
+    "frontend": {
+      "path": "frontend/",
+      "applications": {
+        "client": {
+          "path": "frontend/client/",
+          "language": "typescript",
+          "framework": "react",
+          "buildTool": "vite"
+        },
+        "admin": {
+          "path": "frontend/admin/",
+          "language": "typescript",
+          "framework": "react",
+          "buildTool": "vite"
+        }
+      }
+    },
+    "docs": {
+      "path": "docs/",
+      "structure": {
+        "api": "docs/api/",
+        "architecture": "docs/architecture/",
+        "deployment": "docs/deployment/",
+        "checklists": "docs/checklists/"
+      }
+    },
+    "config": {
+      "path": "config/",
+      "docker": "config/docker/",
+      "deployment": "config/deployment/"
+    },
+    "data": {
+      "path": "data/",
+      "neuralContent": "data/neural-content/"
+    },
+    "scripts": {
+      "path": "scripts/",
+      "setup": "scripts/setup_dev.sh",
+      "reorg": "scripts/reorg.bat",
+      "utils": "scripts/find_duplicate.py"
+    }
+  },
+  "dependencies": {
+    "backend": {
+      "requirements": "backend/requirements.txt",
+      "config": "backend/pyproject.toml"
+    },
+    "frontend": {
+      "client": "frontend/client/package.json",
+      "admin": "frontend/admin/package.json"
+    }
+  },
+  "deployment": {
+    "docker": {
+      "compose": "config/docker/docker-compose.yml",
+      "dockerfile": "config/docker/Dockerfile"
+    },
+    "render": "config/deployment/render.yaml"
+  }
+}

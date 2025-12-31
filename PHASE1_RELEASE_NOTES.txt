@@ -1,0 +1,18 @@
+Phase 1 Release - MVP Features Only
+======================================================================
+
+This release contains only the 6 core MVP features:
+
+1. Home Page Dashboard
+2. AI Prompt Auto-Grader
+3. Prompt Translator
+4. Model Switcher (Duolingo-style)
+5. Interactive Modules & Quizzes
+6. Lesson Content System
+
+Additional features (admin dashboard, subscriptions, gamification,
+certificates, guilds, tournaments, etc.) are NOT included in this release.
+They will be provided in Phase 2 after the remaining 50% payment.
+
+Total files included: 101
+Extraction date: G:\documents2025901\Downloads\neuraltest
